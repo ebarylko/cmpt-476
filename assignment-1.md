@@ -111,6 +111,16 @@ i \\
 -i \\
 \end{bmatrix} $$  
 
+$$ \frac{1}{\sqrt{3}}\begin{bmatrix}
+1 \\
+i \\
+-1 \\
+\end{bmatrix} \otimes
+|\phi\rangle =  \frac{1}{\sqrt{2}}\begin{bmatrix}
+0 \\
+1 \\
+-i \\
+\end{bmatrix} $$  
 =
 
 $$ \frac{1}{\sqrt{6}}\begin{bmatrix}

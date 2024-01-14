@@ -100,7 +100,7 @@ $|\phi\rangle \otimes \psi\rangle$:
 $|\phi\rangle \otimes \psi\rangle$
 
 =
-$$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
+$$ =  \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
 -1 \\

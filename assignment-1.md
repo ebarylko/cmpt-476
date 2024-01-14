@@ -10,3 +10,9 @@ $\frac{1}{\sqrt{3}} \𝚋𝚎𝚐𝚒𝚗{𝚋𝚖𝚊𝚝𝚛𝚒𝚡}1 \\\ i \
 ```math
 \begin{bmatrix}X\\Y\end{bmatrix}
 ``` 
+
+$$  \begin{bmatrix}
+a \\
+b \\
+c \\
+\end{bmatrix} $$ 

@@ -100,18 +100,6 @@ $|\phi \otimes \psi$:
 $|\phi \otimes \psi$
 
 = 
-$$ \frac{1}{\sqrt{3}}\begin{bmatrix}
-1 \\
-i \\
--1 \\
-\end{bmatrix} \otimes
-\frac{1}{\sqrt{2}}\begin{bmatrix}
-0 \\
-1 \\
--i \\
-\end{bmatrix} $$  
-
-
 $$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
@@ -122,8 +110,8 @@ i \\
 1 \\
 -i \\
 \end{bmatrix} $$  
-=
 
+=
 
 $$ \frac{1}{\sqrt{6}}\begin{bmatrix}
 0 \\

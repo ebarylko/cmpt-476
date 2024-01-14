@@ -95,11 +95,11 @@ i \\
 \end{bmatrix} $$
 
 
-$|\phi \otimes \psi$:
+$|\phi\rangle \otimes \psi\rangle$:
 
-$|\phi \otimes \psi$
+$|\phi\rangle \otimes \psi\rangle$
 
-= 
+=
 $$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
@@ -109,7 +109,7 @@ i \\
 0 \\
 1 \\
 -i \\
-\end{bmatrix} $$  
+\end{bmatrix} $$
 
 =
 

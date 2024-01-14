@@ -118,5 +118,11 @@ i \\
 1 \\
 0 \\
 -1 \\
-i \\
+i 
 \end{bmatrix} $$  
+
+$$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
+1 \\
+i \\
+-1 \\
+\end{bmatrix} $$

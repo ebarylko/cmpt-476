@@ -124,5 +124,8 @@ i
 $$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
--1 \\
+-1 \\ 
+1 \\ 
+1 \\ 
+1 \\
 \end{bmatrix} $$

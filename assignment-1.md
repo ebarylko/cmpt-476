@@ -89,7 +89,7 @@ i \\
 
 
 = $$ \frac{1}{\sqrt{6}}\begin{bmatrix}
-0 & 1 & -i \\
-0 & i & 1 \\
+0 & 1 & -i 
+0 & i & 1 
 0 &  -1 & i
 \end{bmatrix} $$

@@ -52,7 +52,7 @@ $$ \langle\phi| =  \frac{1}{\sqrt{2}}\begin{bmatrix}
 $\langle\phi|\phi\rangle$
 
 $$ = \langle\phi| =  \frac{1}{\sqrt{2}}\begin{bmatrix}
-0 \thickspace 1 \thickspace -i
+0 ~ 1 ~ -i
 \end{bmatrix}
 |\phi\rangle =  \frac{1}{\sqrt{2}}\begin{bmatrix}
 0 \\

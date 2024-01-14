@@ -5,13 +5,15 @@ $\phi$ = $\frac{1}{\sqrt{2}}|1\rangle - \frac{i}{\sqrt{2}}|2\rangle$
 
 ### Give the explicit column vectors of |ψ⟩ and |φ⟩
 
-```math
-\psi  = 
-\frac{1}{\sqrt{3}} \𝚋𝚎𝚐𝚒𝚗{𝚋𝚖𝚊𝚝𝚛𝚒𝚡}1 \\ i \\ -1 \𝚎𝚗𝚍{𝚋𝚖𝚊𝚝𝚛𝚒𝚡}
-``` 
 
-$$ \frac{1}{\sqrt{3}}\begin{bmatrix}
+$$ \psi =  \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
 -1 \\
+\end{bmatrix} $$
+
+$$ \phi =  \frac{1}{\sqrt{2}}\begin{bmatrix}
+0 \\
+1 \\
+-i \\
 \end{bmatrix} $$ 

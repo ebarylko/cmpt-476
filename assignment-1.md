@@ -46,7 +46,7 @@ $$
 $\langle\phi|\phi\rangle$:
 
 $$ \langle\phi| =  \frac{1}{\sqrt{2}}\begin{bmatrix}
-0 \thickspace 1 \thickspace -i
+0 &nbsp; 1 \thickspace -i
 \end{bmatrix} $$ 
 
 $\langle\phi|\phi\rangle$

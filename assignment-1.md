@@ -111,7 +111,7 @@ i \\
 -i \\
 \end{bmatrix} $$  
 
-$$\frac{1}{\sqrt{3}}\begin{bmatrix}
+$$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
 -1 \\
@@ -120,7 +120,7 @@ i \\
 0 \\
 1 \\
 -i \\
-\end{bmatrix}$$  
+\end{bmatrix} $$  
 =
 
 $$ \frac{1}{\sqrt{6}}\begin{bmatrix}

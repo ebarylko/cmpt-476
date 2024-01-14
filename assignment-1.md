@@ -40,3 +40,24 @@ i \\
 -1 \\
 \end{bmatrix}
 $$
+
+= 1
+
+$\langle\phi|\phi\rangle$:
+
+$$ \langle\phi| =  \frac{1}{\sqrt{2}}\begin{bmatrix}
+0 1 -i
+\end{bmatrix} $$ 
+
+$\langle\phi|\phi\rangle$
+
+$$ = \langle\phi| =  \frac{1}{\sqrt{2}}\begin{bmatrix}
+0 1 -i
+\end{bmatrix}
+|\phi\rangle =  \frac{1}{\sqrt{2}}\begin{bmatrix}
+0 \\
+1 \\
+-i \\
+\end{bmatrix} $$
+
+= 0

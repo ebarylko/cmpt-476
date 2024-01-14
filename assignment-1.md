@@ -84,11 +84,11 @@ i \\
 -1 \\
 \end{bmatrix}
 \frac{1}{\sqrt{2}}\begin{bmatrix}
-0  1 -i
+0 & 1 & -i
 \end{bmatrix} $$ 
 
 = $$  \frac{1}{\sqrt{6}}\begin{bmatrix}
 0 & 1 & -i
 0 & i & 1
 0 &  -1 & i
-\end{bmatrix}
+\end{bmatrix}$$

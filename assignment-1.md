@@ -166,7 +166,47 @@ $|||T\rangle|| = \sqrt{(\frac{1}{\sqrt{3}})^2 + (\frac{i}{\sqrt{3}} + \frac{1}{\
 
 $|T\rangle$ is not a unit vector since the length is not one. To make $|T\rangle$ a unit vector, we must divide it by $\sqrt{2}$
 
-$|T^{\prime}\rangle =  \frac{1}{\sqrt{2}}|T\rangle  
+$|T^{\prime}\rangle =  \frac{1}{\sqrt{2}}|T\rangle$  
 
 =  
 $\frac{1}{\sqrt{6}}|0\rangle + (\frac{i}{\sqrt{6}} + \frac{1}{2})|1\rangle + (-\frac{1}{\sqrt{6}} - \frac{i}{2})|2\rangle$
+
+
+## Question 3
+
+### Calculate the probabilities of receiving result “0” or “1” if the qubit is measured.
+
+Let $|q\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{e^{i\theta}{\sqrt{2}}|1\rangle$  
+
+The probability of measuring $|0\rangle$ or $|1\rangle$ is $(\frac{1}{\sqrt{2}})^2 + (\frac{e^{i\theta}{\sqrt{2}})^2$  
+
+= $\frac{1}{2} + (\frac{e^{i\theta}{\sqrt{2}} * \frac{e^{-i\theta}{\sqrt{2}})$    
+
+= $\frac{1}{2}  + \frac{1}{2}$  
+
+= 1
+
+The probabilities of receiving result “0” or “1” if the qubit is measured is 1.
+
+
+### If we first apply the Hadamard gate to the initial state 1 |0⟩ + eiθ |1⟩ and then measure, what are the probabilities of receiving the “0” and “1” results as an function of θ?
+
+$$ \frac{1}{\sqrt{2}}\begin{bmatrix}
+1 & 1 \\
+1 & -1 \\
+\end{bmatrix}|q\rangle
+$$  
+
+
+=
+$$
+\frac{1}{2} \begin{bmatrix}
+1 \\
+1 \\
+\end{bmatrix} 
++
+\frac{e^(i\theta}{2} \begin{bmatrix}
+1 \\
+-1 \\
+\end{bmatrix} 
+$$

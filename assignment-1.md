@@ -203,5 +203,9 @@ $$
 $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 1 \\
 1 \\
-\end{bmatrix}
+\end{bmatrix} +
+\frac{e^{i\theta}}{\sqrt{2}}\begin{bmatrix}
+1 \\
+-1 \\
+\end{bmatrix} 
 $$

@@ -215,7 +215,7 @@ $\frac{1}{2}(|0\rangle + |1\rangle) + \frac{e^{i\theta}}{\sqrt{2}}(|0\rangle - |
 
 = $(\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}})|0\rangle + (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})|1\rangle$ 
 
-Let $\alpha = (\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}}), \beta = (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})$
+Let $\alpha = (\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}}), \beta = (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})$, where $\alpha$ and $\beta$ denote the probabilities of measuring the qubit in the $|0\rangle$ and $|1\rangle$ state.
 
 $\alpha^2 = \frac{1}{4}(1 + \frac{e^{i\theta}}{\sqrt{2}})(1 + \frac{e^{-i\theta}}{\sqrt{2}})$  
 
@@ -229,7 +229,7 @@ $\frac{1}{4}(1 + e^{i\theta} + e^{-i\theta} + 1)$
 = $\frac{1}{4}(1 + cos(\theta) + isin(\theta) + cos(\theta) -isin(\theta) + 1)$     
 
 
-= $\frac{1}{4}(2 + 2cos(\theta)) = \frac{1 + cos(\theta)}{2}
+= $\frac{1}{4}(2 + 2cos(\theta)) = \frac{1 + cos(\theta)}{2}$
 
 $\alpha^2 = \frac{1 + cos(\theta)}{2}$
 
@@ -246,3 +246,10 @@ $\frac{1}{4}(2 - (e^{i\theta} + e^{-i\theta}))$
 $\frac{1}{4}(2 - cos(\theta))$      
 
 = $\frac{1 - cos(\theta)}{2}$
+
+$\beta^2 = \frac{1 - cos(\theta)}{2}$
+
+The probability of measuring the qubit in the $|0\rangle$ as a function of $\theta$ is $\alpha^2 = \frac{1 + cos(\theta)}{2}$
+
+The probabilities of measuring the qubit in the $|1\rangle$ state as a function of $\theta is
+$\beta^2$ = $\frac{1 - cos(\theta)}{2}$

@@ -88,6 +88,11 @@ i \\
 \end{bmatrix} $$ 
 
 
+$$ \frac{1}{\sqrt{2}}\begin{bmatrix}
+0 & 1 & -i
+\end{bmatrix} $$
+
+
 = $$ \frac{1}{\sqrt{6}}\begin{bmatrix}
 0 & 1 & -i 
 0 & i & 1 
@@ -100,7 +105,7 @@ $|\phi\rangle \otimes \psi\rangle$:
 $|\phi\rangle \otimes \psi\rangle$
 
 =
-$$ =  \frac{1}{\sqrt{3}}\begin{bmatrix}
+$$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
 -1 \\

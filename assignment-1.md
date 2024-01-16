@@ -136,7 +136,9 @@ i \\
 
 $\psi\rangle + \phi\rangle$
 
+
 =
+
 
 $$ \frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
@@ -149,7 +151,7 @@ i \\
 -i \\
 \end{bmatrix} $$  
 
+
 = 
-$$
-\frac{1}{\sqrt{3}}|0\rangle + (\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}})|2\rangle + (-\frac{1}{\sqrt{3}} - \frac{i}{\sqrt{2}})|2\rangle
-$$
+
+$\frac{1}{\sqrt{3}}|0\rangle + (\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}})|2\rangle + (-\frac{1}{\sqrt{3}} - \frac{i}{\sqrt{2}})|2\rangle$

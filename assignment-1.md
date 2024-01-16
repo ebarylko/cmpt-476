@@ -158,10 +158,15 @@ $\frac{1}{\sqrt{3}}|0\rangle + (\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}})|2\rangl
 
 $|||T\rangle|| = \sqrt{(\frac{1}{\sqrt{3}})^2 + (\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}})^2 + (-\frac{1}{\sqrt{3}} - \frac{i}{\sqrt{2}})^2}$
 
-= $\frac{1}{3} + (\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}})(-\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}}) + (-\frac{1}{\sqrt{3}} - \frac{i}{\sqrt{2}})(-\frac{1}{\sqrt{3}} + \frac{i}{\sqrt{2}})$  
+= $\sqrt{\frac{1}{3} + (\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}})(-\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}}) + (-\frac{1}{\sqrt{3}} - \frac{i}{\sqrt{2}})(-\frac{1}{\sqrt{3}} + \frac{i}{\sqrt{2}})}$  
 
-= $\frac{1}{3} + \frac{1}{2} + \frac{1}{3} + \frac{1}{3} + \frac{1}{2}$ 
+= $\sqrt{\frac{1}{3} + \frac{1}{2} + \frac{1}{3} + \frac{1}{3} + \frac{1}{2}}$ 
 
-= $\sqrt{2}
+= $\sqrt{2}$
 
 $|T\rangle$ is not a unit vector since the length is not one. To make $|T\rangle$ a unit vector, we must divide it by $\sqrt{2}$
+
+$|T^{\prime}\rangle =  \frac{1}{\sqrt{2}}|T\rangle  
+
+=  
+$\frac{1}{\sqrt{6}}|0\rangle + (\frac{i}{\sqrt{6}} + \frac{1}{2})|1\rangle + (-\frac{1}{\sqrt{6}} - \frac{i}{2})|2\rangle$

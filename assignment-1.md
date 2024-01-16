@@ -130,3 +130,26 @@ i \\
 -1 \\
 i \\
 \end{bmatrix} $$
+
+
+#### Is the vector |ψ⟩ + |φ⟩ a unit vector? If not, normalize it to get a unit vector.
+
+$\psi\rangle + \phi\rangle$
+
+=
+
+$$ \frac{1}{\sqrt{3}}\begin{bmatrix}
+1 \\
+i \\
+-1 \\
+\end{bmatrix} +
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+0 \\
+1 \\
+-i \\
+\end{bmatrix} $$  
+
+= 
+$$
+\frac{1}{\sqrt{3}}|0\rangle + (\frac{i}{\sqrt{3}} + \frac{1}{\sqrt{2}})|2\rangle + (-\frac{1}{\sqrt{3}} - \frac{i}{\sqrt{2}})|2\rangle
+$$

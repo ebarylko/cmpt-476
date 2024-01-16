@@ -199,8 +199,7 @@ $$
 
 
 =
-$$
-\frac{1}{2} \begin{bmatrix}
+$$ \frac{1}{2} \begin{bmatrix}
 1 \\
 1 \\
 \end{bmatrix} 

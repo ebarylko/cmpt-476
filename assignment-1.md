@@ -176,9 +176,9 @@ $\frac{1}{\sqrt{6}}|0\rangle + (\frac{i}{\sqrt{6}} + \frac{1}{2})|1\rangle + (-\
 
 ### Calculate the probabilities of receiving result “0” or “1” if the qubit is measured.
 
-Let $|q\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{e^{i\theta}{\sqrt{2}}|1\rangle$  
+Let $|q\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{e^{i\theta}}{\sqrt{2}}|1\rangle$  
 
-The probability of measuring $|0\rangle$ or $|1\rangle$ is $(\frac{1}{\sqrt{2}})^2 + (\frac{e^{i\theta}{\sqrt{2}})^2$  
+The probability of measuring $|0\rangle$ or $|1\rangle$ is $(\frac{1}{\sqrt{2}})^2 + (\frac{e^{i\theta}}{\sqrt{2}})^2$  
 
 = $\frac{1}{2} + (\frac{e^{i\theta}{\sqrt{2}} * \frac{e^{-i\theta}{\sqrt{2}})$    
 

@@ -208,4 +208,9 @@ $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 1 \\
 -1 \\
 \end{bmatrix} 
-$$
+$$  
+
+=
+$\frac{1}{2}(|0\rangle + |1\rangle) + \frac{e^{i\theta}}{\sqrt{2}}(|0\rangle - |1\rangle)
+
+= $(\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}})|0\rangle + (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})|1\rangle$

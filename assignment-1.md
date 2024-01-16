@@ -211,6 +211,20 @@ $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 $$  
 
 =
-$\frac{1}{2}(|0\rangle + |1\rangle) + \frac{e^{i\theta}}{\sqrt{2}}(|0\rangle - |1\rangle)
+$\frac{1}{2}(|0\rangle + |1\rangle) + \frac{e^{i\theta}}{\sqrt{2}}(|0\rangle - |1\rangle)$
 
-= $(\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}})|0\rangle + (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})|1\rangle$
+= $(\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}})|0\rangle + (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})|1\rangle$ 
+
+Let $\alpha = (\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}}), \beta = (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})$
+
+$\alpha^2 = \frac{1}{4}(1 + \frac{e^{i\theta}}{\sqrt{2}})(1 + \frac{e^{-i\theta}}{\sqrt{2}})$  
+
+= $\frac{1}{4}(1 + e^{i\theta} + e^{-i\theta} + 1)$  
+
+Using the identity $e^{i\theta} = cos(\theta) + isin(\theta)$  
+
+$\frac{1}{4}(1 + e^{i\theta} + e^{-i\theta} + 1)$    
+
+
+$\frac{1}{4}(1 + cos(\theta) + isin(\theta) cos(\theta) + -isin(\theta) + 1)$    
+

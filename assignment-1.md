@@ -204,10 +204,4 @@ $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 1 \\
 1 \\
 \end{bmatrix}
-
-+
-\frac{e^(i\theta}{2} \begin{bmatrix}
-1 \\
--1 \\
-\end{bmatrix} 
 $$

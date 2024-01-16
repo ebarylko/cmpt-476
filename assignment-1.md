@@ -103,11 +103,19 @@ $|\phi\rangle \otimes \psi\rangle$:
 $|\phi\rangle \otimes \psi\rangle$
 
 =
-$$ |\psi\rangle =  \frac{1}{\sqrt{3}}\begin{bmatrix}
+
+$$
+\frac{1}{\sqrt{3}}\begin{bmatrix}
 1 \\
 i \\
 -1 \\
-\end{bmatrix} $$
+\end{bmatrix} \otimes
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+0 \\
+1 \\
+-i \\
+\end{bmatrix}
+$$
 
 =
 

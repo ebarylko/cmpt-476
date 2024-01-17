@@ -264,7 +264,7 @@ i & 0 \\
 
 ### Find two unit vectors |+Y⟩, |−Y⟩ such that Y |+Y ⟩ = |+Y ⟩, and Y |−Y ⟩ = −|−Y ⟩
 
-Let $A = \lambdaI$ =
+Let $A = I\lambda$ =
 
 $$ \begin{bmatrix}
 \lambda & 0 \\
@@ -286,8 +286,7 @@ i & 0 \\
  
 = 
 
-\begin{bmatrix}
+$$ \begin{bmatrix}
 -\lambda & -i \\
-i & -:wa
-\lambda \\
+i & -\lambda \\
 \end{bmatrix} $$

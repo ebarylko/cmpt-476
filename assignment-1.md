@@ -253,3 +253,41 @@ The probability of measuring the qubit in the $|0\rangle$ as a function of $\the
 
 The probabilities of measuring the qubit in the $|1\rangle$ state as a function of $\theta$ is
 $\beta^2$ = $\frac{1 - cos(\theta)}{2}$
+
+## Question 5
+
+Let $y$ =
+$$ \begin{bmatrix}
+0 & -i \\
+i & 0 \\
+\end{bmatrix} $$
+
+### Find two unit vectors |+Y⟩, |−Y⟩ such that Y |+Y ⟩ = |+Y ⟩, and Y |−Y ⟩ = −|−Y ⟩
+
+Let $A = \lambdaI$ =
+
+$$ \begin{bmatrix}
+\lambda & 0 \\
+0 & \lambda \\
+\end{bmatrix} $$
+
+Let $B = Y - A$
+
+= 
+
+$$ \begin{bmatrix}
+0 & -i \\
+i & 0 \\
+\end{bmatrix} -
+\begin{bmatrix}
+\lambda & 0 \\
+0 & \lambda \\
+\end{bmatrix} $$
+ 
+= 
+
+\begin{bmatrix}
+-\lambda & -i \\
+i & -:wa
+\lambda \\
+\end{bmatrix} $$

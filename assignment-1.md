@@ -337,9 +337,9 @@ t \\
 = 
 
 $$ \sim
-\begin{bmatrix}
--it \\
-t \\
+t \begin{bmatrix}
+-i \\
+i \\
 \end{bmatrix}$$     
 
 

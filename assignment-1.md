@@ -352,8 +352,7 @@ $$ =
 t \begin{bmatrix}
 -i \\
 i \\
-\end{bmatrix}$$
-$$ =
+\end{bmatrix}
 
 \begin{bmatrix}
 -i \\

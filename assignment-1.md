@@ -346,12 +346,14 @@ t \begin{bmatrix}
 i \\
 \end{bmatrix}$$     
 
+
 Let $\overrightarrow{a}$ = 
 $$ =
 \begin{bmatrix}
 -i \\
 i \\
 \end{bmatrix}$$     
+
 
 $||\overrightarrow{a}|| = \sqrt{2}$
 

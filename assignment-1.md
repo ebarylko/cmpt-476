@@ -293,3 +293,55 @@ $$ \begin{bmatrix}
 -\lambda & -i \\
 i & -\lambda \\
 \end{bmatrix} $$
+
+
+$|B|$ = 0
+
+$\lambda^2 - 1 = 0$
+
+$\lambda = \pm 1$
+
+Using $\lambda = 1$ in $B$ and row reducing $B$,
+
+B =
+
+$$ \begin{bmatrix}
+-1 & -i \\
+i & -1 \\
+\end{bmatrix} R2 \rightarrow R2 + iR1 $$   
+
+$$ \sim
+\begin{bmatrix}
+-1 & -i \\
+0 & 0 \\
+\end{bmatrix} R1 \rightarrow R1 * -1$$    
+
+$$ \sim
+\begin{bmatrix}
+1 & i \\
+0 & 0 \\
+\end{bmatrix}$$    
+
+Since $x_2$ is free, let $x_2 = t$.
+
+$x_1 = -it$
+
+$\overrightarrow{x}$ = 
+
+$$ \sim
+\begin{bmatrix}
+-it \\
+t \\
+\end{bmatrix}$$     
+
+= 
+$$ \sim
+t\begin{bmatrix}
+-i \\
+1 \\
+\end{bmatrix}$$     
+
+
+
+
+

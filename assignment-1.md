@@ -256,7 +256,7 @@ $\beta^2$ = $\frac{1 - cos(\theta)}{2}$
 
 ## Question 5
 
-Let $y$ =
+Let $Y$ =
 
 
 $$ \begin{bmatrix}
@@ -336,11 +336,47 @@ t \\
 
 = 
 
-$$ \sim
+$$ =
 t \begin{bmatrix}
 -i \\
 i \\
 \end{bmatrix}$$     
 
+Let $\overrightarrow{a}$ = 
+$$ =
+\begin{bmatrix}
+-i \\
+i \\
+\end{bmatrix}$$     
+
+$||\overrightarrow{a}|| = \sqrt{2}$
+
+Let $|+y\rangle$ = 
+
+$$ =
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+-i \\
+i \\
+\end{bmatrix}$$     
+
+$|||+y\rangle|| = \sqrt{{\frac{1}{2}2}^2} = 1
+
+$Y|+y\rangle$ =
 
 
+$$ \begin{bmatrix}
+0 & -i \\
+i & 0 \\
+\end{bmatrix}
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+-i \\
+i \\
+\end{bmatrix}$$     
+$$
+
+=
+$$ =
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+-i \\
+i \\
+\end{bmatrix}$$     

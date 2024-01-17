@@ -335,13 +335,12 @@ t \\
 \end{bmatrix}$$     
 
 = 
+
 $$ \sim
 \begin{bmatrix}
--i \\
-1 \\
+-it \\
+t \\
 \end{bmatrix}$$     
-
-
 
 
 

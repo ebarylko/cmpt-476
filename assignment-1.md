@@ -257,10 +257,13 @@ $\beta^2$ = $\frac{1 - cos(\theta)}{2}$
 ## Question 5
 
 Let $y$ =
+
+
 $$ \begin{bmatrix}
 0 & -i \\
 i & 0 \\
 \end{bmatrix} $$
+
 
 ### Find two unit vectors |+Y⟩, |−Y⟩ such that Y |+Y ⟩ = |+Y ⟩, and Y |−Y ⟩ = −|−Y ⟩
 

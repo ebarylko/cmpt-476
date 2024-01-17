@@ -359,7 +359,7 @@ $$ =
 i \\
 \end{bmatrix}$$     
 
-$|||+y\rangle|| = \sqrt{{\frac{1}{2}2}^2} = 1$
+$|||+y\rangle|| = \sqrt{( \frac{1}{2}2 )^2} = 1$
 
 
 $Y|+y\rangle$ =
@@ -376,7 +376,8 @@ i \\
 $$
 
 =
-$$ =
+
+$$ 
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 -i \\
 i \\

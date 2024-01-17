@@ -267,7 +267,11 @@ i & 0 \\
 
 ### Find two unit vectors |+Y⟩, |−Y⟩ such that Y |+Y ⟩ = |+Y ⟩, and Y |−Y ⟩ = −|−Y ⟩
 
+
+#### Finding |+y>
+
 Let $A = I\lambda$ =
+
 
 $$ \begin{bmatrix}
 \lambda & 0 \\
@@ -382,3 +386,84 @@ $$
 -i \\
 i \\
 \end{bmatrix}$$     
+
+#### Finding |-y>
+
+Using $\lambda = -1$ in $B$ and row reducing $B$,
+
+B =
+
+$$ \begin{bmatrix}
+1 & -i \\
+i & 1 \\
+\end{bmatrix} R2 \rightarrow R2 - iR1 $$
+
+$$ \sim
+\begin{bmatrix}
+1 & -i \\
+0 & 0 \\
+\end{bmatrix} R1 \rightarrow R1 * -1$$
+
+
+Since $x_2$ is free, let $x_2 = t$.
+
+$x_1 = it$
+
+$\overrightarrow{x}$ =
+
+$$ \sim
+\begin{bmatrix}
+it \\
+t \\
+\end{bmatrix}$$
+
+=
+
+$$ =
+t \begin{bmatrix}
+i \\
+1 \\
+\end{bmatrix}$$     
+
+Let $\overrightarrow{b}$ =
+$$ =
+\begin{bmatrix}
+i \\
+1 \\
+\end{bmatrix}$$
+
+$||\overrightarrow{b}|| = \sqrt{2}$
+
+Let $|-y\rangle$ =
+
+$$ =
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+i \\
+1 \\
+\end{bmatrix}$$
+
+$|||-y\rangle|| = \sqrt{( \frac{1}{2}2 )^2} = 1$
+
+
+$Y|-y\rangle$ =
+
+
+$$ \begin{bmatrix}
+0 & -i \\
+i & 0 \\
+\end{bmatrix}
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+i \\
+1 \\
+\end{bmatrix}$$     
+$$
+
+=
+
+$$
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+-i \\
+-1 \\
+\end{bmatrix}$$     
+
+$|||-y\rangle|| = \sqrt{( \frac{1}{2}2 )^2} = 1$

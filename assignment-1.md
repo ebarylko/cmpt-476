@@ -348,13 +348,8 @@ i \\
 
 
 Let $\overrightarrow{a}$ =
-$$ =
-t \begin{bmatrix}
--i \\
-i \\
-\end{bmatrix}
 
-\begin{bmatrix}
+$$t \begin{bmatrix}
 -i \\
 i \\
 \end{bmatrix}$$     

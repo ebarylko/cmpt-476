@@ -347,8 +347,14 @@ i \\
 \end{bmatrix}$$     
 
 
-Let $\overrightarrow{a}$ = 
+Let $\overrightarrow{a}$ =
 $$ =
+t \begin{bmatrix}
+-i \\
+i \\
+\end{bmatrix}$$
+$$ =
+
 \begin{bmatrix}
 -i \\
 i \\

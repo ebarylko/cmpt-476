@@ -336,7 +336,7 @@ t \\
 
 = 
 $$ \sim
-t\begin{bmatrix}
+\begin{bmatrix}
 -i \\
 1 \\
 \end{bmatrix}$$     

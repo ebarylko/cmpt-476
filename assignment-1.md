@@ -251,5 +251,5 @@ $\beta^2 = \frac{1 - cos(\theta)}{2}$
 
 The probability of measuring the qubit in the $|0\rangle$ as a function of $\theta$ is $\alpha^2 = \frac{1 + cos(\theta)}{2}$
 
-The probabilities of measuring the qubit in the $|1\rangle$ state as a function of $\theta is
+The probabilities of measuring the qubit in the $|1\rangle$ state as a function of $\theta$ is
 $\beta^2$ = $\frac{1 - cos(\theta)}{2}$

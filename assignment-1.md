@@ -347,7 +347,7 @@ i \\
 \end{bmatrix}$$     
 
 
-Let $\overrightarrow{a}$ =
+Let $A$ =
 
 $$t \begin{bmatrix}
 -i \\

@@ -464,6 +464,12 @@ $$
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 -i \\
 -1 \\
-\end{bmatrix}$$     
+\end{bmatrix} = -|-y\rangle$$     
 
-$|||-y\rangle|| = \sqrt{( \frac{1}{2}2 )^2} = 1$
+$|-y\rangle$ =
+
+$$ =
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+i \\
+1 \\
+\end{bmatrix}$$

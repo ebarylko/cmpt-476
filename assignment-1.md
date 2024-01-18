@@ -527,6 +527,7 @@ Since $U^{\dagger} = U^{-1}$, $U$ is a unitary matrix.
 $U^{\dagger}YU$ 
 
 =
+
 $$
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 i & 1 \\

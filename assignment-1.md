@@ -245,7 +245,7 @@ $\frac{1}{4}(1 + e^{i\theta} + e^{-i\theta} + 1)$
 
 $\alpha^2 = \frac{1 + cos(\theta)}{2}$
 
-$\beta^2 = \frac{1}{4}(1 - \frac{e^{i\theta}}{\sqrt{2}})(1 - \frac{e^{-i\theta}}{\sqrt{2}})$    
+$\beta^2 = \frac{1}{4}(1 - e^{i\theta})(1 - e^{i\theta})$    
 
 = $\frac{1}{4}(1 - e^{i\theta} - e^{-i\theta} + 1)$    
 
@@ -255,7 +255,7 @@ Using the equivalency $e^{i\theta} + e^{-i\theta} = 2cos(\theta)$,
 
 $\frac{1}{4}(2 - (e^{i\theta} + e^{-i\theta}))$    
 
-$\frac{1}{4}(2 - cos(\theta))$      
+$\frac{1}{4}(2 - 2cos(\theta))$      
 
 = $\frac{1 - cos(\theta)}{2}$
 
@@ -263,7 +263,7 @@ $\beta^2 = \frac{1 - cos(\theta)}{2}$
 
 The probability of measuring the qubit in the $|0\rangle$ as a function of $\theta$ is $\alpha^2 = \frac{1 + cos(\theta)}{2}$
 
-The probabilities of measuring the qubit in the $|1\rangle$ state as a function of $\theta$ is
+The probability of measuring the qubit in the $|1\rangle$ state as a function of $\theta$ is
 $\beta^2$ = $\frac{1 - cos(\theta)}{2}$
 
 ## Question 5

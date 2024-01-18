@@ -189,7 +189,17 @@ The probability of measuring $|0\rangle$ or $|1\rangle$ is $(\frac{1}{\sqrt{2}})
 The probabilities of receiving result “0” or “1” if the qubit is measured is 1.
 
 
-### If we first apply the Hadamard gate to the initial state 1 |0⟩ + eiθ |1⟩ and then measure, what are the probabilities of receiving the “0” and “1” results as an function of θ?
+### If we first apply the Hadamard gate to the initial state |q> and then measure, what are the probabilities of receiving the “0” and “1” results as an function of θ?
+
+
+Using the Hadamard gate $H$ = 
+
+$$ \frac{1}{\sqrt{2}}\begin{bmatrix}
+1 & 1 \\
+1 & -1 \\
+\end{bmatrix}
+$$
+
 
 $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 1 & 1 \\

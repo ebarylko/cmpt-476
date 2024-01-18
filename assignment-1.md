@@ -266,7 +266,7 @@ The probability of measuring the qubit in the $|0\rangle$ as a function of $\the
 The probability of measuring the qubit in the $|1\rangle$ state as a function of $\theta$ is
 $\beta^2$ = $\frac{1 - cos(\theta)}{2}$
 
-## Question 5
+## Question 4
 
 Let $Y$ =
 
@@ -277,7 +277,7 @@ i & 0 \\
 \end{bmatrix} $$
 
 
-### Find two unit vectors |+Y⟩, |−Y⟩ such that Y |+Y ⟩ = |+Y ⟩, and Y |−Y ⟩ = −|−Y ⟩
+### Find two unit vectors |+y⟩, |−y⟩ such that Y |+y ⟩ = |+y ⟩, and Y |−y ⟩ = −|−y ⟩
 
 
 #### Finding |+y>
@@ -344,7 +344,7 @@ $x_1 = -it$
 
 $\overrightarrow{x}$ = 
 
-$$ \sim
+$$ 
 \begin{bmatrix}
 -it \\
 t \\
@@ -355,15 +355,15 @@ t \\
 $$ =
 t \begin{bmatrix}
 -i \\
-i \\
+1 \\
 \end{bmatrix}$$     
 
 
 Let **a** =
 
-$$t \begin{bmatrix}
+$$ \begin{bmatrix}
 -i \\
-i \\
+1 \\
 \end{bmatrix}$$     
 
 
@@ -374,7 +374,7 @@ Let $|+y\rangle$ =
 $$ =
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 -i \\
-i \\
+1 \\
 \end{bmatrix}$$     
 
 $|||+y\rangle|| = \sqrt{( \frac{1}{2}2 )^2} = 1$
@@ -389,7 +389,7 @@ i & 0 \\
 \end{bmatrix}
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 -i \\
-i \\
+1 \\
 \end{bmatrix}$$     
 $$
 
@@ -398,7 +398,7 @@ $$
 $$ 
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 -i \\
-i \\
+1 \\
 \end{bmatrix}$$     
 
 #### Finding |-y>

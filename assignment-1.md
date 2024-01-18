@@ -570,10 +570,14 @@ $$ \frac{1}{2}\begin{bmatrix}
 =
 
 
-$$ \begin{bmatrix}
+$$
+\begin{align*}
+\begin{bmatrix}
 1 & 0 \\
 0 & -1 \\
-\end{bmatrix}$$  
+\end{bmatrix}
+\end{align*}
+$$  
 
 $
 \begin{aligned}

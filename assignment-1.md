@@ -570,14 +570,15 @@ $$ \frac{1}{2}\begin{bmatrix}
 =
 
 
+<div style="text-align: right"> 
 $$
-\begin{align*}
 \begin{bmatrix}
 1 & 0 \\
 0 & -1 \\
 \end{bmatrix}
-\end{align*}
 $$  
+</div>
+
 
 $
 \begin{aligned}

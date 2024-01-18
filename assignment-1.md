@@ -569,36 +569,11 @@ $$ \frac{1}{2}\begin{bmatrix}
 
 =
 
-
-<div style="text-align: right"> 
 $$
 \begin{bmatrix}
 1 & 0 \\
 0 & -1 \\
 \end{bmatrix}
 $$  
-</div>
 
 
-$
-\begin{aligned}
-&sin⁡(α) = {opposite \over hypotenuse} = {h0 \over c} = {h2 \over b} \\
-&cos(α) = {adjacent \over hypotenuse} = {b \over c} = {d \over b} \\
-&tan⁡(α) = {opposite \over adjacent} = {h0 \over b} = {h2 \over d}
-\end{aligned}
-$
-
-$$
-\begin{align*}
-2x - 5y &=  8 \\
-3x + 9y &=  -12
-\end{align*}
-$$
-
-$$
-\begin{align}
-\mbox{Union: } & A\cup B = \{x\mid x\in A \mbox{ or } x\in B\} \\
-\mbox{Concatenation: } & A\circ B  = \{xy\mid x\in A \mbox{ and } y\in B\} \\
-\mbox{Star: } & A^\star  = \{x_1x_2\ldots x_k \mid  k\geq 0 \mbox{ and each } x_i\in A\} \\
-\end{align}
-$$

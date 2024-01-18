@@ -488,8 +488,9 @@ $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 \end{bmatrix}$$
 
 
-$$ U^{\dagger} =
+$U^{\dagger}$ =
 
+$$
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 i & 1 \\
 -i & 1 \\

@@ -496,8 +496,9 @@ i & 1 \\
 -i & 1 \\
 \end{bmatrix}$$
 
-$$ U^{-1} =
+$U^{-1}$ =
 
+$$
 \frac{\sqrt{2}}{i - i}\begin{bmatrix}
 1 & -i \\
 -1 & -i \\

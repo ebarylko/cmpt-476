@@ -1,7 +1,25 @@
 ## Question 1
 
-### NOT gate
-![NOT gate](not_gate.HEIC)
+### part a
+
+#### NOT gate
+![NOT gate](not_gate.jpeg)
+
+### part b
+
+#### AND gate
+![AND gate](and_gate.jpeg)
+
+#### OR gate
+![OR gate](or_gate.jpeg)
+
+#### NOT gate
+![NOT gate](not_gate.jpeg)
+
+#### FANOUT gate
+![FANOUT gate](fanout_gate.jpeg)
+
+
 
 
 ## Question 2

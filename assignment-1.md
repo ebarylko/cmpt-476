@@ -347,7 +347,7 @@ i \\
 \end{bmatrix}$$     
 
 
-Let $A$ =
+Let **a** =
 
 $$t \begin{bmatrix}
 -i \\
@@ -427,7 +427,7 @@ i \\
 1 \\
 \end{bmatrix}$$     
 
-Let $\overrightarrow{b}$ =
+Let **b** =
 $$ =
 \begin{bmatrix}
 i \\
@@ -475,3 +475,92 @@ $$ =
 i \\
 1 \\
 \end{bmatrix}$$
+
+### Let U be the 2 by 2 matrix with columns |+Y ⟩ and |−Y ⟩. Is U unitary?
+$U$  
+
+=
+
+$$ \frac{1}{\sqrt{2}}\begin{bmatrix}
+-i & i \\
+1 & 1 \\
+\end{bmatrix}$$
+
+
+$$ U^{\dagger} =
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+i & 1 \\
+-i & 1 \\
+\end{bmatrix}$$
+
+$$ U^{-1} =
+\frac{\sqrt{2}}{i - i}\begin{bmatrix}
+1 & -i \\
+-1 & -i \\
+\end{bmatrix}$$  
+
+=
+$$
+\frac{1}{-\sqrt{2}i}\begin{bmatrix}
+1 & -i \\
+-1 & -i \\
+\end{bmatrix}$$  
+
+$$
+\frac{1}{\sqrt{2}i}\begin{bmatrix}
+-1 & i \\
+1 & i \\
+\end{bmatrix}$$    
+
+= 
+
+$$
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+i & 1 \\
+-i & 1 \\
+\end{bmatrix}$$    
+
+Since $U^{\dagger} = U^{-1}$, $U$ is a unitary matrix.
+
+### Calculate U†Y U
+
+$U^{\dagger}YU$ 
+
+=
+$$
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+i & 1 \\
+-i & 1 \\
+\end{bmatrix}
+\begin{bmatrix}
+0 & -i \\
+i & 0 \\
+\end{bmatrix}
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+-i & i \\
+1 & 1 \\
+\end{bmatrix}
+$$ 
+
+
+$$ \frac{1}{\sqrt{2}}
+\begin{bmatrix}
+i & 1 \\
+i & -1 \\
+\end{bmatrix}
+\begin{bmatrix}
+-i & i \\
+1 & 1 \\
+\end{bmatrix}$$
+
+=
+$$ \frac{1}{2}\begin{bmatrix}
+2 & 0 \\
+0 & -2 \\
+\end{bmatrix}$$  
+
+=
+$$ \begin{bmatrix}
+1 & 0 \\
+0 & -1 \\
+\end{bmatrix}$$  

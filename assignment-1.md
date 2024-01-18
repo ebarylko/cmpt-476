@@ -582,3 +582,10 @@ $
 &tan⁡(α) = {opposite \over adjacent} = {h0 \over b} = {h2 \over d}
 \end{aligned}
 $
+
+$$
+\begin{align*}
+2x - 5y &=  8 \\
+3x + 9y &=  -12
+\end{align*}
+$$

@@ -200,6 +200,8 @@ $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 \end{bmatrix}
 $$
 
+The result of applying $H$ onto $|q\rangle$ is 
+
 
 $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 1 & 1 \\
@@ -210,24 +212,24 @@ $$
 
 =
 
-$$ \frac{1}{\sqrt{2}}\begin{bmatrix}
+$$ \frac{1}{2}\begin{bmatrix}
 1 \\
 1 \\
 \end{bmatrix} +
-\frac{e^{i\theta}}{\sqrt{2}}\begin{bmatrix}
+\frac{e^{i\theta}}{2}\begin{bmatrix}
 1 \\
 -1 \\
 \end{bmatrix} 
 $$  
 
 =
-$\frac{1}{2}(|0\rangle + |1\rangle) + \frac{e^{i\theta}}{\sqrt{2}}(|0\rangle - |1\rangle)$
+$\frac{1}{2}(|0\rangle + |1\rangle) + \frac{e^{i\theta}}{2}(|0\rangle - |1\rangle)$
 
-= $(\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}})|0\rangle + (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})|1\rangle$ 
+= $(\frac{1}{2} + \frac{e^{i\theta}}{2})|0\rangle + (\frac{1}{2} - \frac{e^{i\theta}}{2})|1\rangle$ 
 
-Let $\alpha = (\frac{1}{2} + \frac{e^{i\theta}}{\sqrt{2}}), \beta = (\frac{1}{2} - \frac{e^{i\theta}}{\sqrt{2}})$, where $\alpha$ and $\beta$ denote the probabilities of measuring the qubit in the $|0\rangle$ and $|1\rangle$ state.
+Let $\alpha = (\frac{1}{2} + \frac{e^{i\theta}}{2}), \beta = (\frac{1}{2} - \frac{e^{i\theta}}{2})$, where $\alpha$ and $\beta$ denote the probabilities of measuring the qubit in the $|0\rangle$ and $|1\rangle$ state.
 
-$\alpha^2 = \frac{1}{4}(1 + \frac{e^{i\theta}}{\sqrt{2}})(1 + \frac{e^{-i\theta}}{\sqrt{2}})$  
+$\alpha^2 = \frac{1}{4}(1 + e^{i\theta})(1 + e^{-i\theta})$  
 
 = $\frac{1}{4}(1 + e^{i\theta} + e^{-i\theta} + 1)$  
 

@@ -428,6 +428,7 @@ i \\
 \end{bmatrix}$$     
 
 Let **b** =
+
 $$ =
 \begin{bmatrix}
 i \\

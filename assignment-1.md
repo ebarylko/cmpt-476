@@ -554,12 +554,15 @@ i & -1 \\
 \end{bmatrix}$$
 
 =
+
 $$ \frac{1}{2}\begin{bmatrix}
 2 & 0 \\
 0 & -2 \\
 \end{bmatrix}$$  
 
 =
+
+
 $$ \begin{bmatrix}
 1 & 0 \\
 0 & -1 \\

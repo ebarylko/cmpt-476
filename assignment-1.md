@@ -488,18 +488,21 @@ $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 
 
 $$ U^{\dagger} =
+
 \frac{1}{\sqrt{2}}\begin{bmatrix}
 i & 1 \\
 -i & 1 \\
 \end{bmatrix}$$
 
 $$ U^{-1} =
+
 \frac{\sqrt{2}}{i - i}\begin{bmatrix}
 1 & -i \\
 -1 & -i \\
 \end{bmatrix}$$  
 
 =
+
 $$
 \frac{1}{-\sqrt{2}i}\begin{bmatrix}
 1 & -i \\

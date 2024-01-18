@@ -416,7 +416,8 @@ $$ \sim
 \begin{bmatrix}
 1 & -i \\
 0 & 0 \\
-\end{bmatrix} R1 \rightarrow R1 * -1$$
+\end{bmatrix} 
+$$
 
 
 Since $x_2$ is free, let $x_2 = t$.
@@ -490,9 +491,7 @@ i \\
 \end{bmatrix}$$
 
 ### Let U be the 2 by 2 matrix with columns |+Y ⟩ and |−Y ⟩. Is U unitary?
-$U$  
-
-=
+$U =$
 
 $$ \frac{1}{\sqrt{2}}\begin{bmatrix}
 -i & i \\
@@ -511,7 +510,7 @@ i & 1 \\
 $U^{-1}$ =
 
 $$
-\frac{\sqrt{2}}{i - i}\begin{bmatrix}
+\frac{\sqrt{2}}{-i - i}\begin{bmatrix}
 1 & -i \\
 -1 & -i \\
 \end{bmatrix}$$  

@@ -28,6 +28,7 @@ sin(2\theta) & cos(2\theta) \\
 \end{bmatrix} $$ 
 
 =
+
 $$ \begin{bmatrix}
 cos^2(\theta) - sin^2(\theta) & -2sin(\theta)cos(\theta) \\
 2sin(\theta)cos(\theta) & cos^2(\theta) - sin^2(\theta) \\

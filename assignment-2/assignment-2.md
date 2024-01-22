@@ -33,3 +33,15 @@ $$ \begin{bmatrix}
 cos^2(\theta) - sin^2(\theta) & -2sin(\theta)cos(\theta) \\
 2sin(\theta)cos(\theta) & cos^2(\theta) - sin^2(\theta) \\
 \end{bmatrix} $$ 
+
+
+Applying $R_{2\theta}$ on $\beta$:
+
+$R_{2\theta}$\beta$ =
+
+$\{|A\rangle(cos^2(\theta) - sin^2(\theta)) + |B\rangle(2sin(\theta)cos(\theta)), |A\rangle(-2sin(\theta)cos(\theta)) + |B\rangle(cos^2(\theta) - sin^2(\theta))\}
+
+= $\{cos^2(θ)|A⟩ - sin^{2}(θ)|A\rangle + 2sin(θ)cos(θ)|B⟩, - 2cos(θ)sin(θ)|A⟩ + cos^2(θ)|B⟩ −sin^2(θ)|B⟩\}$
+
+
+

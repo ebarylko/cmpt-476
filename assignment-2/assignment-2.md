@@ -9,7 +9,7 @@ The rotation matrix $R_{\theta}$ =
 
 $$ \begin{bmatrix}
 cos(\theta) & -sin(\theta) \\
-sing(\theta) & cos(\theta) \\
+sin(\theta) & cos(\theta) \\
 \end{bmatrix} $$
 
 Rotating $\beta$ once by $\theta$ = 
@@ -18,7 +18,17 @@ Rotating $\beta$ once by $\theta$ =
 
 Rotating $\beta$ once more by theta results in the new basis
 
-$\beta^{\prime\prime}$ = 
+$\beta^{\prime\prime}$ = $\{cos(θ)^2|A⟩ + 2sin(θ)cos(θ)|B⟩ - sin^{2}(θ), −sin(θ)^2|B⟩ - 2cos(θ)sin(θ)|A⟩ + cos(θ)^2|A⟩\}$
 
-$\{cos(θ)^2|A⟩ + 2sin(θ)cos(θ)|B⟩ - sin^{2}(θ), −sin(θ)^2|B⟩ - 2cos(θ)sin(θ)|A⟩ + cos(θ)^2|A⟩\}$
+The rotation matrix $R_{2\theta}$ = 
 
+$$ \begin{bmatrix}
+cos(2\theta) & -sin(2\theta) \\
+sin(2\theta) & cos(2\theta) \\
+\end{bmatrix} $$ 
+
+=
+$$ \begin{bmatrix}
+cos^2(\theta) - sin^2(\theta) & -2sin(\theta)cos(\theta) \\
+2sin(\theta)cos(\theta) & cos^2(\theta) - sin^2(\theta) \\
+\end{bmatrix} $$ 

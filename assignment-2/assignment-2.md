@@ -20,6 +20,5 @@ Rotating $\beta$ once more by theta results in the new basis
 
 $\beta^{\prime\prime}$ = 
 
-${cos(θ)^2|A⟩ + 2sin(θ)cos(θ)|B⟩ - sin^{2}(θ), −sin(θ)^2|B⟩ - 2cos(θ)sin(θ)|A⟩ + {cos(θ)^2|A⟩}$
-
+$\{cos(θ)^2|A⟩ + 2sin(θ)cos(θ)|B⟩ - sin^{2}(θ), −sin(θ)^2|B⟩ - 2cos(θ)sin(θ)|A⟩ + cos(θ)^2|A⟩\}$
 

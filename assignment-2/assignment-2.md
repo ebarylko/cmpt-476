@@ -100,8 +100,8 @@ Z &  0Z \\
 
 
 $$ \begin{bmatrix}
-\begin{bmatrix} 0 & 0 0 & 0\end{bmatrix} & \begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} \\
-\begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} & \begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix}\\
+begin{bmatrix} 0 & 0  0 & 0end{bmatrix} & begin{bmatrix} 1 & 0  0 & -1end{bmatrix} 
+begin{bmatrix} 1 & 0  0 & -1end{bmatrix} & begin{bmatrix} 0 & 0  0 & 0end{bmatrix}
 \end{bmatrix} 
 $$  
 

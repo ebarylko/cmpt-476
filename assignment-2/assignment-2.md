@@ -89,12 +89,13 @@ i &  0 \\
 
 #### X⊗Z
 
-$X\otimesZ$ =
+$X \otimes Z$ =
 
 $$ \begin{bmatrix}
 0Z & Z \\
 Z &  0Z \\
 \end{bmatrix} $$  
+
 =
 
 

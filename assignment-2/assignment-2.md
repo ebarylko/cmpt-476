@@ -1,6 +1,6 @@
 ## Question 1
 
-Let $\beta = {|A\rangle, |B\rangle$}
+Let $\beta$ = ${|A\rangle, |B\rangle}$
 
 
 ### Show that rotating the basis twice by θ is the same as rotating once by an angle of 2θ

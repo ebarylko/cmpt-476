@@ -37,11 +37,69 @@ cos^2(\theta) - sin^2(\theta) & -2sin(\theta)cos(\theta) \\
 
 Applying $R_{2\theta}$ on $\beta$:
 
-$R_{2\theta}$\beta$ =
+$R_{2\theta}\beta$ =
 
-$\{|A\rangle(cos^2(\theta) - sin^2(\theta)) + |B\rangle(2sin(\theta)cos(\theta)), |A\rangle(-2sin(\theta)cos(\theta)) + |B\rangle(cos^2(\theta) - sin^2(\theta))\}
+$\{|A\rangle(cos^2(\theta) - sin^2(\theta)) + |B\rangle(2sin(\theta)cos(\theta)), |A\rangle(-2sin(\theta)cos(\theta)) + |B\rangle(cos^2(\theta) - sin^2(\theta))\}$ 
 
-= $\{cos^2(θ)|A⟩ - sin^{2}(θ)|A\rangle + 2sin(θ)cos(θ)|B⟩, - 2cos(θ)sin(θ)|A⟩ + cos^2(θ)|B⟩ −sin^2(θ)|B⟩\}$
+= $\beta^{\prime\prime}$.
+
+Therefore, rotating the basis twice by $\theta$ is equivalent to rotating it once by $2\theta$.
+
+### Calculate the angle θ and number of measurements needed to reach the |1⟩ state with success probability p for some positive real number p close to 1.
+
+Do I start in the $|0\rangle$ state?
+
+I have a state constructed out of a linear combination of $A$ and $B$, which are lienar combinations of the $|0\rangle$ or $|1\rangle$.
+We are measuring in the computational basis, so we snap out of the basis $\beta$.
+Now, we are either in the $|0\rangle$ or $|1\rangle$ state. 
 
 
+
+## Question 2
+
+$I$ = 
+
+$$ \begin{bmatrix}
+1 & 0 \\
+0 &  1 \\
+\end{bmatrix} $$
+
+$Z$ =
+
+$$ \begin{bmatrix}
+1 & 0 \\
+0 &  -1 \\
+\end{bmatrix} $$
+
+$X$ =
+
+$$ \begin{bmatrix}
+0 & 1 \\
+1 &  0 \\
+\end{bmatrix} $$
+
+$Y$ =
+
+$$ \begin{bmatrix}
+0 & -i \\
+i &  0 \\
+\end{bmatrix} $$ 
+
+### Compute the matrices X⊗Z and Z⊗X
+
+#### X⊗Z
+
+$X\otimesZ$ =
+
+$$ \begin{bmatrix}
+0Z & Z \\
+Z &  0Z \\
+\end{bmatrix} $$  
+=
+
+
+$$ \begin{bmatrix}
+\begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix} & \begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} \\
+\begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} & \begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix}\\
+\end{bmatrix} $$  
 

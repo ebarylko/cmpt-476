@@ -281,3 +281,38 @@ $$\begin{bmatrix}
 
 Row reducing it will show if there exists a non-trivial solution to the 
 equation.
+
+Row reducing the matrix above results in  
+
+$$\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 &  1 & 0 & 0 \\
+0 &  0 & 1 & 0 \\
+0 &  0 & 0 & 1 \\
+\end{bmatrix} $$
+
+This indicates that only the trivial solution is an answer to the equation
+$c_1I + c_2X + c_3Z + c_4Y = 0$. Based on this, we can conclude that
+the pauli matrices are linearly independent
+
+### Show that the Pauli matrices form a basis for the space of 2 × 2 complex-valued matrices.
+If the Pauli matrices form a basis for the space of 2 × 2 complex-valued matrices, 
+then for any complex-valued matrix 
+
+$$
+\begin{bmatrix}
+a & b \\
+c &  d \\
+\end{bmatrix}
+$$
+
+It can be composed out of a linear combination of the Pauli matrices.
+This means the following matrix is always consistent.
+
+$$\begin{bmatrix}
+1 & 1 & 0 & 0 & a\\
+0 &  0 & 1 & -i & b\\
+0 &  0 & 1 & i & c\\
+1 &  -1 & 0 & 0 & d\\
+\end{bmatrix} $$
+

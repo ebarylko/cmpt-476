@@ -143,6 +143,7 @@ i &  0 \\
 
 = 
 
+$$
 \begin{bmatrix}
 i & 0 \\
 0 &  -i \\
@@ -263,3 +264,20 @@ $$\begin{bmatrix}
 
 $YZ = -ZY$.
 
+### Show that the Pauli matrices I, X, Z, Y are linearly independent
+
+To show that the Pauli matrices are linearly independent, I must show
+that the only solution to the equation $c_1I + c_2X + c_3Z + c_4Y = 0$ is
+$c_1 = c_2 = c_3 = c_4 = 0$.
+
+Using the following matrix to represent the equation above, 
+
+$$\begin{bmatrix}
+1 & 1 & 0 & 0 \\
+0 &  0 & 1 & -i \\
+0 &  0 & 1 & i \\
+1 &  -1 & 0 & 0 \\
+\end{bmatrix} $$
+
+Row reducing it will show if there exists a non-trivial solution to the 
+equation.

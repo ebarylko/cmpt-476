@@ -216,3 +216,50 @@ $$\begin{bmatrix}
 0 & 1 \\
 -1 &  0 \\
 \end{bmatrix} $$ 
+
+$XZ = -ZX$  
+
+#### YZ = -ZY
+
+$YZ$:
+
+$$ 
+\begin{bmatrix}
+0 & -i \\
+i &  0 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 \\
+0 &  -1 \\
+\end{bmatrix}
+$$ 
+
+=
+
+$$\begin{bmatrix}
+0 & i \\
+i &  0 \\
+\end{bmatrix} $$ 
+
+$ZY$:
+
+$$
+\begin{bmatrix}
+1 & 0 \\
+0 &  -1 \\
+\end{bmatrix}
+\begin{bmatrix}
+0 & -i \\
+i &  0 \\
+\end{bmatrix}
+$$ 
+
+= 
+
+$$\begin{bmatrix}
+0 & -i \\
+-i &  0 \\
+\end{bmatrix} $$ 
+
+$YZ = -ZY$.
+

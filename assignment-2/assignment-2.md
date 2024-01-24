@@ -119,12 +119,100 @@ $$ \begin{bmatrix}
 
 
 $$ \begin{bmatrix}
-&  \begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix}
+\begin{bmatrix} 0 & 1 \\ 1 & 0\end{bmatrix} & \begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} \\
+\begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix} & \begin{bmatrix} 0 & -1 \\ -1 & 0\end{bmatrix}\\
 \end{bmatrix}
 $$  
 
+### Show that the non-identity Pauli matrices anti-commute: that is, U V = −V U for every pair of X, Y , and Z matrices where U 6 = V
+
+#### XY = -YX
+
+$XY$ 
+
+=
+
 $$ \begin{bmatrix}
-\begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix} & \begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} \\
-\begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} & \begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix}\\
+0 & 1 \\
+1 &  0 \\
+\end{bmatrix} 
+\begin{bmatrix}
+0 & -i \\
+i &  0 \\
+\end{bmatrix} $$ 
+
+= 
+
+\begin{bmatrix}
+i & 0 \\
+0 &  -i \\
+\end{bmatrix} $$ 
+
+$YX$ 
+
+=
+
+
+$$\begin{bmatrix}
+0 & -i \\
+i &  0 \\
 \end{bmatrix}
-$$  
+\begin{bmatrix}
+0 & 1 \\
+1 &  0 \\
+\end{bmatrix} 
+$$ 
+
+= 
+
+$$\begin{bmatrix}
+-i & 0 \\
+0 &  i \\
+\end{bmatrix} $$ 
+
+$XY = - YX$
+
+#### XZ = -ZX
+$XZ$ 
+
+= 
+
+
+$$
+\begin{bmatrix}
+0 & 1 \\
+1 &  0 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 \\
+0 &  -1 \\
+\end{bmatrix} 
+$$
+
+=
+
+
+$$\begin{bmatrix}
+0 & -1 \\
+1 &  0 \\
+\end{bmatrix} $$ 
+
+$ZX$  
+
+$$
+\begin{bmatrix}
+1 & 0 \\
+0 &  -1 \\
+\end{bmatrix}
+\begin{bmatrix}
+0 & 1 \\
+1 &  0 \\
+\end{bmatrix}
+$$
+
+=
+
+$$\begin{bmatrix}
+0 & 1 \\
+-1 &  0 \\
+\end{bmatrix} $$ 

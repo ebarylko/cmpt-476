@@ -47,12 +47,64 @@ Therefore, rotating the basis twice by $\theta$ is equivalent to rotating it onc
 
 ### Calculate the angle θ and number of measurements needed to reach the |1⟩ state with success probability p for some positive real number p close to 1.
 
-Do I start in the $|0\rangle$ state?
+Let $A\rangle = |0\rangle$ and $B\rangle = |1\rangle$.
 
-I have a state constructed out of a linear combination of $A$ and $B$, which are lienar combinations of the $|0\rangle$ or $|1\rangle$.
-We are measuring in the computational basis, so we snap out of the basis $\beta$.
-Now, we are either in the $|0\rangle$ or $|1\rangle$ state. 
+After rotating $\beta$ once by $\theta$, we obtain that $\beta^{\prime} = (cos(θ)|A⟩ + sin(θ)|B⟩, − sin(θ)|A⟩ + cos(θ)|B⟩), with |A^{\prime}\rangle = cos(θ)|A⟩ + sin(θ)|B⟩,  |B^{\prime}\rangle = − sin(θ)|A⟩ + cos(θ)|B⟩$
 
+Measuring $|0\rangle$ in $\beta^{\prime}$ gets us $|A^{\prime}\rangle$ 
+with probability $cos^2(\theta)$, and $|B^{\prime}\rangle$ with a 
+probability $sin^2(\theta)$.
+
+As $\theta \rightarrow 0, the probability of measuring 
+the initial state in $|A^{\prime}\rangle$ grows close to 1 and
+the probability of measuring the initial state in 
+$|B^{\prime}\rangle$ grows close to 0.
+
+If $\theta$ is very close to zero, then the probability of mapping the 
+initial state to $|A^{\prime}\rangle$ is very high.
+
+If we rebind the initial state to what the initial state mapped to 
+and rebind $\beta$ to $\beta^{\prime}$ and repeat the measurement of 
+the initial state in the rotated basis, then the probability of
+mapping the initial state to $A^{\prime\prime}$ is $cos^2(\theta)$. 
+Repeatedly rotating the basis, mapping the initial state, and 
+rebinding the basis and initial state results in the $|0\rangle$ state
+being moved closer to the $|1\rangle$ state. 
+
+For the value of $p$, we can create a lower bound for it 
+as the probability of always mapping to the rotated $|A\rangle$ 
+basis vector.
+
+The probability of always mapping to the $|A\rangle$ basis vector
+is ($pr(a_1) + pr(a_2) + ... pr(a_n)$), where $a_i$ represents
+the event in which the initial state maps to $|1\rangle$ after
+$i$ rotations. The value of the expression can be bounded by the 
+union-bound rule. 
+
+This means that ($pr(a_1) + pr(a_2) + ... pr(a_n)) < pr(a_1) + pr(a_2) + ... pr(a_n)$
+
+Since we always rotate $\beta$ by an angle of $\theta$, the probability of
+mapping the initial state to $A^{\prime\prime}$ is $cos^2(\theta)$. 
+This means that $pr(a_i) = pr(a_2) = p(a_n)$
+
+Let $p_{A}$ be the probability of mapping the initial state to $A^{\prime\prime}$.
+
+
+
+
+$|0^{\prime}\rangle$ =
+
+
+$$ \begin{bmatrix}
+cos(\theta) \\
+sin(\theta) \\
+\end{bmatrix} $$
+
+The probability of measuring 
+
+If the probability of measuring $|1\rangle$ after rotating $\beta$ and 
+then measuring the 
+measuring
 
 
 ## Question 2
@@ -307,12 +359,78 @@ c &  d \\
 $$
 
 It can be composed out of a linear combination of the Pauli matrices.
-This means the following matrix is always consistent.
+
+Since the Pauli matrices are linearly independent and there are four 
+matrices, this means they span the space of 2 x 2 complex-valued matrices.
+Therefore, the Pauli matrices from a basis for the space 
+of 2 × 2 complex-valued matrices.
+
+
+## Question four
+Let $CZ$ =
 
 $$\begin{bmatrix}
-1 & 1 & 0 & 0 & a\\
-0 &  0 & 1 & -i & b\\
-0 &  0 & 1 & i & c\\
-1 &  -1 & 0 & 0 & d\\
+1 & 0 & 0 & 0 \\
+0 &  1 & 0 & 0 \\
+0 &  0 & 1 & 0 \\
+0 &  0 & 0 & 01 \\
 \end{bmatrix} $$
+
+Let $|\phi\rangle = |\psi\rangle = |0\rangle + |1\rangle$
+
+$|\phi\rangle \otimes \psi\rangle$  
+
+= 
+
+$$\begin{bmatrix}
+1 \\
+1 \\
+1 \\ 
+1 \\
+\end{bmatrix} $$
+
+$CZ(|\phi\rangle = |\psi\rangle = |0\rangle)$ 
+
+= 
+
+
+$$\begin{bmatrix}
+1 \\
+1 \\
+1 \\
+-1 \\
+\end{bmatrix} $$
+
+If $CZ$ is not entangling, than we can write $CZ(|\phi\rangle = |\psi\rangle = |0\rangle)$ 
+as a tensor product of two kets.
+
+
+We can say that $CZ(|\phi\rangle = |\psi\rangle = |0\rangle)$  
+
+=
+
+$$\begin{bmatrix}
+a \\
+b \\
+\end{bmatrix} \otimes
+\begin{bmatrix}
+c \\
+d \\
+\end{bmatrix}
+$$
+
+=
+
+$$\begin{bmatrix}
+ab \\
+ac \\
+bc \\
+bd \\
+\end{bmatrix} $$
+
+To have this equality, we need the following conditions to hold:
+* $ab$ = 1
+* ac = 1
+* bc = 1
+* bd = -1
 

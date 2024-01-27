@@ -417,15 +417,39 @@ $$
 =
 
 $$\begin{bmatrix}
-ab \\
 ac \\
+ad \\
 bc \\
 bd \\
 \end{bmatrix} $$
 
 To have this equality, we need the following conditions to hold:
-* $ab$ = 1
-* ac = 1
+* $ac$ = 1
+* ad = 1
 * bc = 1
 * bd = -1
 
+For $ac = 1$ to be true, both a and c must be positive or negative. 
+
+For $ad = 1$ to be true, both a and d must be positive or negative. As
+the value of a was decided in the equation above, d must have the
+same sign as a.
+
+
+For $bc = 1$ to be true, both b and c must be positive or negative.
+Since we decided on the sign of c in the first equation, c must
+have the same sign as b.
+
+For $bd = 1$ to be true, one of b and d must be positive and the
+other negative.
+
+However, d has the same sign as a and b has the same sign
+as c. Furthermore, the product of a and c is a positive value. This
+implies the product of b and d is also a positive value. Since we 
+cannot create this matrix out of a tensor product of two vectors,  
+we know we have an entangled system. 
+
+Since $|\phi\rangle \otimes |\psi\rangle$ is an untangled system, this 
+means that $CZ$ is entangling.
+
+## Question five

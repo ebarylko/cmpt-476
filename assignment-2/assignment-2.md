@@ -55,7 +55,7 @@ Measuring $|0\rangle$ in $\beta^{\prime}$ gets us $|A^{\prime}\rangle$
 with probability $cos^2(\theta)$, and $|B^{\prime}\rangle$ with a 
 probability $sin^2(\theta)$.
 
-As $\theta \rightarrow 0, the probability of measuring 
+As $\theta \rightarrow 0$, the probability of measuring 
 the initial state in $|A^{\prime}\rangle$ grows close to 1 and
 the probability of measuring the initial state in 
 $|B^{\prime}\rangle$ grows close to 0.
@@ -81,39 +81,25 @@ the event in which the initial state maps to $|1\rangle$ after
 $i$ rotations. The value of the expression can be bounded by the 
 union-bound rule. 
 
-This means that ($pr(a_1) + pr(a_2) + ... pr(a_n)) < pr(a_1) + pr(a_2) + ... pr(a_n)$
+This means that $(pr(a_1) + pr(a_2) + ... pr(a_n)) < pr(a_1) + pr(a_2) + ... pr(a_n)$
 
 Since we always rotate $\beta$ by an angle of $\theta$, the probability of
 mapping the initial state to $A^{\prime\prime}$ is $cos^2(\theta)$. 
 This means that $pr(a_i) = pr(a_2) = p(a_n)$
 
+Let $n$ be the number of rotations. $n = \frac{\pi}{2\theta}$.
+
 $p = n * pr(a_1)$ 
 
-$p = n * cos^2(\theta)$ 
+$p = \frac{\pi}{2\theta} * cos^2(\theta)$ 
 
-$\frac{p}{n} = cos^2(\theta)$
+$\frac{2p}{\pi} = \frac{cos^2(\theta)}{\theta}$
 
 
 $\sqrt{\frac{p}{n}} = cos(\theta)$
 
 $arccos(\sqrt{\frac{p}{n}}) = theta$
 
-
-
-
-$|0^{\prime}\rangle$ =
-
-
-$$ \begin{bmatrix}
-cos(\theta) \\
-sin(\theta) \\
-\end{bmatrix} $$
-
-The probability of measuring 
-
-If the probability of measuring $|1\rangle$ after rotating $\beta$ and 
-then measuring the 
-measuring
 
 
 ## Question 2

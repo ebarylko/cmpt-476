@@ -76,7 +76,7 @@ as the probability of always mapping to the rotated $|A\rangle$
 basis vector.
 
 The probability of always mapping to the $|A\rangle$ basis vector
-is ($pr(a_1) + pr(a_2) + ... pr(a_n)$), where $a_i$ represents
+is $(pr(a_1) + pr(a_2) + ... pr(a_n))$, where $a_i$ represents
 the event in which the initial state maps to $|1\rangle$ after
 $i$ rotations. The value of the expression can be bounded by the 
 union-bound rule. 
@@ -450,6 +450,4 @@ cannot create this matrix out of a tensor product of two vectors,
 we know we have an entangled system. 
 
 Since $|\phi\rangle \otimes |\psi\rangle$ is an untangled system, this 
-means that $CZ$ is entangling.
-
-## Question five
+means that $CZ$ is entangling

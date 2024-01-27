@@ -87,7 +87,16 @@ Since we always rotate $\beta$ by an angle of $\theta$, the probability of
 mapping the initial state to $A^{\prime\prime}$ is $cos^2(\theta)$. 
 This means that $pr(a_i) = pr(a_2) = p(a_n)$
 
-Let $p_{A}$ be the probability of mapping the initial state to $A^{\prime\prime}$.
+$p = n * pr(a_1)$ 
+
+$p = n * cos^2(\theta)$ 
+
+$\frac{p}{n} = cos^2(\theta)$
+
+
+$\sqrt{\frac{p}{n}} = cos(\theta)$
+
+$arccos(\sqrt{\frac{p}{n}}) = theta$
 
 
 

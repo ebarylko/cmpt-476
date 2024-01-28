@@ -451,3 +451,25 @@ we know we have an entangled system.
 
 Since $|\phi\rangle \otimes |\psi\rangle$ is an untangled system, this 
 means that $CZ$ is entangling
+
+## Question five
+
+$\phi\rangle = \frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{2}\sqrt{3}}|01\rangle + \frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$
+
+### Calculate the probabilities of measuring 0 or 1 in the first qubit and the resulting normalized state vector
+
+#### probability of measuring 0 and resulting unit vector
+
+pr(measure 0 in first qubit) =  $|\frac{i\sqrt{2}}{\sqrt{3}}|^2 +  |\frac{1}{\sqrt{2}\sqrt{3}}|^2$
+
+pr(measure 0 in first qubit) =  $\frac{2}{3} + \frac{1}{6} = \frac{5}{6}$
+
+The resulting state after measuring 0 in the first qubit is $\frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{2}\sqrt{3}}|01\rangle$, 
+which is not a unit vector.
+
+To make the resulting state a unit vector, I must divide by $\sqrt{\frac{5}{6}}$
+
+Let $r^{\prime}$ be the resulting state after measuring 0 in the first 
+qubit which is a unit vector.
+
+$r^{\prime} = \frac{1}{\sqrt{\frac{5}{6}}}(\frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{2}\sqrt{3}}|01\rangle)$ 

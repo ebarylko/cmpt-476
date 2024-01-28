@@ -473,3 +473,18 @@ Let $r^{\prime}$ be the resulting state after measuring 0 in the first
 qubit which is a unit vector.
 
 $r^{\prime} = \frac{1}{\sqrt{\frac{5}{6}}}(\frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{2}\sqrt{3}}|01\rangle)$ 
+
+#### probability of measuring 1 in the first qubit and resulting unit vector
+
+pr(measure 1 in first qubit) =  $|\frac{1}{\sqrt{2}\sqrt{3}}|^2 = \frac{1}{6}$
+
+The resulting state after measuring 1 in the first qubit is $\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$,
+which is not a unit vector.
+
+To make the resulting state a unit vector, I must divide by $\sqrt{\frac{1}{6}}$
+
+Let $t^{\prime}$ be the resulting state after measuring 1 in the first
+qubit which is a unit vector.
+
+$t^{\prime} = \frac{1}{\sqrt{\frac{1}{6}}}\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$
+

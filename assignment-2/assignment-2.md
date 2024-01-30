@@ -146,19 +146,20 @@ $H|A\rangle = \frac{1}{2}(e^{i\frac{\pi}{4}}|+\rangle + e^{-i3\frac{\pi}{4}}|-\r
 $H|A\rangle = \frac{1}{2}((e^{i\frac{\pi}{4}} + e^{-i3\frac{\pi}{4}})|0\rangle +(e^{i\frac{\pi}{4}} - e^{-i3\frac{\pi}{4}})|1\rangle) = |C\rangle$
 
 The probability of measuring $|0\rangle$ in $|C\rangle$:
+
 $(\frac{1}{2})^2(e^{i\frac{\pi}{4}} + e^{-i3\frac{\pi}{4}})(e^{-i\frac{\pi}{4}} + e^{i3\frac{\pi}{4}})$
 
-= $\frac{1}{4}(2 + e^{i\pi} + e^{-i\pi)$
+= $\frac{1}{4}(2 + e^{i\pi} + e^{-i\pi})$
 
 Using $e^{i\theta} = cos(\theta) + isin(\theta)$
 
-$\frac{1}{4}(2 + e^{i\pi} + e^{-i\pi)$
+$\frac{1}{4}(2 + e^{i\pi} + e^{-i\pi})$
 
 $= \frac{1}{4}(2 + cos(\pi) + isin(\pi) + cos(\pi) -isin(\pi))$
 
 $= \frac{1}{4}(2 + cos(\pi) + cos(\pi))$
 
-$ = \frac{1}{4}(0) = 0$
+$= \frac{1}{4}(0) = 0$
 
 There is a 0% probability of measuring $|0\rangle$ in $|C\rangle$ 
 
@@ -169,7 +170,8 @@ $P(\theta)|\phi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) = |D\rangle$
 $H|D\rangle = \frac{1}{2}(|+\rangle + |-\rangle) = \frac{1}{2}(2|0\rangle) = |0\rangle = |E\rangle$ 
 
 The probability of measuring $|0\rangle$ in $|E\rangle$:
-$|\langleD\rangle|^2 = 1.
+
+$|\langle D \rangle|^2 = 1.
 
 We will always measure the $|0\rangle$ state in $|E\rangle$.
 

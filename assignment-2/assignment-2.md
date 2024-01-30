@@ -60,47 +60,61 @@ the initial state in $|A^{\prime}\rangle$ grows close to 1 and
 the probability of measuring the initial state in 
 $|B^{\prime}\rangle$ grows close to 0.
 
-If $\theta$ is very close to zero, then the probability of mapping the 
-initial state to $|A^{\prime}\rangle$ is very high.
+If we can get an upper bound on the probability of failing rotating from
+the $\0\rangle$ state to the $|1\rangle$ state, we can then calculate 
+$\theta$ and the number of rotations.
 
-If we rebind the initial state to what the initial state mapped to 
-and rebind $\beta$ to $\beta^{\prime}$ and repeat the measurement of 
-the initial state in the rotated basis, then the probability of
-mapping the initial state to $A^{\prime\prime}$ is $cos^2(\theta)$. 
-Repeatedly rotating the basis, mapping the initial state, and 
-rebinding the basis and initial state results in the $|0\rangle$ state
-being moved closer to the $|1\rangle$ state. 
+To get an upper bound on the probability,
+we must account for all the possible cases where we make 
+n -1 measurements that map to $|A^{\prime}\rangle$ and 1
+measurement that maps to $|B^{\prime}\rangle$
 
-For the value of $p$, we can create a lower bound for it 
-as the probability of always mapping to the rotated $|A\rangle$ 
-basis vector.
+Let $a_i$ be the event where we map to the $|B^{\prime}\rangle$ 
+basis vector after i - 1 rotations.
 
-The probability of always mapping to the $|A\rangle$ basis vector
-is $(pr(a_1) + pr(a_2) + ... pr(a_n))$, where $a_i$ represents
-the event in which the initial state maps to $|1\rangle$ after
-$i$ rotations. The value of the expression can be bounded by the 
-union-bound rule. 
+When i = 1, $pr(a_1) = sin^2(\theta)$.
 
-This means that $(pr(a_1) + pr(a_2) + ... pr(a_n)) < pr(a_1) + pr(a_2) + ... pr(a_n)$
+When i = 2, $pr(a_2) = cos^2(\theta)sin^2(\theta)$.
 
-Since we always rotate $\beta$ by an angle of $\theta$, the probability of
-mapping the initial state to $A^{\prime\prime}$ is $cos^2(\theta)$. 
-This means that $pr(a_i) = pr(a_2) = p(a_n)$
+When i = 3, $pr(a_3) = cos^2(\theta)cos^2(\theta)sin^2(\theta)$.
+
+For i = n, $pr(a_n) = cos^{2(n - 1)}(\theta)sin^2(\theta)$.
+
+Summing all these probabilities, we can use the union-bound rule to 
+state $(pr(a_1) + pr(a_2) + ... pr(a_n)) \le pr(a_1) + pr(a_2) + ... pr(a_n)$
+
+To simplify the sum of all $p(a_i)$, we can make the observation 
+that cos^{2n}(\theta) ($n \in \mathbb{Z}^{+}$) $\le 1$. This means 
+that $sin^2(\theta)cos^{2n}(\theta) \le sin^2(\theta)$
+
+When summing up each of the $p(a_i)$, we can upper bound them by
+the value $sin^2(\theta)$
+
+$(pr(a_1) + pr(a_2) + ... pr(a_n)) \le pr(a_1) + pr(a_2) + ... pr(a_n)$
+
+$p = n * sin^2(\theta)$
 
 Let $n$ be the number of rotations. $n = \frac{\pi}{2\theta}$.
 
-$p = n * pr(a_1)$ 
+$p = n * sin^2(\theta)$ 
 
-$p = \frac{\pi}{2\theta} * cos^2(\theta)$ 
+$p = \frac{\pi}{2\theta} * sin^2(\theta)$ 
 
-$\frac{2p}{\pi} = \frac{cos^2(\theta)}{\theta}$
+$\frac{2p}{\pi} = \frac{sin^2(\theta)}{\theta}$
 
+Using the approximation $sin^2(\theta) \approx x^2$
+when $x \rightarrow 0$.
 
-$\sqrt{\frac{p}{n}} = cos(\theta)$
+$\frac{2p}{\pi} = \frac{sin^2(\theta)}{\theta}$
 
-$arccos(\sqrt{\frac{p}{n}}) = theta$
+$= \frac{2p}{\pi} = \frac{(\theta)^2}{\theta}$
 
+$= \frac{2p}{\pi} = (\theta)$
 
+Using the formula $n = \frac{\pi}{2\theta}$ and the above 
+value of $\theta$,
+
+$n = \frac{\pi^2}{4p}$
 
 ## Question 2
 

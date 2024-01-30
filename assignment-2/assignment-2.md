@@ -61,7 +61,7 @@ the probability of measuring the initial state in
 $|B^{\prime}\rangle$ grows close to 0.
 
 If we can get an upper bound on the probability of failing rotating from
-the $\0\rangle$ state to the $|1\rangle$ state, we can then calculate 
+the $|0\rangle$ state to the $|1\rangle$ state, we can then calculate 
 $\theta$ and the number of rotations.
 
 To get an upper bound on the probability,
@@ -130,11 +130,12 @@ $$ \begin{bmatrix}
 
 
 Protocol: Apply $P(\theta)$, Hadamard gate, and then measure the 
-probability of measuring the $|0\rangle$ state.
+probability of measuring the $|0\rangle$ state. If it is zero, then 
+guess $\psi$, otherwise guess $\phi$
 
 $|\psi\rangle = \frac{1}{\sqrt{2}}(e^{i\frac{\pi}{4}}|0\rangle + |1\rangle)$ 
 
-$|\phi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + e^{i\3frac{\pi}{4}}|1\rangle$
+$|\phi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + e^{i3\frac{\pi}{4}}|1\rangle$
 
 Applying the protocol on $|\psi\rangle$:
 
@@ -147,8 +148,30 @@ $H|A\rangle = \frac{1}{2}((e^{i\frac{\pi}{4}} + e^{-i3\frac{\pi}{4}})|0\rangle +
 The probability of measuring $|0\rangle$ in $|C\rangle$:
 $(\frac{1}{2})^2(e^{i\frac{\pi}{4}} + e^{-i3\frac{\pi}{4}})(e^{-i\frac{\pi}{4}} + e^{i3\frac{\pi}{4}})$
 
+= $\frac{1}{4}(2 + e^{i\pi} + e^{-i\pi)$
 
+Using $e^{i\theta} = cos(\theta) + isin(\theta)$
 
+$\frac{1}{4}(2 + e^{i\pi} + e^{-i\pi)$
+
+$= \frac{1}{4}(2 + cos(\pi) + isin(\pi) + cos(\pi) -isin(\pi))$
+
+$= \frac{1}{4}(2 + cos(\pi) + cos(\pi))$
+
+$ = \frac{1}{4}(0) = 0$
+
+There is a 0% probability of measuring $|0\rangle$ in $|C\rangle$ 
+
+Applying the protocol on $|\phi\rangle$:
+
+$P(\theta)|\phi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) = |D\rangle$
+
+$H|D\rangle = \frac{1}{2}(|+\rangle + |-\rangle) = \frac{1}{2}(2|0\rangle) = |0\rangle = |E\rangle$ 
+
+The probability of measuring $|0\rangle$ in $|E\rangle$:
+$|\langleD\rangle|^2 = 1.
+
+We will always measure the $|0\rangle$ state in $|E\rangle$.
 
 ## Question 3
 

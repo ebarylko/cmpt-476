@@ -117,6 +117,40 @@ value of $\theta$,
 $n = \frac{\pi^2}{4p}$
 
 ## Question 2
+### give a protocol to distinguish with 100% accuracy between the states |ψ⟩ and |φ⟩
+
+Let $\theta = -i\frac{3\pi}{4}$
+
+Let $P(\theta) = 
+
+$$ \begin{bmatrix}
+1 & 0 \\
+0 &  e^{i\theta} \\
+\end{bmatrix} $$
+
+
+Protocol: Apply $P(\theta)$, Hadamard gate, and then measure the 
+probability of measuring the $|0\rangle$ state.
+
+$|\psi\rangle = \frac{1}{\sqrt{2}}(e^{i\frac{\pi}{4}}|0\rangle + |1\rangle)$ 
+
+$|\phi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + e^{i\3frac{\pi}{4}}|1\rangle$
+
+Applying the protocol on $|\psi\rangle$:
+
+$P(\theta)|\psi\rangle = \frac{1}{\sqrt{2}}(e^{i\frac{\pi}{4}}|0\rangle + e^{-i3\frac{\pi}{4}}|1\rangle) = |A\rangle$
+
+$H|A\rangle = \frac{1}{2}(e^{i\frac{\pi}{4}}|+\rangle + e^{-i3\frac{\pi}{4}}|-\rangle)$ 
+
+$H|A\rangle = \frac{1}{2}((e^{i\frac{\pi}{4}} + e^{-i3\frac{\pi}{4}})|0\rangle +(e^{i\frac{\pi}{4}} - e^{-i3\frac{\pi}{4}})|1\rangle) = |C\rangle$
+
+The probability of measuring $|0\rangle$ in $|C\rangle$:
+$(\frac{1}{2})^2(e^{i\frac{\pi}{4}} + e^{-i3\frac{\pi}{4}})(e^{-i\frac{\pi}{4}} + e^{i3\frac{\pi}{4}})$
+
+
+
+
+## Question 3
 
 $I$ = 
 

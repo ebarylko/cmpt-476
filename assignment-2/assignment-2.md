@@ -561,3 +561,73 @@ qubit which is a unit vector.
 
 $t^{\prime} = \frac{1}{\sqrt{\frac{1}{6}}}\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$
 
+## Question six
+
+### part two
+
+#### Show that a partial measurement of any qubit in the |ψ⟩ state leaves an entangled state in the remaining 2 qubits.
+
+**Measuring in the first qubit**
+
+Measuring $|0\rangle$ in the first qubit leaves us the state 
+$\frac{1}{2}(|000\rangle - |011\rangle)$
+
+= 
+
+$$ \begin{bmatrix}
+1 \\
+0 \\
+0 \\
+- 1 \\
+0 \\
+0 \\
+0 \\
+0 \\
+\end{bmatrix} $$
+
+If the remaining qubits are entangled, this means that there exists no
+$|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$
+= $\frac{1}{2}(|000\rangle - |011\rangle)$
+
+Let $|\phi\rangle$ be a $4X1$ ket and $|\psi\rangle$ be a $2X1$ ket.
+
+$|\phi\rangle$ =
+
+$$ \begin{bmatrix}
+a \\
+b \\
+c \\
+d\\
+  \end{bmatrix} $$
+
+$|\psi\rangle$ =
+
+$$ \begin{bmatrix}
+e \\
+f\\
+\end{bmatrix} $$
+
+$|\phi\rangle \otimes |\psi\rangle$ =
+
+$$ \begin{bmatrix}
+ae \\
+af \\
+be \\
+bf \\
+ce \\
+cf \\
+de \\
+df \\
+\end{bmatrix} $$
+
+Since $ae = 1$, we know that neither a nor e is zero. 
+
+From $bf = -1$, we know  that neither b nor f is zero. 
+
+However, we have that $be = 0$. Considering the above statements, we 
+can never have this property be satisfied. 
+
+Therefore, we cannot create = $\frac{1}{2}(|000\rangle - |011\rangle)$
+out of a tensor product of two other kets.
+
+**Measuring $|1\rangle$ in the first qubit**

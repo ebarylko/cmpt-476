@@ -581,43 +581,25 @@ d\\
 
 #### Show that a partial measurement of any qubit in the |ψ⟩ state leaves an entangled state in the remaining 2 qubits.
 
-**Measuring in the first qubit**
+**Measuring $|0\rangle in the first qubit**
 
 Measuring $|0\rangle$ in the first qubit leaves us the state 
-$\frac{1}{2}(|000\rangle - |011\rangle)$
-
-= 
-
-$$ \begin{bmatrix}
-1 \\
-0 \\
-0 \\
-- 1 \\
-0 \\
-0 \\
-0 \\
-0 \\
-\end{bmatrix} $$
+$\frac{1}{2}|0\rangle \otimes (|00\rangle - |11\rangle)$
 
 If the remaining qubits are entangled, this means that there exists no
 $|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$
-= $\frac{1}{2}(|000\rangle - |011\rangle)$
+= $\frac{1}{2}(|00\rangle - |11\rangle)$
 
-$|\phi\rangle$ =
-
-$$ \begin{bmatrix}
-a \\
-b \\
-  \end{bmatrix} $$
-
-$|\psi\rangle$ =
+$\frac{1}{2}(|00\rangle - |11\rangle)$  =
 
 $$ \begin{bmatrix}
-c \\
-d\\
+\frac{1}{2} \\
+0\\
+0\\
+-\frac{1}{2} \\
 \end{bmatrix} $$
 
-$|\phi\rangle \otimes |\psi\rangle$ =
+$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{2}(|00\rangle - |11\rangle)$  =
 
 $$ \begin{bmatrix}
 ac \\
@@ -626,22 +608,21 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-Since $ac = 1$, we know that neither a nor c is zero. 
+Since $ac = \frac{1}{2}$, we know that neither a nor c is zero. 
 
-From $bd = -1$, we know  that neither b nor d is zero. 
+From $bd = -\frac{1}{2}$, we know  that neither b nor d is zero. 
 
 However, we have that $bc = 0$. Considering the above statements, we 
 can never have this property be satisfied. 
 
 Therefore, we cannot create = $\frac{1}{2}(|00\rangle - |11\rangle)$
-out of a tensor product of two kets.
+out of a tensor product of two kets. 
 
 
 **Measuring $|1\rangle$ in the first qubit**
 
 Measuring $|1\rangle$ in the first qubit leaves us the state
-$\frac{1}{2}(- |110\rangle - |101\rangle)$ =
-
+$\frac{1}{2}|1\rangle \otimes(- |10\rangle - |01\rangle)$ 
 
 
 If measuring $|1\rangle$ in the first qubit leaves us an entangled 
@@ -848,6 +829,7 @@ as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
 The qubits we must measure are $|000\rangle, |110\rangle, |011\rangle, |101\rangle$
 
+Let $G$ be the following gate composition: $H \otimes H \otimes I$
 #### All qubits are measured in the {0, 1} basis.
 
 For $|000\rangle$, we measure zero for each qubit, summing to 
@@ -872,167 +854,123 @@ $a + b + c \bmod{2} = 2 \bmod{2}  = 0
 
 #### Qubits 0 and 1 are measured in the {|+⟩, |−⟩} basis and qubit 2 in the {0, 1} basis.
 
-For $|000\rangle$, we either measure $|+\rangle or |-\rangle for 
-qubit 0 and 1, and we measure 0 for qubit 2.
+For $|000\rangle$, let us apply $G$
+onto the qubits.
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 1, we have four possible parities associated with 
-the different outcomes of measuring in the Hadamard basis.
-
-Case 1: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|++0\rangle$ =
+$|(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle$
+=  $|000\rangle + |010\rangle + |100\rangle + |110\rangle$
 
 The resulting sums for the measurements of each of the 
-aforementioned cases are 2, 1, 0, and 1 respectively.
+qubits are 0, 1, 1, and 2 respectively.
 
-The parities of the cases are 0, 1, 0, and 1 respectively.
+The parities of the cases are 0, 1, 1, and 0 respectively.
 
-For $|110\rangle$, we either measure $|+\rangle or |-\rangle for
-qubit 0 and 1, and we measure 0 for qubit 2.
+For $|110\rangle$, let us apply $G$
+onto the qubits.
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 1, we have four possible parities associated with
-the different outcomes of measuring in the Hadamard basis.
-
-Case 1: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|--0\rangle$ =
+$|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle$
+=  $|000\rangle - |010\rangle - |100\rangle + |110\rangle$
 
 The resulting sums for the measurements of each of the
-aforementioned cases are 2, 1, 0, and 1 respectively.
+qubits are 0, 1, 1, and 2 respectively.
 
-The parities of the cases are 0, 1, 0, and 1 respectively.
+The parities of the cases are 0, 1, 1, and 0 respectively.
 
-For $|011\rangle$, we either measure $|+\rangle or |-\rangle for
-qubit 0 and 1, and we measure 1 for qubit 2.
+For $|011\rangle$, let us apply $G$
+onto the qubits.
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 1, we have four possible parities associated with
-the different outcomes of measuring in the Hadamard basis.
-
-Case 1: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|+-1\rangle$ =
+$|(|0\rangle + |1\rangle)(|0\rangle - |1\rangle)1\rangle$
+=  $|001\rangle - |011\rangle + |101\rangle - |111\rangle$
 
 The resulting sums for the measurements of each of the
-aforementioned cases are 3, 2, 1, and 2 respectively.
+qubits are 1, 2, 2, and 3 respectively.
 
-The parities of the cases are 1, 0, 1, and 0 respectively.
+The parities of the cases are 1, 0, 0, and 1 respectively.
 
-For $|101\rangle$, we either measure $|+\rangle or |-\rangle for
-qubit 0 and 1, and we measure 1 for qubit 2.
+For $|101\rangle$, let us apply $G$
+onto the qubits.
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 1, we have four possible parities associated with
-the different outcomes of measuring in the Hadamard basis.
-
-Case 1: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 1 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 1 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|-+1\rangle$ =
+$|(|0\rangle - |1\rangle)(|0\rangle + |1\rangle)1\rangle$
+=  $|001\rangle + |011\rangle - |101\rangle - |111\rangle$
 
 The resulting sums for the measurements of each of the
-aforementioned cases are 3, 2, 1, and 2 respectively.
+qubits are 1, 2, 2, and 3 respectively.
 
-The parities of the cases are 1, 0, 1, and 0 respectively.
+The parities of the cases are 1, 0, 0, and 1 respectively.
 
 #### Qubits 0 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 1 in the {0, 1} basis.
 
-For $|000\rangle$, we either measure $|+\rangle or |-\rangle for
-qubit 0 and 2, and we measure 0 for qubit 2.
+For $|000\rangle$,
+let us apply $G$
+onto the qubits.
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 2, we have four possible parities associated with
-the different outcomes of measuring in the Hadamard basis.
-
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|+0+\rangle$ =
+$|(|0\rangle + |1\rangle)0(|0\rangle + |1\rangle)\rangle$
+=  $|000\rangle + |001\rangle + |100\rangle + |101\rangle$
 
 The resulting sums for the measurements of each of the
-aforementioned cases are 2, 1, 0, and 1 respectively.
+qubits are 0, 1, 1, and 2 respectively.
 
-The parities of the cases are 0, 1, 0, and 1 respectively.
+The parities of the cases are 0, 1, 1, and 0 respectively.
 
-For $|110\rangle$, we either measure $|+\rangle or |-\rangle for
-qubit 0 and 2, and we measure 1 for qubit 1.
+For $|110\rangle$,
+let us apply $G$
+onto the qubits.
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 2, we have four possible parities associated with
-the different outcomes of measuring in the Hadamard basis.
-
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|-1+\rangle$ =
+$|(|0\rangle - |1\rangle)1(|0\rangle + |1\rangle)\rangle$
+=  $|010\rangle + |011\rangle - |110\rangle - |111\rangle$
 
 The resulting sums for the measurements of each of the
-aforementioned cases are 3, 2, 1, and 2 respectively.
+qubits are 1, 2, 2, and 3 respectively.
 
-The parities of the cases are 1, 0, 1, and 0 respectively.
+The parities of the cases are 1, 0, 0, and 1 respectively.
 
-For $|011\rangle$, we either measure $|+\rangle or |-\rangle for
-qubit 0 and 2, and we measure 1 for qubit 1.
+For $|011\rangle$, 
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 2, we have four possible parities associated with
-the different outcomes of measuring in the Hadamard basis.
+let us apply $G$
+onto the qubits.
 
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|+1-\rangle$ =
+$|(|0\rangle + |1\rangle)1(|0\rangle - |1\rangle)\rangle$
+=  $|010\rangle - |011\rangle + |110\rangle - |111\rangle$
 
 The resulting sums for the measurements of each of the
-aforementioned cases are 3, 2, 1, and 2 respectively.
+qubits are 1, 2, 2, and 3 respectively.
 
-The parities of the cases are 1, 0, 1, and 0 respectively.
+The parities of the cases are 1, 0, 0, and 1 respectively.
 
-For $|101\rangle$, we either measure $|+\rangle or |-\rangle for
-qubit 0 and 2, and we measure 0 for qubit 1.
+For $|101\rangle$, 
 
-Considering we either measure $|+\rangle or |-\rangle for
-qubits 0 and 2, we have four possible parities associated with
-the different outcomes of measuring in the Hadamard basis.
+let us apply $G$
+onto the qubits.
 
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|+\rangle$
-
-Case 2: qubit 2 is measured as $|+\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 3: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|-\rangle$
-
-Case 4: qubit 2 is measured as $|-\rangle$ and qubit 0 is measured as $|+\rangle$
+After doing so, we obtain $|-0-\rangle$ =
+$|(|0\rangle - |1\rangle)0(|0\rangle - |1\rangle)\rangle$
+=  $|000\rangle - |001\rangle - |100\rangle + |101\rangle$
 
 The resulting sums for the measurements of each of the
-aforementioned cases are 2, 1, 0, and 1 respectively.
+qubits are 0, 1, 1, and 2 respectively.
 
-The parities of the cases are 0, 1, 0, and 1 respectively.
+The parities of the cases are 0, 1, 1, and 0 respectively.
+
+For $|011\rangle$,
+
+let us apply $G$
+onto the qubits.
+
+After doing so, we obtain $|+1-\rangle$ =
+$|(|0\rangle + |1\rangle)1(|0\rangle - |1\rangle)\rangle$
+=  $|010\rangle - |011\rangle + |110\rangle - |111\rangle$
+
+The resulting sums for the measurements of each of the
+qubits are 1, 2, 2, and 3 respectively.
+
+The parities of the cases are 1, 0, 0, and 1 respectively.
 
 ### Qubits 1 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 0 in the {0, 1} basis.
 

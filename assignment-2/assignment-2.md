@@ -1045,3 +1045,33 @@ qubits are 1, 2, 2, and 3 respectively.
 
 The parities of the cases are 1, 0, 0, and 1 respectively.
 ### Denote the measurement result of qubit i in the {0, 1} basis by ai, and in the {|+⟩, |−⟩} basis by bi. Is it possible that each ai and bi has a pre-determined value independent of which basis the other qubits are measured in? Give a convincing argument for your answer
+
+Let us have a state $\phi$ which can either be $|00\rangle$ or 
+$|11\rangle$
+
+If each qubit can have pre-determined values independent of
+how the other qubits are measured, this means that no matter how 
+I measure the first qubit of $\phi$, the second qubit should always 
+have the measured values $a_2$ and $b_2$. 
+
+Since $a_2$ is measured in the computational basis, that means it 
+can have measurement values $|0\rangle$ or $|1\rangle$.
+
+In the case where $a_2$ has the measurement $|0\rangle$, I should 
+be able to measure the first qubit and still obtain  $|0\rangle$
+when measuring the second qubit. 
+
+However, if I measure the $|1\rangle$ state for my first qubit, 
+this affects the state of the second qubit. If the $|1\rangle$ 
+state is the first qubit, then $\phi$ must be  
+$|11\rangle$.
+
+Similarily, if $a_2$ had the measurement $|1\rangle$,
+measuring the $|0\rangle$ state for my first qubit
+affects the state of the second qubit and fixes $|\phi\rangle$ as
+$|00\rangle$.
+
+Since the state I measure from the first qubit impacts the state of the
+second qubit, this means each $a_i$ and $b_i$ is not independent from the 
+other $a_is$ and $b_is$.
+

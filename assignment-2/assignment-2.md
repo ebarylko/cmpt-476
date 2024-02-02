@@ -839,7 +839,6 @@ Let $T$ be the following gate composition: $H \otimes I \otimes H$
 For $|000\rangle$, we measure zero for each qubit, summing to 
 zero for the measurement result.
 
-$a + b + c \bmod{2} = 0 \bmod{2}  = 0$
 
 For $|110\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
@@ -849,63 +848,20 @@ $a + b + c \bmod{2} = 2 \bmod{2}  = 0$
 For $|011\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
-$a + b + c \bmod{2} = 2 \bmod{2}  = 0$
 
 For $|101\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
-$a + b + c \bmod{2} = 2 \bmod{2}  = 0$
+In total, we sum 6 for the measurement result, with a parity of zero.
 
 #### Qubits 0 and 1 are measured in the {|+⟩, |−⟩} basis and qubit 2 in the {0, 1} basis.
 
 Applying $G onto (|000\rangle - |110\rangle - |011\rangle - |101\rangle),
-we obtain $|++0\rangle - |--0\rangle$ - |+-1\rangle$ - |-+1\rangle$ $ 
-= $(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle) + (|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle)
+we obtain $|++0\rangle - |--0\rangle$ - |+-1\rangle$ - |-+1\rangle$  
+= $(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle) - (|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle) - (|0\rangle + |1\rangle)(|0\rangle - |1\rangle)1\rangle$) - ((|0\rangle - |1\rangle)(|0\rangle + |1\rangle)1\rangle)$ =
 
-After doing so, we obtain $|++0\rangle$ =
-$|(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle$
-=  $|000\rangle + |010\rangle + |100\rangle + |110\rangle$
+$\frac{1}{4}((|000\rangle + |010\rangle + |100\rangle + |110\rangle) - (|000\rangle - |010\rangle - |100\rangle + |110\rangle) - (|001\rangle + |011\rangle - |101\rangle - |111\rangle) - (|001\rangle - |011\rangle + |101\rangle - |111\rangle) - (|001\rangle + |011\rangle - |101\rangle - |111\rangle))$
 
-The resulting sums for the measurements of each of the 
-qubits are 0, 1, 1, and 2 respectively.
-
-The parities of the cases are 0, 1, 1, and 0 respectively.
-
-For $|110\rangle$, let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|--0\rangle$ =
-$|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle$
-=  $|000\rangle - |010\rangle - |100\rangle + |110\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 0, 1, 1, and 2 respectively.
-
-The parities of the cases are 0, 1, 1, and 0 respectively.
-
-For $|011\rangle$, let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|+-1\rangle$ =
-$|(|0\rangle + |1\rangle)(|0\rangle - |1\rangle)1\rangle$
-=  $|001\rangle - |011\rangle + |101\rangle - |111\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 1, 2, 2, and 3 respectively.
-
-The parities of the cases are 1, 0, 0, and 1 respectively.
-
-For $|101\rangle$, let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|-+1\rangle$ =
-$|(|0\rangle - |1\rangle)(|0\rangle + |1\rangle)1\rangle$
-=  $|001\rangle + |011\rangle - |101\rangle - |111\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 1, 2, 2, and 3 respectively.
-
-The parities of the cases are 1, 0, 0, and 1 respectively.
 
 #### Qubits 0 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 1 in the {0, 1} basis.
 
@@ -930,7 +886,7 @@ $\frac{1}{4}(|000\rangle + |001\rangle + |100\rangle + |101\rangle -(|010\rangle
 =
 
 
-$\frac{1}{4}(|001\rangle + |100\rangle + |111\rangle + |001\rangle)$
+$\frac{1}{2}(|001\rangle + |100\rangle + |111\rangle + |001\rangle)$
 
 
 The resulting measurement is 6.
@@ -945,11 +901,11 @@ let us apply $F$ onto $Q$.
 
 We obtain $\frac{1}{4}(|0++\rangle  - |1-+\rangle - |0--\rangle - |1+-\rangle)$ =
 
-$\frac{1}{2}(|0(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)\rangle) - (|1(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)\rangle) -(|0(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)) + (|1(|0\rangle + |1\rangle)(|0\rangle - |1\rangle))$
+$\frac{1}{4}(|0(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)\rangle) - (|1(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)\rangle) -(|0(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)) + (|1(|0\rangle + |1\rangle)(|0\rangle - |1\rangle))$
 
-= $\frac{1}{2}((|000\rangle + |001\rangle + |010\rangle + |011\rangle) - (|100\rangle + |101\rangle - |110\rangle - |111\rangle) - (|000\rangle - |001\rangle - |010\rangle + |011\rangle) - (|100\rangle - |101\rangle + |110\rangle - |111\rangle))$
+= $\frac{1}{4}((|000\rangle + |001\rangle + |010\rangle + |011\rangle) - (|100\rangle + |101\rangle - |110\rangle - |111\rangle) - (|000\rangle - |001\rangle - |010\rangle + |011\rangle) - (|100\rangle - |101\rangle + |110\rangle - |111\rangle))$
 
-= $\frac{1}{2}(2(|001\rangle + |010\rangle + |100\rangle + |111\rangle))
+= $\frac{1}{2}((|001\rangle + |010\rangle + |100\rangle + |111\rangle))$
 
 The resulting sum for the measurement 
 is 6.

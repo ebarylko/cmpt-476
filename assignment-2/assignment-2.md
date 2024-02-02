@@ -910,72 +910,31 @@ The parities of the cases are 1, 0, 0, and 1 respectively.
 #### Qubits 0 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 1 in the {0, 1} basis.
 
 For $|000\rangle$,
-let us apply $G$
-onto the qubits.
+let us apply $G$ onto $Q$.
 
-After doing so, we obtain $|+0+\rangle$ =
-$|(|0\rangle + |1\rangle)0(|0\rangle + |1\rangle)\rangle$
-=  $|000\rangle + |001\rangle + |100\rangle + |101\rangle$
+We obtain $\frac{1}{4}(|+0+\rangle - |-1+\rangle - |+1-\rangle - |-0-\rangle)$ =
 
-The resulting sums for the measurements of each of the
-qubits are 0, 1, 1, and 2 respectively.
+$$
 
-The parities of the cases are 0, 1, 1, and 0 respectively.
+\frac{1}{4}(((|0\rangle + |1\rangle)0(|0\rangle + |1\rangle)\rangle) -
+(|(|0\rangle - |1\rangle)1(|0\rangle + |1\rangle)\rangle) -
+(|(|0\rangle + |1\rangle)1(|0\rangle - |1\rangle)\rangle) -
+(|(|0\rangle - |1\rangle)0(|0\rangle - |1\rangle)\rangle))
 
-For $|110\rangle$,
-let us apply $G$
-onto the qubits.
+$$
 
-After doing so, we obtain $|-1+\rangle$ =
-$|(|0\rangle - |1\rangle)1(|0\rangle + |1\rangle)\rangle$
-=  $|010\rangle + |011\rangle - |110\rangle - |111\rangle$
+=
 
-The resulting sums for the measurements of each of the
-qubits are 1, 2, 2, and 3 respectively.
+$\frac{1}{4}(|000\rangle + |001\rangle + |100\rangle + |101\rangle -(|010\rangle + |011\rangle - |110\rangle - |111\rangle) - (|010\rangle - |011\rangle + |110\rangle - |111\rangle) - (|000\rangle - |001\rangle - |100\rangle + |101\rangle))$
 
-The parities of the cases are 1, 0, 0, and 1 respectively.
+=
 
-For $|011\rangle$, 
+$\frac{1}{4}(|001\rangle + |100\rangle + |111\rangle + |001\rangle)$
 
-let us apply $G$
-onto the qubits.
+The resulting measurement is 6.
 
-After doing so, we obtain $|+1-\rangle$ =
-$|(|0\rangle + |1\rangle)1(|0\rangle - |1\rangle)\rangle$
-=  $|010\rangle - |011\rangle + |110\rangle - |111\rangle$
+The parity is 0.
 
-The resulting sums for the measurements of each of the
-qubits are 1, 2, 2, and 3 respectively.
-
-The parities of the cases are 1, 0, 0, and 1 respectively.
-
-For $|101\rangle$, 
-
-let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|-0-\rangle$ =
-$|(|0\rangle - |1\rangle)0(|0\rangle - |1\rangle)\rangle$
-=  $|000\rangle - |001\rangle - |100\rangle + |101\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 0, 1, 1, and 2 respectively.
-
-The parities of the cases are 0, 1, 1, and 0 respectively.
-
-For $|011\rangle$,
-
-let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|+1-\rangle$ =
-$|(|0\rangle + |1\rangle)1(|0\rangle - |1\rangle)\rangle$
-=  $|010\rangle - |011\rangle + |110\rangle - |111\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 1, 2, 2, and 3 respectively.
-
-The parities of the cases are 1, 0, 0, and 1 respectively.
 
 ### Qubits 1 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 0 in the {0, 1} basis.
 

@@ -110,7 +110,7 @@ $1 - p = \frac{\pi}{2\theta} * sin^2(\theta)$
 
 $\frac{2(1 - p)}{\pi} = \frac{sin^2(\theta)}{\theta}$
 
-Using the approximation $sin^2(\theta) \approx x^2$
+Using the approximation $sin^2(\theta) \approx \theta^2$ when \theta is small,
 when $x \rightarrow 0$.
 
 $\frac{2(1 - p)}{\pi} = \frac{sin^2(\theta)}{\theta}$ =

@@ -585,21 +585,22 @@ d\\
 
 Measuring $|0\rangle$ in the first qubit leaves us the state 
 $\frac{1}{2}|0\rangle \otimes (|00\rangle - |11\rangle)$
+After normalizing the state, I have $\frac{1}{\sqrt{2}}|0\rangle \otimes (|00\rangle - |11\rangle)$
 
 If the remaining qubits are entangled, this means that there exists no
 $|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$
-= $\frac{1}{2}(|00\rangle - |11\rangle)$
+= $\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$
 
-$\frac{1}{2}(|00\rangle - |11\rangle)$  =
+$\frac{1}{sqrt{2}}(|00\rangle - |11\rangle)$  =
 
 $$ \begin{bmatrix}
-\frac{1}{2} \\
+\frac{1}{\sqrt{2}} \\
 0\\
 0\\
--\frac{1}{2} \\
+-\frac{1}{\sqrt{2}} \\
 \end{bmatrix} $$
 
-$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{2}(|00\rangle - |11\rangle)$  =
+$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$  =
 
 $$ \begin{bmatrix}
 ac \\
@@ -608,14 +609,14 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-Since $ac = \frac{1}{2}$, we know that neither a nor c is zero. 
+Since $ac = \frac{1}{\sqrt{2}}$, we know that neither a nor c is zero. 
 
-From $bd = -\frac{1}{2}$, we know  that neither b nor d is zero. 
+From $bd = -\frac{1}{\sqrt{2}}$, we know  that neither b nor d is zero. 
 
 However, we have that $bc = 0$. Considering the above statements, we 
 can never have this property be satisfied. 
 
-Therefore, we cannot create = $\frac{1}{2}(|00\rangle - |11\rangle)$
+Therefore, we cannot create = $\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$
 out of a tensor product of two kets. 
 
 
@@ -623,19 +624,19 @@ out of a tensor product of two kets.
 
 Measuring $|1\rangle$ in the first qubit leaves us the state
 $\frac{1}{2}|1\rangle \otimes(- |10\rangle - |01\rangle)$ 
-
+After normalizing the state, I have $\frac{1}{\sqrt{2}}|1\rangle \otimes(- |10\rangle - |01\rangle)$
 
 If measuring $|1\rangle$ in the first qubit leaves us an entangled 
 state in the remaining qubits, then it should be impossible to write
-$\frac{1}{2}(-|10\rangle - |01\rangle)$ as a tensor product of 
+$\frac{1}{\sqrt{2}}(-|10\rangle - |01\rangle)$ as a tensor product of 
 $|\psi\rangle$ and $|\phi\rangle$.
 
-$\frac{1}{2}(-|10\rangle - |01\rangle)$ =
+$\frac{1}{\sqrt{2}}(-|10\rangle - |01\rangle)$ =
 
 $$ \begin{bmatrix}
 0 \\
--1 \\
--1 \\
+-\frac{1}{\sqrt{2}}1 \\
+-\frac{1}{\sqrt{2}}1 \\
 0 \\
 \end{bmatrix} $$
 
@@ -663,30 +664,32 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-Since $ad = -1, bc = -1$, neither a, d, b, c can be zero.
+Since $ad = -\frac{1}{\sqrt{2}}1 = bc, neither a, d, b, c can be zero.
 
 However, we have that $ac = 0$, which is impossible given the following 
 conditions. Therefore, we cannot construct
-$\frac{1}{2}(-|10\rangle - |01\rangle)$ as a tensor product of
+$\frac{1}{\sqrt{2}}(-|10\rangle - |01\rangle)$ as a tensor product of
 $|\psi\rangle$ and $|\phi\rangle$.
 
 **Measuring $|0\rangle$ in the second qubit**
 
 Measuring $|0\rangle$ in the second qubit leaves us the state
 $\frac{1}{2}(|000\rangle - |101\rangle)$ =
+After normalizing the state, I have
+$\frac{1}{\sqrt{2}}(|000\rangle - |101\rangle)$
 
 If measuring $|0\rangle$ in the second qubit leaves us an entangled
 state in the remaining qubits, then it should be impossible to write
-$\frac{1}{2}(|00\rangle - |11\rangle)$ 
+$\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$
  as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
-$\frac{1}{2}(|00\rangle - |11\rangle)$ =
+$\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$ =
 
 $$ \begin{bmatrix}
-1 \\
+\frac{1}{\sqrt{2}} \\
 0 \\
 0 \\
-1 \\
+\frac{1}{\sqrt{2}} \\
 \end{bmatrix} $$
 
 $|\phi\rangle$ =
@@ -712,33 +715,34 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-Since $ac = \frac{1}{2}, bd = \frac{1}{2}$, this means a, c, b, d cannot be zero.
+Since $ac = \frac{1}{\sqrt{2}} = bd, this means a, c, b, d cannot be zero.
 
 The second equation, ad = 0, contradicts the aforementioned properties
 of a, b, c, and d. Therefore, we cannot write
 
-$\frac{1}{2}(|00\rangle - |11\rangle)$
+$\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$
 as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
 **Measuring $|1\rangle$ in the second qubit**
 
 Measuring $|1\rangle$ in the second qubit leaves us the state
-$\frac{1}{2}(- |110\rangle - |011\rangle)$ 
+$\frac{1}{2}(- |110\rangle - |011\rangle)$
+After normalizing the state, I have $\frac{1}{\sqrt{2}}|0\rangle (-|110\rangle - |011\rangle)$
 
 If the remaining qubits are entangled, this means that there exists no
-$|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$
-= $\frac{1}{2}(- |10\rangle - |01\rangle)$ 
+$|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$ =
+$\frac{1}{\sqrt{2}}|0\rangle (-|10\rangle - |01\rangle)$
 
-$\frac{1}{2}(- |10\rangle - |01\rangle)$  =
+$\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$  =
 
 $$ \begin{bmatrix}
 0 \\  
--\frac{1}{2} \\ 
--\frac{1}{2} \\ 
+-\frac{1}{\sqrt{2}} \\ 
+-\frac{1}{\sqrt{2}} \\ 
 0 \\ 
 \end{bmatrix} $$
 
-$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{2}(- |10\rangle - |01\rangle)$ =
+$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$ =
 
 $$ \begin{bmatrix}
 ac \\
@@ -747,33 +751,34 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-From this system, we know that $ad = -\frac{1}{2}, bc = -\frac{1}{2}$. 
+From this system, we know that $ad = -\frac{1}{\sqrt{2}}, bc = -\frac{1}{2}$. 
 This indicates none of a, b, c, or d is zero.
 
 These properties contradict with the equation $ac = 0$. Therefore, we 
 cannot write
-$\frac{1}{2}(- |10\rangle - |01\rangle)$
+$\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$
 as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
 **Measuring $|0\rangle$ in the third qubit**
 
 Measuring $|0\rangle$ in the third qubit leaves us the state
 $\frac{1}{2}( |000\rangle - |110\rangle)$
+After normalizing the state, I have $\frac{1}{\sqrt{2}}(|000\rangle - |110\rangle)$
 
 If the remaining qubits are entangled, this means that there exists no
 $|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$ =
-$\frac{1}{2}( |00\rangle - |11\rangle)$
+$\frac{1}{\sqrt{2}}( |00\rangle - |11\rangle)$
 
-$\frac{1}{2}( |00\rangle - |11\rangle)$  =
+$\frac{1}{\sqrt{2}}( |00\rangle - |11\rangle)$  =
 
 $$ \begin{bmatrix}
-\frac{1}{2} \\
+\frac{1}{\sqrt{2}} \\
 0\\
 0\\
--\frac{1}{2} \\
+-\frac{1}{\sqrt{2}} \\
 \end{bmatrix} $$
 
-$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{2}( |00\rangle - |11\rangle)$   =
+$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{\sqrt{2}}( |00\rangle - |11\rangle)$   =
 
 $$ \begin{bmatrix}
 ac \\
@@ -782,33 +787,34 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-From this system, we know that $ac = \frac{1}{2}, bc = -\frac{1}{2}$.
+From this system, we know that $ac = \frac{1}{\sqrt{2}}, bc = -\frac{1}{2}$.
 This indicates none of a, b, c, or d is zero.
 
 These properties contradict with the equation $ac = 0$. Therefore, we
 cannot write
-$\frac{1}{2}( |00\rangle - |11\rangle)$  
+$\frac{1}{\sqrt{2}}( |00\rangle - |11\rangle)$  
 as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
 
 **Measuring $|1\rangle$ in the third qubit**
 Measuring $|1\rangle$ in the third qubit leaves us the state
 $\frac{1}{2}(- |101\rangle - |011\rangle)$
+After normalizing the state, I have $\frac{1}{\sqrt{2}}(- |101\rangle - |011\rangle)$
 
 If the remaining qubits are entangled, this means that there exists no
 $|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$
-$\frac{1}{2}(- |10\rangle - |01\rangle)$
+$\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$
 
-$\frac{1}{2}(- |10\rangle - |01\rangle)$
+$\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$
 
 $$ \begin{bmatrix}
 0 \\  
--\frac{1}{2} \\
--\frac{1}{2} \\
+-\frac{1}{\sqrt{2}} \\
+-\frac{1}{\sqrt{2}} \\
 0 \\
 \end{bmatrix} $$
 
-$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{2}(- |10\rangle - |01\rangle)$
+$|\phi\rangle \otimes |\psi\rangle$ = $\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$
 
 $$ \begin{bmatrix}
 ac \\
@@ -817,12 +823,12 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-From this system, we know that $ad = -\frac{1}{2}, bc = -\frac{1}{2}$.
+From this system, we know that $ad = -\frac{1}{\sqrt{2}}, bc = -\frac{1}{2}$.
 This indicates none of a, b, c, or d is zero.
 
 These properties contradict with the equation $ac = 0$. Therefore, we
 cannot write
-$\frac{1}{2}(- |10\rangle - |01\rangle)$
+$\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$
 as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
 ### Compute the parity a⊕b⊕c = a+b+c mod 2 of the measurement results if
@@ -866,7 +872,7 @@ $\frac{1}{4}((|000\rangle + |010\rangle + |100\rangle + |110\rangle) - (|000\ran
 #### Qubits 0 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 1 in the {0, 1} basis.
 
 For $|000\rangle$,
-let us apply $G$ onto $Q$.
+let us apply $T$ onto $Q$.
 
 We obtain $\frac{1}{4}(|+0+\rangle - |-1+\rangle - |+1-\rangle - |-0-\rangle)$ =
 

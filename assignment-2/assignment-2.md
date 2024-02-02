@@ -61,10 +61,11 @@ the probability of measuring the initial state in
 $|B^{\prime}\rangle$ grows close to 0.
 
 If we can get an upper bound on the probability of failing rotating from
-the $|0\rangle$ state to the $|1\rangle$ state, we can then calculate 
-$\theta$ and the number of rotations.
+the $|0\rangle$ state to the $|1\rangle$ state, we can then 
+get a lower bound on the lower bound on the probability of rotating to 
+the $|1\rangle$ state and calculate $\theta$ and n.
 
-To get an upper bound on the probability,
+To get an upper bound on the probability of failure,
 we must account for all the possible cases where we make 
 n -1 measurements that map to $|A^{\prime}\rangle$ and 1
 measurement that maps to $|B^{\prime}\rangle$
@@ -92,29 +93,37 @@ the value $sin^2(\theta)$
 
 $(pr(a_1) + pr(a_2) + ... pr(a_n)) \le pr(a_1) + pr(a_2) + ... pr(a_n)$
 
-$p = n * sin^2(\theta)$
+The upper bound of the probability for failing to map to the $|1\rangle$ state
+is $nsin^2(\theta)$.
+
+Since we have an upper bound for the probability of failing, taking the complement 
+of it will give us the lower bound for the probability of succeeding in rotating to 
+$|1\rangle$.
+
+$p = 1 - nsin^2(\theta)$
 
 Let $n$ be the number of rotations. $n = \frac{\pi}{2\theta}$.
 
-$p = n * sin^2(\theta)$ 
+$1 - p = n * sin^2(\theta)$ 
 
-$p = \frac{\pi}{2\theta} * sin^2(\theta)$ 
+$1 - p = \frac{\pi}{2\theta} * sin^2(\theta)$ 
 
-$\frac{2p}{\pi} = \frac{sin^2(\theta)}{\theta}$
+$\frac{2(1 - p)}{\pi} = \frac{sin^2(\theta)}{\theta}$
 
 Using the approximation $sin^2(\theta) \approx x^2$
 when $x \rightarrow 0$.
 
-$\frac{2p}{\pi} = \frac{sin^2(\theta)}{\theta}$
+$\frac{2(1 - p)}{\pi} = \frac{sin^2(\theta)}{\theta}$ =
 
-$= \frac{2p}{\pi} = \frac{(\theta)^2}{\theta}$
+$\frac{2(1 - p)}{\pi} = \frac{\theta^2}{\theta}$ =
 
-$= \frac{2p}{\pi} = (\theta)$
+$\frac{2(1 - p)}{\pi} = \theta$ =
+
 
 Using the formula $n = \frac{\pi}{2\theta}$ and the above 
 value of $\theta$,
 
-$n = \frac{\pi^2}{4p}$
+$n = \frac{\pi^2}{1 - p}$
 
 ## Question 2
 ### give a protocol to distinguish with 100% accuracy between the states |ψ⟩ and |φ⟩
@@ -562,7 +571,7 @@ qubit which is a unit vector.
 
 $t^{\prime} = \frac{1}{\sqrt{\frac{1}{6}}}\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$ 
 
-=$|10\rangle$
+= $|10\rangle$
 
 ## Question six
 

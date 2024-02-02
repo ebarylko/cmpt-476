@@ -850,7 +850,7 @@ as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
 ### Compute the parity a⊕b⊕c = a+b+c mod 2 of the measurement results if
 
-Let $Q = \frac{1}{2}(|000\rangle, |110\rangle, |011\rangle, |101\rangle)$
+Let $Q = \frac{1}{2}(|000\rangle + |110\rangle - |011\rangle - |101\rangle)$
 
 Let $G$ be the following gate composition: $H \otimes H \otimes I$
 
@@ -883,7 +883,13 @@ Applying $G onto (|000\rangle - |110\rangle - |011\rangle - |101\rangle),
 we obtain $|++0\rangle - |--0\rangle$ - |+-1\rangle$ - |-+1\rangle$  
 = $(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle) - (|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle) - (|0\rangle + |1\rangle)(|0\rangle - |1\rangle)1\rangle$) - ((|0\rangle - |1\rangle)(|0\rangle + |1\rangle)1\rangle)$ =
 
-$\frac{1}{4}((|000\rangle + |010\rangle + |100\rangle + |110\rangle) - (|000\rangle - |010\rangle - |100\rangle + |110\rangle) - (|001\rangle + |011\rangle - |101\rangle - |111\rangle) - (|001\rangle - |011\rangle + |101\rangle - |111\rangle) - (|001\rangle + |011\rangle - |101\rangle - |111\rangle))$
+$\frac{1}{4}((|000\rangle + |010\rangle + |100\rangle + |110\rangle) - (|000\rangle - |010\rangle - |100\rangle + |110\rangle) - (|001\rangle + |011\rangle - |101\rangle - |111\rangle) - (|001\rangle - |011\rangle + |101\rangle - |111\rangle))$
+
+= $\frac{1}{2}(|010\rangle + |100\rangle  + |001\rangle + |111\rangle)$
+
+The measurements sum to 6.
+
+The parity is 0.
 
 
 #### Qubits 0 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 1 in the {0, 1} basis.
@@ -979,3 +985,26 @@ Charlie, and Bob receive the bit one. Let $G_i$ be $I$ otherwise.
 
 Let the composition of $G_1$, $G_2$, $G_3$ be $G$ =
 $G_1 \otimes G_2 \otimes G_3$.
+
+For our strategy, we will have everyone receive their bit and measure their corresponding qubit 
+with their appropriate gates. When they measure, they will report back their results to 
+the referee.
+
+Since we know that at most two of Alice, Charlie, and Bob 
+receive the bit one and that the results are the same in 
+cases where two out of the three bits are one, 
+we can analyze only two cases to conclude our strategy is valid.
+
+Case 1: Alice, Charlie, and Bob all receive a bit 0.
+In this case, everyone measures in the computational basis.
+
+When doing this, the following states are measured each with a probability of 
+$\frac{1}{4}: $|000\rangle, |110\rangle, |011\rangle, |101\rangle$
+
+For each of the states measured, all values of  $a \oplus b \oplus c$ return 0.
+
+Case 2: Two of Alice, Charlie, and Bob receive a bit 1.
+If Alice and Charlie receive the bit one, then $|\psi\rangle$ is measured using 
+$G$ and we obtain 
+
+

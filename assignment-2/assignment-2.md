@@ -227,12 +227,7 @@ Z &  0Z \\
 
 =
 
-
-$$ \begin{bmatrix}
-\begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix} & \begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} \\
-\begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} & \begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix}\\
-\end{bmatrix} 
-$$  
+![The tensor product of X and Z](tensor-prod-x-z.jpeg)
 
 
 #### Z⊗X
@@ -247,11 +242,7 @@ $$ \begin{bmatrix}
 ==
 
 
-$$ \begin{bmatrix}
-\begin{bmatrix} 0 & 1 \\ 1 & 0\end{bmatrix} & \begin{bmatrix} 1 & 0 \\ 0 & -1\end{bmatrix} \\
-\begin{bmatrix} 0 & 0 \\ 0 & 0\end{bmatrix} & \begin{bmatrix} 0 & -1 \\ -1 & 0\end{bmatrix}\\
-\end{bmatrix}
-$$  
+![The tensor product of Z and X](tensor-prod-z-x.jpeg)
 
 ### Show that the non-identity Pauli matrices anti-commute: that is, U V = −V U for every pair of X, Y , and Z matrices where U 6 = V
 

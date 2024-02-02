@@ -890,7 +890,7 @@ In total, we sum 6 for the measurement result, with a parity of zero.
 
 #### Qubits 0 and 1 are measured in the {|+⟩, |−⟩} basis and qubit 2 in the {0, 1} basis.
 
-Applying $G onto (|000\rangle - |110\rangle - |011\rangle - |101\rangle)$,
+Applying G onto $(|000\rangle - |110\rangle - |011\rangle - |101\rangle)$,
 we obtain $|++0\rangle - |--0\rangle$ - |+-1\rangle$ - |-+1\rangle$  
 
 = $(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle) - (|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle) - (|0\rangle + |1\rangle)(|0\rangle - |1\rangle)1\rangle$) - ((|0\rangle - |1\rangle)(|0\rangle + |1\rangle)1\rangle)$ =

@@ -609,7 +609,7 @@ d\\
 
 #### Show that a partial measurement of any qubit in the |ψ⟩ state leaves an entangled state in the remaining 2 qubits.
 
-**Measuring $|0\rangle in the first qubit**
+**Measuring |0>rangle in the first qubit**
 
 Measuring $|0\rangle$ in the first qubit leaves us the state 
 $\frac{1}{2}|0\rangle \otimes (|00\rangle - |11\rangle)$
@@ -619,7 +619,7 @@ If the remaining qubits are entangled, this means that there exists no
 $|\phi\rangle$ and $|\psi\rangle$ such that $|\phi\rangle \otimes |\psi\rangle$
 = $\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$
 
-$\frac{1}{sqrt{2}}(|00\rangle - |11\rangle)$  =
+$\frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)$  =
 
 $$ \begin{bmatrix}
 \frac{1}{\sqrt{2}} \\
@@ -692,7 +692,7 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-Since $ad = -\frac{1}{\sqrt{2}}1 = bc, neither a, d, b, c can be zero.
+Since $ad = -\frac{1}{\sqrt{2}}1 = bc$, neither a, d, b, c can be zero.
 
 However, we have that $ac = 0$, which is impossible given the following 
 conditions. Therefore, we cannot construct
@@ -743,7 +743,7 @@ bc \\
 bd \\
 \end{bmatrix} $$
 
-Since $ac = \frac{1}{\sqrt{2}} = bd, this means a, c, b, d cannot be zero.
+Since $ac = \frac{1}{\sqrt{2}} = bd$, this means a, c, b, d cannot be zero.
 
 The second equation, ad = 0, contradicts the aforementioned properties
 of a, b, c, and d. Therefore, we cannot write
@@ -890,8 +890,9 @@ In total, we sum 6 for the measurement result, with a parity of zero.
 
 #### Qubits 0 and 1 are measured in the {|+⟩, |−⟩} basis and qubit 2 in the {0, 1} basis.
 
-Applying $G onto (|000\rangle - |110\rangle - |011\rangle - |101\rangle),
+Applying $G onto (|000\rangle - |110\rangle - |011\rangle - |101\rangle)$,
 we obtain $|++0\rangle - |--0\rangle$ - |+-1\rangle$ - |-+1\rangle$  
+
 = $(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle) - (|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle) - (|0\rangle + |1\rangle)(|0\rangle - |1\rangle)1\rangle$) - ((|0\rangle - |1\rangle)(|0\rangle + |1\rangle)1\rangle)$ =
 
 $\frac{1}{4}((|000\rangle + |010\rangle + |100\rangle + |110\rangle) - (|000\rangle - |010\rangle - |100\rangle + |110\rangle) - (|001\rangle + |011\rangle - |101\rangle - |111\rangle) - (|001\rangle - |011\rangle + |101\rangle - |111\rangle))$

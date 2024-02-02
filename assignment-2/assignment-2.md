@@ -982,11 +982,13 @@ The parities of the cases are 1, 0, 0, and 1 respectively.
 
 let us apply $F$ onto $Q$.
 
-We obtain $\frac{1}{4}(|0++\rangle  - |1-+\rangle - |0--\rangle - |0--\rangle + |1+-\rangle)$ =
+We obtain $\frac{1}{4}(|0++\rangle  - |1-+\rangle - |0--\rangle - |1+-\rangle)$ =
 
-$\frac{1}{2}(|0(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)\rangle) - (|1(|0\rangle - |1\rangle)(|0\rangle + |1\rangle)\rangle) -(|0(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)) + (|1(|0\rangle + |1\rangle)(|0\rangle - |1\rangle))$
+$\frac{1}{2}(|0(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)\rangle) - (|1(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)\rangle) -(|0(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)) + (|1(|0\rangle + |1\rangle)(|0\rangle - |1\rangle))$
 
-= $(|000\rangle + |001\rangle + |010\rangle + |011\rangle) - (|100\rangle + |101\rangle - |110\rangle - |111\rangle) - (|000\rangle - |001\rangle - |010\rangle + |011\rangle) + (|100\rangle - |101\rangle + |110\rangle - |111\rangle)$
+= $\frac{1}{2}((|000\rangle + |001\rangle + |010\rangle + |011\rangle) - (|100\rangle + |101\rangle - |110\rangle - |111\rangle) - (|000\rangle - |001\rangle - |010\rangle + |011\rangle) - (|100\rangle - |101\rangle + |110\rangle - |111\rangle))$
+
+= $\frac{1}{2}(2(|001\rangle + |010\rangle + |101\rangle + |001\rangle ))
 
 
 

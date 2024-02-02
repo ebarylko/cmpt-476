@@ -1001,10 +1001,19 @@ In this case, everyone measures in the computational basis.
 When doing this, the following states are measured each with a probability of 
 $\frac{1}{4}: $|000\rangle, |110\rangle, |011\rangle, |101\rangle$
 
-For each of the states measured, all values of  $a \oplus b \oplus c$ return 0.
+For each of the states measured, all values of  $a \oplus b \oplus c$ return 0, consistent for what 
+$x \lor y \lor z$ evaluates to.
+
+Let $|\psi\rangle = \frac{1}{2}(|000\rangle + |110\rangle - |011\rangle - |101\rangle)$
 
 Case 2: Two of Alice, Charlie, and Bob receive a bit 1.
 If Alice and Charlie receive the bit one, then $|\psi\rangle$ is measured using 
-$G$ and we obtain 
+$G$ and we obtain $\frac{1}{2}(|010\rangle + |100\rangle  + |001\rangle + |111\rangle)$ (refer to question six, part 3b for the calculation).
 
+For each of the states measured, all values of  $a \oplus b \oplus c$ return 1, consistent for what
+$x \lor y \lor z$ evaluates to.
 
+By symmetry, we know that the strategy working for one of the scenarios where two of Alice, Charlie, and Bob receive a bit 1
+means that it works for the other scenarios in this category.
+
+Therefore, our strategy works on all types of valid inputs, assuring us that we always win the game.

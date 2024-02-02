@@ -914,14 +914,14 @@ let us apply $G$ onto $Q$.
 
 We obtain $\frac{1}{4}(|+0+\rangle - |-1+\rangle - |+1-\rangle - |-0-\rangle)$ =
 
-$$
-
-\frac{1}{4}(((|0\rangle + |1\rangle)0(|0\rangle + |1\rangle)\rangle) -
-(|(|0\rangle - |1\rangle)1(|0\rangle + |1\rangle)\rangle) -
-(|(|0\rangle + |1\rangle)1(|0\rangle - |1\rangle)\rangle) -
-(|(|0\rangle - |1\rangle)0(|0\rangle - |1\rangle)\rangle))
 
 $$
+\frac{1}{4}(((|0\rangle + |1\rangle)0(|0\rangle + |1\rangle)) -
+(|(|0\rangle - |1\rangle)1(|0\rangle + |1\rangle)) -
+(|(|0\rangle + |1\rangle)1(|0\rangle - |1\rangle)) -
+(|(|0\rangle - |1\rangle)0(|0\rangle - |1\rangle)))
+$$
+
 
 =
 

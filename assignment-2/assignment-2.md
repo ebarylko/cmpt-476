@@ -563,6 +563,23 @@ $t^{\prime} = \frac{1}{\sqrt{\frac{1}{6}}}\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$
 
 ## Question six
 
+### part one
+Let $F$ = $X \otimes I \otimes I$
+
+Let $S$ = $H \otimes I \otimes I$
+
+Let $T$ = $CNOT \otimes I$
+
+Let $U = TSF$
+
+$U(\frac{1}{\sqrt{2}}(|000\rangle - |111\rangle))$ =
+$TS(\frac{1}{\sqrt{2}}(|100\rangle - |011\rangle))$ =
+$T(\frac{1}{2}(|-00\rangle - |+11\rangle))$ =
+$T(\frac{1}{2}(|000\rangle - |100\rangle - (|011\rangle + |111\rangle)))$ =
+$(\frac{1}{2}(|000\rangle - |110\rangle - (|011\rangle + |101\rangle)))$ =
+$(\frac{1}{2}(|000\rangle - |110\rangle - |011\rangle - |111\rangle))$ =
+$|\psi\rangle$
+
 ### part two
 
 $|\phi\rangle$ =

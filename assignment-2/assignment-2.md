@@ -859,7 +859,7 @@ cannot write
 $\frac{1}{\sqrt{2}}(- |10\rangle - |01\rangle)$
 as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
-### Compute the parity a⊕b⊕c = a+b+c mod 2 of the measurement results if
+### Part 3
 
 Let $Q = \frac{1}{2}(|000\rangle + |110\rangle - |011\rangle - |101\rangle)$
 

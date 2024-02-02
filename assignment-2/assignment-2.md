@@ -121,7 +121,7 @@ $n = \frac{\pi^2}{4p}$
 
 Let $\theta = -i\frac{3\pi}{4}$
 
-Let $P(\theta) = 
+Let $P(\theta)$ = 
 
 $$ \begin{bmatrix}
 1 & 0 \\
@@ -171,7 +171,7 @@ $H|D\rangle = \frac{1}{2}(|+\rangle + |-\rangle) = \frac{1}{2}(2|0\rangle) = |0\
 
 The probability of measuring $|0\rangle$ in $|E\rangle$:
 
-$|\langle D \rangle|^2 = 1.
+$|\langle D \rangle|^2 = 1$.
 
 We will always measure the $|0\rangle$ state in $|E\rangle$.
 
@@ -533,11 +533,11 @@ $\phi\rangle = \frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{2}\sqrt{3}}
 
 #### probability of measuring 0 and resulting unit vector
 
-pr(measure 0 in first qubit) =  $|\frac{i\sqrt{2}}{\sqrt{3}}|^2 +  |\frac{1}{\sqrt{2}\sqrt{3}}|^2$
+pr(measure 0 in first qubit) =  $|\frac{i\sqrt{2}}{\sqrt{3}}|^2 +  |\frac{1}{\sqrt{6}}|^2$
 
 pr(measure 0 in first qubit) =  $\frac{2}{3} + \frac{1}{6} = \frac{5}{6}$
 
-The resulting state after measuring 0 in the first qubit is $\frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{2}\sqrt{3}}|01\rangle$, 
+The resulting state after measuring 0 in the first qubit is $\frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{6}}|01\rangle$, 
 which is not a unit vector.
 
 To make the resulting state a unit vector, I must divide by $\sqrt{\frac{5}{6}}$
@@ -546,12 +546,13 @@ Let $r^{\prime}$ be the resulting state after measuring 0 in the first
 qubit which is a unit vector.
 
 $r^{\prime} = \frac{1}{\sqrt{\frac{5}{6}}}(\frac{i\sqrt{2}}{\sqrt{3}}|00\rangle + \frac{1}{\sqrt{2}\sqrt{3}}|01\rangle)$ 
+= $r^{\prime} = \frac{1}{\sqrt{5}}(2i|00\rangle + |01\rangle)$
 
 #### probability of measuring 1 in the first qubit and resulting unit vector
 
-pr(measure 1 in first qubit) =  $|\frac{1}{\sqrt{2}\sqrt{3}}|^2 = \frac{1}{6}$
+pr(measure 1 in first qubit) =  $|\frac{1}{\sqrt{6}}|^2 = \frac{1}{6}$
 
-The resulting state after measuring 1 in the first qubit is $\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$,
+The resulting state after measuring 1 in the first qubit is $\frac{1}{\sqrt{6}}|10\rangle$,
 which is not a unit vector.
 
 To make the resulting state a unit vector, I must divide by $\sqrt{\frac{1}{6}}$
@@ -559,7 +560,9 @@ To make the resulting state a unit vector, I must divide by $\sqrt{\frac{1}{6}}$
 Let $t^{\prime}$ be the resulting state after measuring 1 in the first
 qubit which is a unit vector.
 
-$t^{\prime} = \frac{1}{\sqrt{\frac{1}{6}}}\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$
+$t^{\prime} = \frac{1}{\sqrt{\frac{1}{6}}}\frac{1}{\sqrt{2}\sqrt{3}}|10\rangle$ 
+
+=$|10\rangle$
 
 ## Question six
 

@@ -988,16 +988,12 @@ $\frac{1}{2}(|0(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)\rangle) - (|1(|0\r
 
 = $\frac{1}{2}((|000\rangle + |001\rangle + |010\rangle + |011\rangle) - (|100\rangle + |101\rangle - |110\rangle - |111\rangle) - (|000\rangle - |001\rangle - |010\rangle + |011\rangle) - (|100\rangle - |101\rangle + |110\rangle - |111\rangle))$
 
-= $\frac{1}{2}(2(|001\rangle + |010\rangle + |101\rangle + |001\rangle ))
+= $\frac{1}{2}(2(|001\rangle + |010\rangle + |100\rangle + |111\rangle))
 
+The resulting sum for the measurement 
+is 6.
 
-
-|100\rangle - |101\rangle + |110\rangle - |111\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 1, 2, 2, and 3 respectively.
-
-The parities of the cases are 1, 0, 0, and 1 respectively.
+The parity of this case is 0.
 ### Denote the measurement result of qubit i in the {0, 1} basis by ai, and in the {|+⟩, |−⟩} basis by bi. Is it possible that each ai and bi has a pre-determined value independent of which basis the other qubits are measured in? Give a convincing argument for your answer
 
 Let us have a state $\phi$ which can either be $|00\rangle$ or 

@@ -827,35 +827,40 @@ as a tensor product of $|\psi\rangle$ and $|\phi\rangle$.
 
 ### Compute the parity a⊕b⊕c = a+b+c mod 2 of the measurement results if
 
-The qubits we must measure are $|000\rangle, |110\rangle, |011\rangle, |101\rangle$
+Let $Q = \frac{1}{2}(|000\rangle, |110\rangle, |011\rangle, |101\rangle)$
 
 Let $G$ be the following gate composition: $H \otimes H \otimes I$
+
+Let $F$ be the following gate composition: $I \otimes H \otimes H$
+
+Let $T$ be the following gate composition: $H \otimes I \otimes H$
 #### All qubits are measured in the {0, 1} basis.
 
 For $|000\rangle$, we measure zero for each qubit, summing to 
 zero for the measurement result.
 
-$a + b + c \bmod{2} = 0 \bmod{2}  = 0
+$a + b + c \bmod{2} = 0 \bmod{2}  = 0$
 
 For $|110\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
-$a + b + c \bmod{2} = 2 \bmod{2}  = 0
+$a + b + c \bmod{2} = 2 \bmod{2}  = 0$
 
 For $|011\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
-$a + b + c \bmod{2} = 2 \bmod{2}  = 0
+$a + b + c \bmod{2} = 2 \bmod{2}  = 0$
 
 For $|101\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
-$a + b + c \bmod{2} = 2 \bmod{2}  = 0
+$a + b + c \bmod{2} = 2 \bmod{2}  = 0$
 
 #### Qubits 0 and 1 are measured in the {|+⟩, |−⟩} basis and qubit 2 in the {0, 1} basis.
 
-For $|000\rangle$, let us apply $G$
-onto the qubits.
+Applying $G onto (|000\rangle - |110\rangle - |011\rangle - |101\rangle),
+we obtain $|++0\rangle - |--0\rangle$ - |+-1\rangle$ - |-+1\rangle$ $ 
+= $(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle) + (|(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)0\rangle)
 
 After doing so, we obtain $|++0\rangle$ =
 $|(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)0\rangle$
@@ -974,71 +979,18 @@ The parities of the cases are 1, 0, 0, and 1 respectively.
 
 ### Qubits 1 and 2 are measured in the {|+⟩, |−⟩} basis and qubit 0 in the {0, 1} basis.
 
-For $|000\rangle$, 
 
-let us apply $G$
-onto the qubits.
+let us apply $F$ onto $Q$.
 
-After doing so, we obtain $|0++\rangle$ =
-$|0(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)\rangle$
-=  $|000\rangle + |001\rangle + |010\rangle + |011\rangle$
+We obtain $\frac{1}{4}(|0++\rangle$  - |1-+\rangle - |0--\rangle - |0--\rangle + |1+-\rangle)$ =
 
-The resulting sums for the measurements of each of the
-qubits are 0, 1, 1, and 2 respectively.
+$\frac{1}{2}(|0(|0\rangle + |1\rangle)(|0\rangle + |1\rangle)\rangle) - (|1(|0\rangle - |1\rangle)(|0\rangle + |1\rangle)\rangle) -(|0(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)) + (|1(|0\rangle + |1\rangle)(|0\rangle - |1\rangle))$
 
-The parities of the cases are 0, 1, 1, and 0 respectively.
-
-For $|011\rangle$,
-
-let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|0--\rangle$ =
-$|0(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)\rangle$
-=  $|000\rangle - |001\rangle - |010\rangle + |011\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 0, 1, 1, and 2 respectively.
-
-The parities of the cases are 0, 1, 1, and 0 respectively.
-
-For $|110\rangle$, 
-
-let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|1-+\rangle$ =
-$|1(|0\rangle - |1\rangle)(|0\rangle + |1\rangle)\rangle$
-=  $|100\rangle + |101\rangle - |110\rangle - |111\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 1, 2, 2, and 3 respectively.
-
-The parities of the cases are 1, 0, 0, and 1 respectively.
+= $(|000\rangle + |001\rangle + |010\rangle + |011\rangle) - (|100\rangle + |101\rangle - |110\rangle - |111\rangle) - (|000\rangle - |001\rangle - |010\rangle + |011\rangle) + (|100\rangle - |101\rangle + |110\rangle - |111\rangle)$
 
 
-For $|011\rangle$, 
 
-let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|0--\rangle$ =
-$|0(|0\rangle - |1\rangle)(|0\rangle - |1\rangle)\rangle$
-=  $|000\rangle - |001\rangle - |010\rangle + |011\rangle$
-
-The resulting sums for the measurements of each of the
-qubits are 0, 1, 1, and 2 respectively.
-
-The parities of the cases are 0, 1, 1, and 0 respectively.
-
-For $|101\rangle$,
-
-let us apply $G$
-onto the qubits.
-
-After doing so, we obtain $|1+-\rangle$ =
-$|1(|0\rangle + |1\rangle)(|0\rangle - |1\rangle)\rangle$
-=  $|100\rangle - |101\rangle + |110\rangle - |111\rangle$
+|100\rangle - |101\rangle + |110\rangle - |111\rangle$
 
 The resulting sums for the measurements of each of the
 qubits are 1, 2, 2, and 3 respectively.
@@ -1075,3 +1027,17 @@ Since the state I measure from the first qubit impacts the state of the
 second qubit, this means each $a_i$ and $b_i$ is not independent from the 
 other $a_is$ and $b_is$.
 
+### Give a quantum strategy (i.e. a strategy where involving a shared pre-entangled state) for a 3-player game where Alice, Bob, and Charlie are each given one bit x, y, and z respectively, and have to return a single bit a, b, c respectively such that a ⊕ b ⊕ c = a ∨ b ∨ c Hint: use the state |ψ⟩ as the initial shared state
+Alice, Charlie, and Bob receive a bit with value 0 or 1.
+
+Let us construct a gate out of the results of the bits 
+that Alice, Charlie, and Bob receive.
+
+Let $G_1$, $G_2$, $G_3$ be the gates corresponding to Alice, Charlie, and
+Bob respectively.
+
+For each of the $G_i$, let $G_i$ be $H$ if Alice, 
+Charlie, and Bob receive the bit one. Let $G_i$ be $I$ otherwise.
+
+Let the composition of $G_1$, $G_2$, $G_3$ be $G$ =
+$G_1 \otimes G_2 \otimes G_3$.

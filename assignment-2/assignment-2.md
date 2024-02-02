@@ -929,7 +929,9 @@ $\frac{1}{4}(|000\rangle + |001\rangle + |100\rangle + |101\rangle -(|010\rangle
 
 =
 
+
 $\frac{1}{4}(|001\rangle + |100\rangle + |111\rangle + |001\rangle)$
+
 
 The resulting measurement is 6.
 

@@ -576,11 +576,19 @@ Let $T$ = $CNOT \otimes I$
 Let $U = TSF$
 
 $U(\frac{1}{\sqrt{2}}(|000\rangle - |111\rangle))$ =
+
+$TSF(\frac{1}{\sqrt{2}}(|000\rangle - |111\rangle))$ =
+
 $TS(\frac{1}{\sqrt{2}}(|100\rangle - |011\rangle))$ =
+
 $T(\frac{1}{2}(|-00\rangle - |+11\rangle))$ =
+
 $T(\frac{1}{2}(|000\rangle - |100\rangle - (|011\rangle + |111\rangle)))$ =
+
 $(\frac{1}{2}(|000\rangle - |110\rangle - (|011\rangle + |101\rangle)))$ =
+
 $(\frac{1}{2}(|000\rangle - |110\rangle - |011\rangle - |111\rangle))$ =
+
 $|\psi\rangle$
 
 ### part two

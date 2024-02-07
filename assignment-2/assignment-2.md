@@ -873,20 +873,23 @@ Let $T$ be the following gate composition: $H \otimes I \otimes H$
 For $|000\rangle$, we measure zero for each qubit, summing to 
 zero for the measurement result.
 
+We have a parity of zero for $|000\rangle$.
+
 
 For $|110\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
-$a + b + c \bmod{2} = 2 \bmod{2}  = 0$
+We have a parity of zero for $|110\rangle$.
 
 For $|011\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
+We have a parity of zero for $|011\rangle$.
 
 For $|101\rangle$, we measure two ones and a zero, summing to
 two for the measurement result.
 
-In total, we sum 6 for the measurement result, with a parity of zero.
+We have a parity of zero for $|101\rangle$.
 
 #### Qubits 0 and 1 are measured in the {|+⟩, |−⟩} basis and qubit 2 in the {0, 1} basis.
 

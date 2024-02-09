@@ -151,7 +151,7 @@ $$
 
 The density matrix would be $\frac{1}{2}|0\rangle\langle0| + \frac{1}{2}|+\rangle\langle+|$
 
-$\frac{1}{2}|0\rangle\langle0| + \frac{1}{2}|+\rangle\langle+| $ =
+$\frac{1}{2}|0\rangle\langle0| + \frac{1}{2}|+\rangle\langle+|$ =
 
 $$\frac{1}{2}
 \begin{bmatrix} 
@@ -167,4 +167,42 @@ $$
 \frac{3}{4} & \frac{1}{4} \\
 \frac{1}{4} & \frac{1}{4} \\
 \end{bmatrix}
+$$
+
+### (|00⟩, 1/2 ), (|01⟩, 1/4 ), (|10⟩, 1/4 )}
+
+The density matrix would be $\frac{1}{4}(2|00\rangle\lange00| + |01\rangle\langle01| + |10\rangle\lange10|)$
+
+$\frac{1}{4}(2|00\rangle\lange00| + |01\rangle\langle01| + |10\rangle\lange10|)$ 
+
+= $$ \frac{1}{4} (
+2\begin{bmatrix}
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0  \\
+0 & 0 & 0 & 0  \\
+0 & 0 & 0 & 0  \\
+\end{bmatrix} +
+\begin{bmatrix}
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0  \\
+0 & 0 & 0 & 0  \\
+0 & 0 & 0 & 0  \\
+\end{bmatrix} +
+\begin{bmatrix}
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0  \\
+0 & 0 & 1 & 0  \\
+0 & 0 & 0 & 0  \\
+\end{bmatrix} )
+$$
+
+= 
+
+$$\frac{1}{4}
+\begin{bmatrix}
+2 & 0 & 0 & 0\\
+0 & 1 & 0 & 0  \\
+0 & 0 & 1 & 0  \\
+0 & 0 & 0 & 0  \\
+\end{bmatrix} 
 $$

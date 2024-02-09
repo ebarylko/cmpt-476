@@ -125,7 +125,7 @@ The density matrix would be $(\frac{1}{\sqrt{2}}|0⟩ + \frac{1}{\sqrt{2}}|+⟩)
 
 = $\frac{1}{2}(|0\rangle \langle 0| + |0\rangle \langle +| + |+\rangle \langle 0| + |+\rangle \langle 0|)$
 
-= $\frac{1}{2}(|0\ranlge (\langle 0| + \langle +|) + |+rangle (\langle 0| + \langle +|))$
+= $\frac{1}{2}(|0\rangle (\langle 0| + \langle +|) + |+rangle (\langle 0| + \langle +|))$
 
 
 $$ \frac{1}{2}
@@ -134,7 +134,7 @@ $$ \frac{1}{2}
 0 & 0 \\
 \end{bmatrix} +
 \begin{bmatrix}
-+ \frac{1}{\sqrt{2}} & 1 \\
+1 + \frac{1}{\sqrt{2}} & 1 \\
 1 + \frac{1}{\sqrt{2}}  & 1 \\
 \end{bmatrix} 
 $$

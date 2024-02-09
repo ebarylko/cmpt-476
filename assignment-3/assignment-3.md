@@ -146,3 +146,25 @@ $$\frac{1}{2}
 2 & 1 \\
 \end{bmatrix}
 $$
+
+### {(|0⟩, 1/2 ), (|+⟩, 1/2 )}
+
+The density matrix would be $\frac{1}{2}|0\rangle\langle0| + \frac{1}{2}|+\rangle\langle+|$
+
+$\frac{1}{2}|0\rangle\langle0| + \frac{1}{2}|+\rangle\langle+| $ =
+
+$$\frac{1}{2}
+\begin{bmatrix} 
+\frac{3}{2} & \frac{1}{2} \\
+\frac{1}{2} & \frac{1}{2} \\
+\end{bmatrix}
+$$
+
+=
+
+$$
+\begin{bmatrix}
+\frac{3}{4} & \frac{1}{4} \\
+\frac{1}{4} & \frac{1}{4} \\
+\end{bmatrix}
+$$

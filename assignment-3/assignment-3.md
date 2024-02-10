@@ -250,7 +250,7 @@ The reduced density matrix of the second qubit is $|1\rangle\langle1|$.
 Show that $p = {\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite.
 
 To show that ${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite, than
-for any $|V\rangle$ of appropriate dimension, $\langleV p\rangle V$ must be non-negative.
+\forall $|V\rangle$ of appropriate dimension, $\langle V p V\rangle$ must be non-negative.
 
 $\langleV p\rangle V$  =
 

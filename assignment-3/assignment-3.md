@@ -220,15 +220,15 @@ $$
 as $\frac{1}{2}(|01\rangle\langle01| - |01\rangle\langle10| - |10\rangle\langle01| + |10\rangle\langle10|)$
 
 
-$\frac{1}{2}(|01\rangle\langle01| - |01\rangle\lanlge10| - |10\rangle\langle01| + |10\rangle\langle10|)$
+$\frac{1}{2}(|01\rangle\langle01| - |01\rangle\langle10| - |10\rangle\langle01| + |10\rangle\langle10|)$
 
 = 
 
 $$
-\frac{1}{2}(|0\rangle\lange0| \otimes |1\rangle\lange1| - 
-|0\rangle\lange1| \otimes |1\rangle\lange0| -
-|1\rangle\langle0| \otimes |0\rangle\lange1| +
-|0\rangle\lange0| \otimes |1\rangle\lange1|)
+\frac{1}{2}(|0\rangle\langle0| \otimes |1\rangle\langle1| - 
+|0\rangle\langle1| \otimes |1\rangle\langle0| -
+|1\rangle\langle0| \otimes |0\rangle\langle1| +
+|0\rangle\langle0| \otimes |1\rangle\langle1|)
 $$
 
 

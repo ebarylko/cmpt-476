@@ -247,6 +247,32 @@ The reduced density matrix of the second qubit is $|1\rangle\langle1|$.
 
 ## Question five 
 
-Show that ${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite.
+Show that $p = {\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite.
+
+To show that ${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite, than
+for any $|V\rangle$ of appropriate dimension, $\langleV p\rangle V$ must be non-negative.
+
+$\langleV p\rangle V$  =
+
+{\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$ 
+
+Let $\langle V| \theta_i \rangle =  \langle\theta_i|V\rangle = k$
+
+
+{\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$  =
+
+${\displaystyle\sum_{i=1}^{n}} p_i|k^2$. 
+
+$\forall k \in \mathbb{R}, k^2 \geq 0$
+
+Considering that all the probabilities are non-zero and that $k^2 \geq 0$, this implies that
+${\displaystyle\sum_{i=1}^{n}} p_i|k^2$ will sum to a non-negative value.
+
+Since this occurs for any $|V\rangle$, $p$ is positive-semidefinite.
+
+## Question six
+
+
+
 
 

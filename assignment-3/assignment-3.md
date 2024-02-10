@@ -97,12 +97,14 @@ equivalent to rotating 180 degrees with respect to the z-axis.
 ## Question two
 
 ### How is a parity measurement of two qubits different from measuring both bits in the computational basis and then taking their parity?
-A parity measurement of two qubits maps directly to the 0 parity or 1 parity subspace. 
+A parity measurement of two qubits is a partial measurement that projects
+to the 0 parity or 1 parity subspace. It changes the state, but the superposition 
+is still maintained and we have uncertainty.
 
 A parity measurement of two qubits after measuring both bits in the computational basis 
-changes the state of the qubits before projecting them onto the parity subspaces. This 
-could differ since my state has changed, affecting my representation in the computational 
-basis. 
+projects both onto the computational basiS, removing any uncertainty we had before.
+When we then take the parity measurement of this, there no uncertainty when we project 
+onto one of the parity subspaces.
 
 
 The parity measurement of two qubits differs from measuring both bits in the computational basis and then taking their parity since
@@ -206,3 +208,50 @@ $$\frac{1}{4}
 0 & 0 & 0 & 0  \\
 \end{bmatrix} 
 $$
+
+### Question four
+
+We can represent the density matrix 
+
+$$
+\frac{1}{2}
+\begin{bmatrix}
+0 & 0 & 0 & 0\\
+0 & 1 & -1 & 0  \\
+0 & -1 & 1 & 0  \\
+0 & 0 & 0 & 0  \\
+\end{bmatrix}
+$$
+
+as $\frac{1}{2}(|01\rangle\langle01| - |01\rangle\lanlge10| - |10\rangle\langle01| + |10\rangle\langle10|)$
+
+$\frac{1}{2}(|01\rangle\langle01| - |01\rangle\lanlge10| - |10\rangle\langle01| + |10\rangle\langle10|)$
+
+= 
+
+$$
+\frac{1}{2}(|0\rangle\lange0| \otimes |1\rangle\lange1| - 
+|0\rangle\lange1| \otimes |1\rangle\lange0| -
+|1\rangle\langle0| \otimes |0\rangle\lange1| +
+|0\rangle\lange0| \otimes |1\rangle\lange1|)
+$$
+
+
+Tracing out the first qubit, we have 
+
+$$
+\frac{1}{2}(\lange0|0\rangle \otimes |1\rangle\lange1| -
+\langle1|0\rangle \otimes |1\rangle\lange0| -
+\langle0|1\rangle \otimes |0\rangle\lange1| +
+\lange0|0\rangle \otimes |1\rangle\lange1|)
+$$
+
+= $\frac{1}{2}(2|1\rangle\lange1|) = |1\rangle\lange1|$
+
+The reduced density matrix of the second qubit is $|1\rangle\lange1|$.
+
+## Question five 
+
+Show that ${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite.
+
+

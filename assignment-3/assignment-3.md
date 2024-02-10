@@ -252,21 +252,21 @@ Show that $p = {\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|
 To show that ${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite, than
 \forall $|V\rangle$ of appropriate dimension, $\langle V p V\rangle$ must be non-negative.
 
-$\langleV p\rangle V$  =
+$\langle V p V\rangle$  =
 
-{\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$ 
+{\displaystyle\sum_{i=1}^{n}} p_i|\langle V |\theta_i\rangle \langle \theta_i | V\rangle$ 
 
-Let $\langle V| \theta_i \rangle =  \langle\theta_i|V\rangle = k$
+Let $\langle V| \theta_i \rangle =  \langle\theta_i|V\rangle = k_i$
 
 
 {\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$  =
 
-${\displaystyle\sum_{i=1}^{n}} p_i|k^2$. 
+${\displaystyle\sum_{i=1}^{n}} p_i|{k_{i}}^2$. 
 
-$\forall k \in \mathbb{R}, k^2 \geq 0$
+$\forall k_i \in \mathbb{R}, {k_i}^2 \geq 0$
 
-Considering that all the probabilities are non-zero and that $k^2 \geq 0$, this implies that
-${\displaystyle\sum_{i=1}^{n}} p_i|k^2$ will sum to a non-negative value.
+Considering that all the probabilities are non-zero and that every ${k_i}^2 \geq 0$, 
+this implies that ${\displaystyle\sum_{i=1}^{n}} p_i|{k_i}^2$ will sum to a non-negative value.
 
 Since this occurs for any $|V\rangle$, $p$ is positive-semidefinite.
 

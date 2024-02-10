@@ -171,7 +171,7 @@ $\frac{1}{4}(2|00\rangle\langle00| + |01\rangle\langle01| + |10\rangle\langle10|
 
 = 
 
-$$ \frac{1}{4} (
+$$ \frac{1}{4} 
 2\begin{bmatrix}
 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0  \\
@@ -189,7 +189,7 @@ $$ \frac{1}{4} (
 0 & 0 & 0 & 0  \\
 0 & 0 & 1 & 0  \\
 0 & 0 & 0 & 0  \\
-\end{bmatrix} )
+\end{bmatrix} 
 $$
 = 
 

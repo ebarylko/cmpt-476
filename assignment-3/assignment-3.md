@@ -127,7 +127,7 @@ The density matrix would be $(\frac{1}{\sqrt{2}}|0⟩ + \frac{1}{\sqrt{2}}|+⟩)
 
 = $\frac{1}{2}(|0\rangle \langle 0| + |0\rangle \langle +| + |+\rangle \langle 0| + |+\rangle \langle 0|)$
 
-= $\frac{1}{2}(|0\rangle (\langle 0| + \langle +|) + |+rangle (\langle 0| + \langle +|))$
+= $\frac{1}{2}(|0\rangle (\langle 0| + \langle +|) + |+\rangle (\langle 0| + \langle +|))$ =
 
 
 $$ \frac{1}{2}
@@ -139,14 +139,6 @@ $$ \frac{1}{2}
 1 + \frac{1}{\sqrt{2}} & 1 \\
 1 + \frac{1}{\sqrt{2}}  & 1 \\
 \end{bmatrix} 
-$$
-
-=
-$$\frac{1}{2}
-\begin{bmatrix}
-4 & 2 \\
-2 & 1 \\
-\end{bmatrix}
 $$
 
 ### {(|0⟩, 1/2 ), (|+⟩, 1/2 )}
@@ -173,11 +165,13 @@ $$
 
 ### (|00⟩, 1/2 ), (|01⟩, 1/4 ), (|10⟩, 1/4 )}
 
-The density matrix would be $\frac{1}{4}(2|00\rangle\lange00| + |01\rangle\langle01| + |10\rangle\lange10|)$
+The density matrix would be $\frac{1}{4}(2|00\rangle\langle00| + |01\rangle\langle01| + |10\rangle\langle10|)$
 
-$\frac{1}{4}(2|00\rangle\lange00| + |01\rangle\langle01| + |10\rangle\lange10|)$ 
+$\frac{1}{4}(2|00\rangle\langle00| + |01\rangle\langle01| + |10\rangle\langle10|)$  
 
-= $$ \frac{1}{4} (
+= 
+
+$$ \frac{1}{4} (
 2\begin{bmatrix}
 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0  \\
@@ -197,7 +191,6 @@ $\frac{1}{4}(2|00\rangle\lange00| + |01\rangle\langle01| + |10\rangle\lange10|)$
 0 & 0 & 0 & 0  \\
 \end{bmatrix} )
 $$
-
 = 
 
 $$\frac{1}{4}

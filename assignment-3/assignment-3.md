@@ -216,7 +216,9 @@ $$
 \end{bmatrix}
 $$
 
-as $\frac{1}{2}(|01\rangle\langle01| - |01\rangle\lanlge10| - |10\rangle\langle01| + |10\rangle\langle10|)$
+
+as $\frac{1}{2}(|01\rangle\langle01| - |01\rangle\langle10| - |10\rangle\langle01| + |10\rangle\langle10|)$
+
 
 $\frac{1}{2}(|01\rangle\langle01| - |01\rangle\lanlge10| - |10\rangle\langle01| + |10\rangle\langle10|)$
 

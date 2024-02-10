@@ -235,15 +235,15 @@ $$
 Tracing out the first qubit, we have 
 
 $$
-\frac{1}{2}(\lange0|0\rangle \otimes |1\rangle\lange1| -
-\langle1|0\rangle \otimes |1\rangle\lange0| -
-\langle0|1\rangle \otimes |0\rangle\lange1| +
-\lange0|0\rangle \otimes |1\rangle\lange1|)
+\frac{1}{2}(\langle0|0\rangle \otimes |1\rangle\langle1| -
+\langle1|0\rangle \otimes |1\rangle\langle0| -
+\langle0|1\rangle \otimes |0\rangle\langle1| +
+\langle0|0\rangle \otimes |1\rangle\langle1|)
 $$
 
-= $\frac{1}{2}(2|1\rangle\lange1|) = |1\rangle\lange1|$
+= $\frac{1}{2}(2|1\rangle\langle1|) = |1\rangle\langle1|$
 
-The reduced density matrix of the second qubit is $|1\rangle\lange1|$.
+The reduced density matrix of the second qubit is $|1\rangle\langle1|$.
 
 ## Question five 
 

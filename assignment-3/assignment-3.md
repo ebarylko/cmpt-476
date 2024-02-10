@@ -119,6 +119,29 @@ the two other qubits is 0.
 
 If not, the parity of the two other qubits is 1.
 
+There are three cases to consider for the circuit:
+* Both of the first two qubits are 0 
+* Only one of the first two qubits are 1
+* Both of the first two qubits are 0
+
+**Case 1: both qubits are 0**
+
+If both qubits are zero, then the ancilla bit will not be turned on and will return us 
+0 for the parity of the other two qubits. This matches the actual parity.
+
+**Case 2: Only one of the qubits are 1**
+
+The ancilla bit will be turned on by the bit that is in the one state, and will have nothing
+done to it by the other bit. 
+
+Measuring the ancilla bit, we will obtain 1, which is the parity of the first two qubits.
+
+**Case 3: both of the qubits are 1**
+
+The ancilla bit will be turned on by one bit and will be turned off by the other bit.
+
+Measuring the ancilla bit, we will obtain 0, which is the parity of the first two qubits.
+
 ## Question three
 
 ### Calculate the density matrix of {( 1√2 |0⟩ + 1√2 |+⟩, 1)}

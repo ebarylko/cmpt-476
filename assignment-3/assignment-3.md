@@ -177,13 +177,13 @@ $$ \frac{1}{4}
 0 & 0 & 0 & 0  \\
 0 & 0 & 0 & 0  \\
 0 & 0 & 0 & 0  \\
-\end{bmatrix} +
+\end{bmatrix} 
 \begin{bmatrix}
 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0  \\
 0 & 0 & 0 & 0  \\
 0 & 0 & 0 & 0  \\
-\end{bmatrix} +
+\end{bmatrix} 
 \begin{bmatrix}
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0  \\

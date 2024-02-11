@@ -164,6 +164,11 @@ $$ \frac{1}{2}
 \end{bmatrix} 
 $$
 
+-1 + i/sqrt(2)
+i/sqrt(2) + 1/2 
+1/2
+
+
 ### {(|0⟩, 1/2 ), (|+⟩, 1/2 )}
 
 The density matrix would be $\frac{1}{2}|0\rangle\langle0| + \frac{1}{2}|+\rangle\langle+|$
@@ -282,7 +287,7 @@ $\langle V p V\rangle$  =
 Let $\langle V| \theta_i \rangle =  \langle\theta_i|V\rangle = k_i$
 
 
-{\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$  =
+${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$  =
 
 ${\displaystyle\sum_{i=1}^{n}} p_i|{k_{i}}^2$. 
 
@@ -294,6 +299,30 @@ this implies that ${\displaystyle\sum_{i=1}^{n}} p_i|{k_i}^2$ will sum to a non-
 Since this occurs for any $|V\rangle$, $p$ is positive-semidefinite.
 
 ## Question six
+
+Let $G = {\displaystyle\sum_{i=1}^{n}} |e_i\rangle\langle e_i| \otimes I$.
+
+$P^{AB} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} |e_i\rangle\langle e_j| \otimes |f_e\rangle \langle f_k|$
+
+$P^B = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(|e_i\rangle\langle e_j|) \otimes |f_e\rangle \langle f_k|$
+
+
+$P^B = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle e_j|e_i\rangle) \otimes |f_e\rangle \langle f_k|$
+
+Even if I apply $G$ solely on to Alice's qubit, Bob's reduced density matrix should not 
+change.
+
+Let $(G \otimes I)$ be the gate applied onto Alice's and Bob's shared state.
+
+Applying $(G \otimes I)$ onto Alice's and Bob's shared state and then calculating the 
+reduced density matrix, we have that it is 
+$P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(|Ge_i\rangle\langle e_jG^{\dagger}|) \otimes |f_e\rangle \langle f_k|$
+
+$P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle e_jG^{\dagger}||Ge_i\rangle) \otimes |f_e\rangle \langle f_k|$ (from the cyclicity of the trace)
+
+$P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle e_j |e_i\rangle) \otimes |f_e\rangle \langle f_k|$ (from the fact that $GG^{\dagger} = I$)
+
+$P^{B^{\prime}} = P^B$
 
 
 

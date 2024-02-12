@@ -266,12 +266,12 @@ $$
 \frac{1}{2}(\langle0|0\rangle \otimes |1\rangle\langle1| -
 \langle1|0\rangle \otimes |1\rangle\langle0| -
 \langle0|1\rangle \otimes |0\rangle\langle1| +
-\langle0|0\rangle \otimes |1\rangle\langle1|)
+\langle1|1\rangle \otimes |0\rangle\langle0|)
 $$
 
-= $\frac{1}{2}(2|1\rangle\langle1|) = |1\rangle\langle1|$
+= $\frac{1}{2}(|1\rangle\langle1| + |0\rangle\langle0|)$
 
-The reduced density matrix of the second qubit is $|1\rangle\langle1|$.
+The reduced density matrix of the second qubit is $\frac{1}{2}(|1\rangle\langle1| + |0\rangle\langle0|)$
 
 ## Question five 
 

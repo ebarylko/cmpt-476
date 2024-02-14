@@ -325,6 +325,47 @@ $P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle
 $P^{B^{\prime}} = P^B$
 
 
+## Question seven
 
+### Describe a procedure by which Alice and Bob could apply a CNOT gate to their pair of qubits — i.e. CN OT (|ψ⟩ ⊗ |ϕ⟩)
 
+I can give both Alice and Bob part of an entangled EPR pair. 
 
+Then, I will have Alice measure her two qubits in the Bell basis and then send 
+the results to Bob. Then, Bob can apply the suitable transformations to change his 
+qubit in the EPR pair to $|\psi\rangle$. 
+
+After, Bob can then apply a CNOT gate between his qubit in the EPR pair and $|\phi\rangle$.
+
+### 
+
+### Explain why the following circuit would implement a CNOT gate on the state |ψ⟩|ϕ⟩
+
+The states $|\phi\rangle$ and $|\psi\rangle$ get copied over to the first qubit of the 
+first EPR pair and the second qubit of the second EPR pair respectively.
+
+Then, we apply a CNOT gate on the first qubit of the first EPR pair and the second 
+qubit of the second EPR pair. Since we have already copied $|\phi\rangle$ and $|\psi\rangle$
+over to the aforementioned EPR pairs, applying the CNOT on those two qubits will 
+result in $CNOT(|\phi\rangle |\psi\rangle)$
+
+### Explain why the circuit below where a, b, c, d are the functions of w, x, y, z you gave in part 3 implements a remote CN OT between their qubits — that is, applies CN OT (|ψ⟩ ⊗ |ϕ⟩) without Alice or Bob physically teleporting their qubits to one another.
+
+When Alice takes her half of the entangled state and measures the first two qubits in the 
+Bell basis, she can copy over her state to the second qubit in $\Delta$ by sending 
+bits a and b over, which represent the transformations which need to occur in order 
+to obtain $|\psi\rangle$. 
+
+When Bob takes his half of the entangled state and measures the first two qubits in the
+Bell basis, he can copy over his state to the third qubit in $\Delta$ by sending
+bits c and d over, which represent the transformations which need to occur in order
+to obtain $|\phi\rangle$. 
+
+At that point, we now have in bits 2 and 3 of $\Delta$ $|\psi\rangle$ and $|\phi\rangle$ 
+respectively.
+
+When we apply a CNOT gate on the third and second bit in $\Delta$, it is the equivalent 
+to $CNOT(|\phi\rangle |\psi\rangle)$.
+
+Although we did not teleport the qubits over physically to either Alice or Bob, we were 
+still able to apply a remote CNOT by having them share portions of an entangled state.

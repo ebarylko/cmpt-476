@@ -282,7 +282,7 @@ To show that ${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$
 
 $\langle V p V\rangle$  =
 
-{\displaystyle\sum_{i=1}^{n}} p_i|\langle V |\theta_i\rangle \langle \theta_i | V\rangle$ 
+${\displaystyle\sum_{i=1}^{n}} p_i|\langle V |\theta_i\rangle \langle \theta_i | V\rangle$ 
 
 Let $\langle V| \theta_i \rangle =  \langle\theta_i|V\rangle = k_i$
 
@@ -324,6 +324,11 @@ $P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle
 
 $P^{B^{\prime}} = P^B$
 
+Ignore the above
+
+
+Since we can choose any basis to write Alice's density matrix in, let us chose to write it 
+in the basis used for the partial measurement.
 
 We have $Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i\rangle \langle e_i| \otimes I))$
 
@@ -335,9 +340,9 @@ We have $Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i\rangle \langle e_i|
 
 = $Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
 
-= {\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(|e_i\rangle \langle e_f| |e_i\rangle\langle e_j|) \otimes |f_e\rangle \langle f_k|$
+= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(|e_i\rangle \langle e_f| |e_i\rangle\langle e_j|) \otimes |f_e\rangle \langle f_k|$
 
-= {\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(\langle e_j||e_i\rangle \langle e_f| |e_i\rangle) \otimes |f_e\rangle \langle f_k|$
+= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(\langle e_j||e_i\rangle \langle e_f| |e_i\rangle) \otimes |f_e\rangle \langle f_k|$
 
 Since I sum over the projectors in $H_A$, lets consider the case where 
 $|e_j\rangle = |e_i\rangle$ and $|e_i\rangle \neq |e_j\rangle$.

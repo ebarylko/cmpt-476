@@ -309,28 +309,14 @@ $P^B = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(|e_i\rangle\langle
 
 $P^B = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle e_j|e_i\rangle) \otimes |f_e\rangle \langle f_k|$
 
-Even if I apply $G$ solely on to Alice's qubit, Bob's reduced density matrix should not 
-change.
-
-Let $(G \otimes I)$ be the gate applied onto Alice's and Bob's shared state.
-
-Applying $(G \otimes I)$ onto Alice's and Bob's shared state and then calculating the 
-reduced density matrix, we have that it is 
-$P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(|Ge_i\rangle\langle e_jG^{\dagger}|) \otimes |f_e\rangle \langle f_k|$
-
-$P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle e_jG^{\dagger}||Ge_i\rangle) \otimes |f_e\rangle \langle f_k|$ (from the cyclicity of the trace)
-
-$P^{B^{\prime}} = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle e_j |e_i\rangle) \otimes |f_e\rangle \langle f_k|$ (from the fact that $GG^{\dagger} = I$)
-
-$P^{B^{\prime}} = P^B$
-
-Ignore the above
-
+$P^B = {\displaystyle\sum_{i, e, k}^{}} p_{ijek} \text{Tr}(\langle e_i|e_i\rangle) \otimes |f_e\rangle \langle f_k|$
 
 Since we can choose any basis to write Alice's density matrix in, let us chose to write it 
 in the basis used for the partial measurement.
 
-We have $Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i\rangle \langle e_i| \otimes I))$
+Applying the partial measurement on Alice's qubit, we have
+
+$Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i\rangle \langle e_i| \otimes I))$
 
 = $Tr((|e_i\rangle \langle e_i| \otimes I)(|e_i\rangle \langle e_i| \otimes I) P^{AB})$
 
@@ -340,22 +326,26 @@ We have $Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i\rangle \langle e_i|
 
 = $Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
 
-= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(|e_i\rangle \langle e_f| |e_i\rangle\langle e_j|) \otimes |f_e\rangle \langle f_k|$
+= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijekf} \text{Tr}(|e_i\rangle \langle e_j| |e_f\rangle\langle e_f|) \otimes |f_e\rangle \langle f_k|$
 
-= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(\langle e_j||e_i\rangle \langle e_f| |e_i\rangle) \otimes |f_e\rangle \langle f_k|$
+= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(\langle e_f||e_i\rangle \langle e_j| |e_f\rangle) \otimes |f_e\rangle \langle f_k|$
 
-Since I sum over the projectors in $H_A$, lets consider the case where 
+Since I sum over the basis vectors in $H_A$, lets consider the case where 
 $|e_j\rangle = |e_i\rangle$ and $|e_i\rangle \neq |e_j\rangle$.
 
 If $|e_j\rangle$ is different from $|e_i\rangle$, then we know that at least one of the 
-inner products of $(\langle e_j||e_i\rangle)$ or $(\langle e_f| |e_i\rangle)$ will be zero
-since either $\langle e_j| is orthogonal to |e_i\rangle$ or $\langle e_f| is orthogonal to |e_i\rangle$.
+inner products of $(\langle e_f||e_i\rangle)$ or $(\langle e_j| |e_f\rangle)$ will be zero
+since either $\langle e_j| is orthogonal to |e_f\rangle$ or $\langle e_f| is orthogonal to |e_i\rangle$.
 
-If $|e_j\rangle = |e_i\rangle$, then we know that in the summation we will eventually 
-be projecting onto $|e_j\rangle$ since we are projecting over all the basis vectors in 
-$H_A$, and $|e_j\rangle$ is one of them. 
+If $|e_j\rangle = |e_i\rangle$, then we know that we will 
+obtain this term  $p_{ijek} \text{Tr}(\langle e_f||e_i\rangle \langle e_j| |e_f\rangle) \otimes |f_e\rangle \langle f_k|$
+since we are projecting over all the basis vectors in $H_A$, and $|e_j\rangle$ is one of them. 
 
+Since we will only keep the terms where $|e_f\rangle = |e_i\rangle = |e_j\rangle$, our summation above becomes 
 
+$P^{B^{\prime}} = {\displaystyle\sum_{i, e, k}^{}} p_{ijek} \text{Tr}(\langle e_i |e_i\rangle) \otimes |f_e\rangle \langle f_k|$
+
+$P^{B^{\prime}} = P^{B}$
 
 
 

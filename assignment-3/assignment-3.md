@@ -365,10 +365,14 @@ After, Bob can then apply a CNOT gate between his qubit in the EPR pair and $|\p
 
 ### Explain why the following circuit would implement a CNOT gate on the state |ψ⟩|ϕ⟩
 
-The states $|\phi\rangle$ and $|\psi\rangle$ get copied over to the first qubit of the 
-first EPR pair and the second qubit of the second EPR pair respectively.
+Let the first EPR pair be the one that is closest to $|\psi\rangle$
 
-Then, we apply a CNOT gate on the first qubit of the first EPR pair and the second 
+Let the second EPR pair be the one that is closest to $|\phi\rangle$
+
+The states $|\psi\rangle$ and $|\phi\rangle$ get copied over to the second qubit of the 
+first EPR pair and the first qubit of the second EPR pair respectively.
+
+Then, we apply a CNOT gate on the second qubit of the first EPR pair and the first 
 qubit of the second EPR pair. Since we have already copied $|\phi\rangle$ and $|\psi\rangle$
 over to the aforementioned EPR pairs, applying the CNOT on those two qubits will 
 result in $CNOT(|\psi\rangle |\phi\rangle)$

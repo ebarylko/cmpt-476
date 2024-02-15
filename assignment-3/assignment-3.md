@@ -309,7 +309,7 @@ $P^B = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(|e_i\rangle\langle
 
 $P^B = {\displaystyle\sum_{i, j, e, k}^{}} p_{ijek} \text{Tr}(\langle e_j|e_i\rangle) \otimes |f_e\rangle \langle f_k|$
 
-$P^B = {\displaystyle\sum_{i, e, k}^{}} p_{ijek} \text{Tr}(\langle e_i|e_i\rangle) \otimes |f_e\rangle \langle f_k|$
+$P^B = {\displaystyle\sum_{i, e, k}^{}} p_{iiek} \text{Tr}(\langle e_i|e_i\rangle) \otimes |f_e\rangle \langle f_k|$
 
 Since we can choose any basis to write Alice's density matrix in, let us chose to write it 
 in the basis used for the partial measurement.
@@ -335,7 +335,7 @@ $|e_j\rangle = |e_i\rangle$ and $|e_i\rangle \neq |e_j\rangle$.
 
 If $|e_j\rangle$ is different from $|e_i\rangle$, then we know that at least one of the 
 inner products of $(\langle e_f||e_i\rangle)$ or $(\langle e_j| |e_f\rangle)$ will be zero
-since either $\langle e_j| is orthogonal to |e_f\rangle$ or $\langle e_f| is orthogonal to |e_i\rangle$.
+since either $\langle e_j| \text{is orthogonal to} |e_f\rangle$ \text{or} $\langle e_f| \text{is orthogonal to} |e_i\rangle$.
 
 If $|e_j\rangle = |e_i\rangle$, then we know that we will 
 obtain this term  $p_{ijek} \text{Tr}(\langle e_f||e_i\rangle \langle e_j| |e_f\rangle) \otimes |f_e\rangle \langle f_k|$
@@ -343,7 +343,7 @@ since we are projecting over all the basis vectors in $H_A$, and $|e_j\rangle$ i
 
 Since we will only keep the terms where $|e_f\rangle = |e_i\rangle = |e_j\rangle$, our summation above becomes 
 
-$P^{B^{\prime}} = {\displaystyle\sum_{i, e, k}^{}} p_{ijek} \text{Tr}(\langle e_i |e_i\rangle) \otimes |f_e\rangle \langle f_k|$
+$P^{B^{\prime}} = {\displaystyle\sum_{i, e, k}^{}} p_{iijk} \text{Tr}(\langle e_i |e_i\rangle) \otimes |f_e\rangle \langle f_k|$
 
 $P^{B^{\prime}} = P^{B}$
 

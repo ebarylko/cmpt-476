@@ -322,7 +322,7 @@ ${\displaystyle\sum_{i}^{}}  Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i
 
 = ${\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|)(|e_i\rangle \langle e_i|) \otimes I^2) P^{AB})$
 
-= $ {\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
+= ${\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
 
 = ${\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
 

@@ -316,15 +316,15 @@ in the basis used for the partial measurement.
 
 Applying the partial measurement on Alice's qubit, we have
 
-$ {\displaystyle\sum_{i}^{}}  Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i\rangle \langle e_i| \otimes I))$
+${\displaystyle\sum_{i}^{}}  Tr((|e_i\rangle \langle e_i| \otimes I) P^{AB}(|e_i\rangle \langle e_i| \otimes I))$
 
-= $ {\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i| \otimes I)(|e_i\rangle \langle e_i| \otimes I) P^{AB})$
+= ${\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i| \otimes I)(|e_i\rangle \langle e_i| \otimes I) P^{AB})$
 
-= $ {\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|)(|e_i\rangle \langle e_i|) \otimes I^2) P^{AB})$
-
-= $ {\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
+= ${\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|)(|e_i\rangle \langle e_i|) \otimes I^2) P^{AB})$
 
 = $ {\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
+
+= ${\displaystyle\sum_{i}^{}}Tr((|e_i\rangle \langle e_i|) \otimes I) P^{AB})$
 
 = ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijekf} \text{Tr}(|e_i\rangle \langle e_j| |e_f\rangle\langle e_f|) \otimes |f_e\rangle \langle f_k|$
 

@@ -371,7 +371,7 @@ first EPR pair and the second qubit of the second EPR pair respectively.
 Then, we apply a CNOT gate on the first qubit of the first EPR pair and the second 
 qubit of the second EPR pair. Since we have already copied $|\phi\rangle$ and $|\psi\rangle$
 over to the aforementioned EPR pairs, applying the CNOT on those two qubits will 
-result in $CNOT(|\phi\rangle |\psi\rangle)$
+result in $CNOT(|\psi\rangle |\phi\rangle)$
 
 ### Explain why the circuit below where a, b, c, d are the functions of w, x, y, z you gave in part 3 implements a remote CN OT between their qubits — that is, applies CN OT (|ψ⟩ ⊗ |ϕ⟩) without Alice or Bob physically teleporting their qubits to one another.
 

@@ -335,7 +335,7 @@ $|e_j\rangle = |e_i\rangle$ and $|e_i\rangle \neq |e_j\rangle$.
 
 If $|e_j\rangle$ is different from $|e_i\rangle$, then we know that at least one of the 
 inner products of $(\langle e_f||e_i\rangle)$ or $(\langle e_j| |e_f\rangle)$ will be zero
-since either $\langle e_j| \text{is orthogonal to} |e_f\rangle$ \text{or} $\langle e_f| \text{is orthogonal to} |e_i\rangle$.
+since either $\langle e_j| \text{is orthogonal to}|e_f\rangle \text{or}\langle e_f| \text{is orthogonal to} |e_i\rangle$.
 
 If $|e_j\rangle = |e_i\rangle$, then we know that we will 
 obtain this term  $p_{ijek} \text{Tr}(\langle e_f||e_i\rangle \langle e_j| |e_f\rangle) \otimes |f_e\rangle \langle f_k|$

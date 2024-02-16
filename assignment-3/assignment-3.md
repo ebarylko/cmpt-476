@@ -365,19 +365,32 @@ After, Bob can then apply a CNOT gate between his qubit in the EPR pair and $|\p
 
 ### Explain why the following circuit would implement a CNOT gate on the state |ψ⟩|ϕ⟩
 
+Let Alice be the person holding $|\psi\rangle$.
+
+Let Bob be the person holding $|\phi\rangle$.
+
 Let the first EPR pair be the one that is closest to $|\psi\rangle$
 
 Let the second EPR pair be the one that is closest to $|\phi\rangle$
 
-The states $|\psi\rangle$ and $|\phi\rangle$ get copied over to the second qubit of the 
-first EPR pair and the first qubit of the second EPR pair respectively.
+When Alice measures her qubit and the first qubit of the first EPR pair in the 
+Bell basis, she can send over bits $W$ and $X$ which indicate what must be 
+done to the second qubit in the first EPR in order to change its state to equal
+$|\psi\rangle$.
 
-Then, we apply a CNOT gate on the second qubit of the first EPR pair and the first 
-qubit of the second EPR pair. Since we have already copied $|\phi\rangle$ and $|\psi\rangle$
-over to the aforementioned EPR pairs, applying the CNOT on those two qubits will 
+When Bob measures his qubit and the second qubit of the second EPR pair in the
+Bell basis, he can send over bits $Y$ and $Z$ which indicate what must be
+done to the first qubit in the second EPR in order to change its state to equal
+$|\phi\rangle$.
+
+Since we have copied the states $|\psi\rangle$ and $|\phi\rangle$ over to the second qubit of the 
+first EPR pair and the first qubit of the second EPR pair respectively, applying a CNOT gate on the second 
+qubit of the first EPR pair and the first qubit of the second EPR pair will 
 result in $CNOT(|\psi\rangle |\phi\rangle)$
 
 ### Explain why the circuit below where a, b, c, d are the functions of w, x, y, z you gave in part 3 implements a remote CN OT between their qubits — that is, applies CN OT (|ψ⟩ ⊗ |ϕ⟩) without Alice or Bob physically teleporting their qubits to one another.
+
+
 
 When Alice takes her half of the entangled state and measures the first two qubits in the 
 Bell basis, she can copy over her state to the second qubit in $\Delta$ by sending 

@@ -366,7 +366,7 @@ After, Bob can then apply a CNOT gate between his qubit in the EPR pair and $|\p
 ### Part 2
 
 Using the provided equalities regarding CNOT gates and Z and X gates, I transformed the original circuit into
-![New circuit 1](q_7_2_1.jpeg)
+![New circuit 1](1_7_2_1.jpeg)
 ![New circuit 2](q_7_2_2.jpeg).
 
 From here, we can determine the values of a, b, c, and d as functions of x, y, w, and z.

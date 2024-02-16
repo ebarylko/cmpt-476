@@ -148,28 +148,39 @@ Measuring the ancilla bit, we will obtain 0, which is the parity of the first tw
 
 ### Calculate the density matrix of {( 1√2 |0⟩ + 1√2 |+⟩, 1)}
 
-The density matrix would be $(\frac{1}{\sqrt{2}}|0⟩ + \frac{1}{\sqrt{2}}|+⟩) (\frac{1}{\sqrt{2}}\langle 0| + \frac{1}{\sqrt{2}}\langle +|)$
+The density matrix would be $(\frac{i}{\sqrt{2}}|0⟩ + \frac{1}{\sqrt{2}}|+⟩) (\frac{i}{\sqrt{2}}\langle 0| + \frac{1}{\sqrt{2}}\langle +|)$
 
-= $\frac{1}{2}(|0\rangle \langle 0| + |0\rangle \langle +| + |+\rangle \langle 0| + |+\rangle \langle 0|)$
+= $\frac{-1}{2}(i|0\rangle \langle 0|* -i + i|0\rangle \langle +| + -i|+\rangle \langle 0| + |+\rangle \langle +|)$
 
-= $\frac{1}{2}(|0\rangle (\langle 0| + \langle +|) + |+\rangle (\langle 0| + \langle +|))$ =
+= $\frac{1}{2}(|0\rangle (\langle 0| + i\langle +|) + |+\rangle (-i\langle 0| + \langle +|))$ =
 
 
-$$ \frac{1}{2}
+$$ \frac{1}{2}(
 \begin{bmatrix}
-1 + \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\
+1 & 0 \\
 0 & 0 \\
-\end{bmatrix} +
+\end{bmatrix} + (\frac{1}{\sqrt{2}}
 \begin{bmatrix}
-1 + \frac{1}{\sqrt{2}} & 1 \\
-1 + \frac{1}{\sqrt{2}}  & 1 \\
-\end{bmatrix} 
+i & i \\
+0 & 0 \\
+\end{bmatrix} ) + (\frac{1}{\sqrt{2}}
+\begin{bmatrix}
+i & i \\
+0 & 0 \\
+\end{bmatrix}) + (\frac{1}{2}
+\begin{bmatrix} 
+1 & 1 \\
+1 & 1 \\
+\end{bmatrix} )
 $$
 
--1 + i/sqrt(2)
-i/sqrt(2) + 1/2 
-1/2
-
+= 
+$$(\frac{1}{2}
+\begin{bmatrix} 
+1.5 & \frac{i}{\sqrt{2}} + \frac{1}{2} \\ 
+-\frac{i}{\sqrt{2}} + \frac{1}{2} & \frac{1}{2}  \\
+\end{bmatrix} )
+$$
 
 ### {(|0⟩, 1/2 ), (|+⟩, 1/2 )}
 

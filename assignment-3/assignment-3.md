@@ -113,11 +113,13 @@ doing this and then measuring the parity, you can receive different values than 
 measured the parity using the given basis.
 
 
-### Devise a circuit using CN OT gates and computational basis measurement which measures the parity of two qubits without measuring either qubit itself.
-Measure the ancilla qubit after in the computational basis. If it is 0, then the parity of 
-the two other qubits is 0.
+### Devise a circuit using CNOT gates and computational basis measurement which measures the parity of two qubits without measuring either qubit itself.
+I will use the following circuit, where the first qubit is $|\psi\rangle$, the second qubit is $|\phi\rangle$, and the 
+ancilla qubit is $|\gamma\rangle$.
+![Parity measurement circuit](parity_circuit.jpeg)
 
-If not, the parity of the two other qubits is 1.
+I will measure the ancilla qubit in the computational basis after the circuit has completed.
+If it is 0, then the parity of the two other qubits is 0. If not, the parity of the two other qubits is 1.
 
 There are three cases to consider for the circuit:
 * Both of the first two qubits are 0 
@@ -126,19 +128,19 @@ There are three cases to consider for the circuit:
 
 **Case 1: both qubits are 0**
 
-If both qubits are zero, then the ancilla bit will not be turned on and will return us 
+If both qubits are zero, then the ancilla bit will not be affected and will return us 
 0 for the parity of the other two qubits. This matches the actual parity.
 
 **Case 2: Only one of the qubits are 1**
 
-The ancilla bit will be turned on by the bit that is in the one state, and will have nothing
+The ancilla bit will be turned on by the qubit that is in the one state, and will have nothing
 done to it by the other bit. 
 
 Measuring the ancilla bit, we will obtain 1, which is the parity of the first two qubits.
 
 **Case 3: both of the qubits are 1**
 
-The ancilla bit will be turned on by one bit and will be turned off by the other bit.
+The ancilla bit will be turned on by one qubit and will be turned off by the other qubit.
 
 Measuring the ancilla bit, we will obtain 0, which is the parity of the first two qubits.
 

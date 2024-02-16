@@ -390,7 +390,11 @@ result in $CNOT(|\psi\rangle |\phi\rangle)$
 
 ### Explain why the circuit below where a, b, c, d are the functions of w, x, y, z you gave in part 3 implements a remote CN OT between their qubits — that is, applies CN OT (|ψ⟩ ⊗ |ϕ⟩) without Alice or Bob physically teleporting their qubits to one another.
 
+When we transpose the circuit we had in part two to the entangled state $|\Delta\rangle$, we obtain
+![First circuit](q7_4_1.jpeg).
 
+After cancelling out the two $CNOT$ gates at the beginning, we obtain
+![Second circuit](q7_4_2.jpeg).
 
 When Alice takes her half of the entangled state and measures the first two qubits in the 
 Bell basis, she can copy over her state to the second qubit in $\Delta$ by sending 

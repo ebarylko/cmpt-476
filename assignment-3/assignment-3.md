@@ -175,6 +175,7 @@ i & i \\
 $$
 
 = 
+
 $$(\frac{1}{2}
 \begin{bmatrix} 
 1.5 & \frac{i}{\sqrt{2}} + \frac{1}{2} \\ 

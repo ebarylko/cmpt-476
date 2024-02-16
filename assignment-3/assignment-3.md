@@ -71,11 +71,14 @@ Any point on the bloch sphere can be represented as $cos(\theta)|0\rangle + e^{i
 When applying the transformation to an arbitrary point on the block sphere, we obtain
 $cos(\theta)|0\rangle + e^{i\phi}sin(\theta)|1\rangle - 2cos(\theta)|0\rangle = -cos(\theta)|0\rangle + e^{i\phi}sin(\theta)|1\rangle $.
 
-$-cos(\theta)|0\rangle + e^{i\phi}sin(\theta) = e^{i\pi}(cos(\theta)|0\rangle + e^{i(\phi - \pi)}sin(\theta))$
+$-cos(\theta)|0\rangle + e^{i\phi}sin(\theta)|1\rangle = e^{i\pi}(cos(\theta)|0\rangle + e^{i(\phi - \pi)}sin(\theta)|1\rangle)$
 
 Referring to the diagram of the bloch sphere, we know that rotating $\phi$ by $\pi$ is 
 equivalent to rotating 180 degrees with respect to the z-axis.
 
+Therefore, the geometric interpretation of the transformation
+$I − 2|0⟩⟨0|$ differs from the interpretation in $R^2$, now being a 
+rotation of 180 degrees with respect to the z-axis.
 
 ## Question two
 

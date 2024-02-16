@@ -1,6 +1,6 @@
 ## Question 1
 
-Let P = |ψ⟩⟨ψ|. Compute (I − 2P )|ψ⟩ and (I − 2P )$|ψ^{\perp}\rangle$
+**Let P = |ψ⟩⟨ψ|. Compute (I − 2P )|ψ⟩ and (I − 2P )|ψ^⊥⟩**
 
 $(I - 2p)|\psi\rangle:$
 

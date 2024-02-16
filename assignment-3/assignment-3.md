@@ -251,7 +251,7 @@ $$
 \frac{1}{2}(|0\rangle\langle0| \otimes |1\rangle\langle1| - 
 |0\rangle\langle1| \otimes |1\rangle\langle0| -
 |1\rangle\langle0| \otimes |0\rangle\langle1| +
-|0\rangle\langle0| \otimes |1\rangle\langle1|)
+|1\rangle\langle1| \otimes |0\rangle\langle0|)
 $$
 
 

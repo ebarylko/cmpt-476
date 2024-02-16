@@ -12,15 +12,15 @@ $= |\psi\rangle - 2(|ψ⟩⟨ψ|\psi\rangle)$
 
 = $-|\psi\rangle$
 
-$(I - 2p)||\psi\rangle^{\dagger}:$
+$(I - 2p)||\psi\rangle^{\perp}:$
 
-$(I - 2p)||\psi\rangle^{\dagger}$ 
+$(I - 2p)||\psi\rangle^{\perp}$ 
 
-$= |\psi\rangle^{\dagger} - 2(|ψ⟩⟨ψ|\psi\rangle^{\dagger})$
+$= |\psi\rangle^{\perp} - 2(|ψ⟩⟨ψ|\psi\rangle^{\perp})$
 
-$= |\psi\rangle^{\dagger} - 0$
+$= |\psi\rangle^{\perp} - 0$
 
-= $|\psi\rangle^{\dagger}$
+= $|\psi\rangle^{\perp}$
 
 **Show that (I − 2|ψ⟩⟨ψ|) is unitary whenever |ψ⟩ is a unit vector.**
 

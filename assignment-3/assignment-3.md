@@ -88,16 +88,9 @@ to the 0 parity or 1 parity subspace. It changes the state, but the superpositio
 is still maintained and we have uncertainty.
 
 A parity measurement of two qubits after measuring both bits in the computational basis 
-projects both onto the computational basiS, removing any uncertainty we had before.
-When we then take the parity measurement of this, there no uncertainty when we project 
+projects both qubits onto the computational basis, removing any uncertainty we had before.
+When we then take the parity measurement of both qubits, there no uncertainty when we project 
 onto one of the parity subspaces.
-
-
-The parity measurement of two qubits differs from measuring both bits in the computational basis and then taking their parity since
-you may potentially change the state of the qubit by measuring in the computational basis. By
-doing this and then measuring the parity, you can receive different values than if you had 
-measured the parity using the given basis.
-
 
 ### Devise a circuit using CNOT gates and computational basis measurement which measures the parity of two qubits without measuring either qubit itself.
 I will use the following circuit, where the first qubit is $|\psi\rangle$, the second qubit is $|\phi\rangle$, and the 

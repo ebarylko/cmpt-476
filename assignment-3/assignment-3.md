@@ -324,14 +324,14 @@ ${\displaystyle\sum_{f}^{}}  Tr((|e_f\rangle \langle e_f| \otimes I) P^{AB}(|e_f
 
 = ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijekf} \text{Tr}(|e_i\rangle \langle e_j| |e_f\rangle\langle e_f|) \otimes |f_e\rangle \langle f_k|$
 
-= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(\langle e_f||e_i\rangle \langle e_j| |e_f\rangle) \otimes |f_e\rangle \langle f_k|$
+= ${\displaystyle\sum_{i, j, e, k, f}^{}} p_{ijek} \text{Tr}(\langle e_f||e_i\rangle \langle e_j| |e_f\rangle) \otimes |f_e\rangle \langle f_k|$ (using the cyclicity of the trace)
 
 Since I sum over the basis vectors in $H_A$, lets consider the case where 
 $|e_j\rangle = |e_i\rangle$ and $|e_i\rangle \neq |e_j\rangle$.
 
 If $|e_j\rangle$ is different from $|e_i\rangle$, then we know that at least one of the 
 inner products of $(\langle e_f||e_i\rangle)$ or $(\langle e_j| |e_f\rangle)$ will be zero
-since either $\langle e_j| \text{is orthogonal to}|e_f\rangle \text{or}\langle e_f| \text{is orthogonal to} |e_i\rangle$.
+since either $\langle e_j|$  is orthogonal to $|e_f\rangle$  or $\langle e_f|$  is orthogonal to  $|e_i\rangle$.
 
 If $|e_j\rangle = |e_i\rangle$, then we know that we will 
 obtain this term  $p_{ijek} \text{Tr}(\langle e_f||e_i\rangle \langle e_j| |e_f\rangle) \otimes |f_e\rangle \langle f_k|$
@@ -339,11 +339,10 @@ since we are projecting over all the basis vectors in $H_A$, and $|e_j\rangle$ i
 
 Since we will only keep the terms where $|e_f\rangle = |e_i\rangle = |e_j\rangle$, our summation above becomes 
 
-$P^{B^{\prime}} = {\displaystyle\sum_{i, e, k}^{}} p_{iijk} \text{Tr}(\langle e_i |e_i\rangle) \otimes |f_e\rangle \langle f_k|$
+$P^{B^{\prime}} = {\displaystyle\sum_{i, e, k}^{}} p_{iijk} \text{Tr}(\langle e_i |e_i\rangle) \otimes |f_e\rangle \langle f_k|$, which is equivalent
+to $P^{B}$.
 
-$P^{B^{\prime}} = P^{B}$
-
-
+We have therefore proved that regardless of the basis Alice measures in, $P^{B^{\prime}} = P^{B}$
 
 ## Question seven
 

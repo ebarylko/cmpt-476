@@ -242,6 +242,7 @@ $$
 
 as $\frac{1}{2}(|01\rangle\langle01| - |01\rangle\langle10| - |10\rangle\langle01| + |10\rangle\langle10|)$
 
+Using the law of tensor products, we can simplify the expression above further.
 
 $\frac{1}{2}(|01\rangle\langle01| - |01\rangle\langle10| - |10\rangle\langle01| + |10\rangle\langle10|)$
 
@@ -273,23 +274,23 @@ The reduced density matrix of the second qubit is $\frac{1}{2}(|1\rangle\langle1
 Show that $p = {\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite.
 
 To show that ${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\rangle\langle\theta_i|$ is positive-semidefinite, than
-\forall $|V\rangle$ of appropriate dimension, $\langle V p V\rangle$ must be non-negative.
+$\forall $|V\rangle$ of appropriate dimension, $\langle V p V\rangle$ must be non-negative.
 
 $\langle V p V\rangle$  =
 
-${\displaystyle\sum_{i=1}^{n}} p_i|\langle V |\theta_i\rangle \langle \theta_i | V\rangle$ 
+${\displaystyle\sum_{i=1}^{n}} p_i\langle V |\theta_i\rangle \langle \theta_i | V\rangle$ 
 
 Let $\langle V| \theta_i \rangle =  \langle\theta_i|V\rangle = k_i$
 
 
-${\displaystyle\sum_{i=1}^{n}} p_i|\theta_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$  =
+${\displaystyle\sum_{i=1}^{n}} p_i\langle V| \theta_i \rangle\langle\theta_i|V\rangle$  =
 
-${\displaystyle\sum_{i=1}^{n}} p_i|{k_{i}}^2$. 
+${\displaystyle\sum_{i=1}^{n}} p_i{k_{i}}^2$. 
 
 $\forall k_i \in \mathbb{R}, {k_i}^2 \geq 0$
 
 Considering that all the probabilities are non-zero and that every ${k_i}^2 \geq 0$, 
-this implies that ${\displaystyle\sum_{i=1}^{n}} p_i|{k_i}^2$ will sum to a non-negative value.
+this implies that ${\displaystyle\sum_{i=1}^{n}} p_i{k_i}^2$ will sum to a non-negative value.
 
 Since this occurs for any $|V\rangle$, $p$ is positive-semidefinite.
 

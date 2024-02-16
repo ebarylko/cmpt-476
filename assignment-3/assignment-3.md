@@ -53,23 +53,23 @@ For any $|\psi\rangle$ we apply the transformation on, we will receive
 $|\psi\rangle - 2|0\rangle\langle0|\psi\rangle$
 
 $\langle0|\psi\rangle$ tells us how much $\psi\rangle$ projects onto the x axis. Let $k$ be the 
-factor denoting how much \psi\rangle$ projects onto the x-axis.
+factor denoting how much $\psi\rangle$ projects onto the x-axis.
 
 With $|\psi\rangle - 2|0\rangle\langle0|\psi\rangle$, this becomes
 $|\psi\rangle - 2k|0\rangle$.
 
 This tells us that we are taking the negation of the x coordinate of $|\psi\rangle$, which is 
-equivalent to a relection over the y-axis. 
+equivalent to a reflection over the y-axis. 
 
 The geometric interpretation of the transformation is that it performs a reflection over the 
 y-axis.
 
 **Does the transformation I − 2|0⟩⟨0| have a similar geometric interpretation in the Bloch sphere? Why or why not**
 
-Any point on the bloch sphere can be represented as $cos(\theta)|0\rangle + e^{i\phi}sin(\theta)$.
+Any point on the bloch sphere can be represented as $cos(\theta)|0\rangle + e^{i\phi}sin(\theta)|1\rangle$.
 
-When applying an arbitrary point on the block sphere to the transformation, we obtain
-$cos(\theta)|0\rangle + e^{i\phi}sin(\theta) - 2cos(\theta)|0\rangle = -cos(\theta)|0\rangle + e^{i\phi}sin(\theta) $.
+When applying the transformation to an arbitrary point on the block sphere, we obtain
+$cos(\theta)|0\rangle + e^{i\phi}sin(\theta)|1\rangle - 2cos(\theta)|0\rangle = -cos(\theta)|0\rangle + e^{i\phi}sin(\theta)|1\rangle $.
 
 $-cos(\theta)|0\rangle + e^{i\phi}sin(\theta) = e^{i\pi}(cos(\theta)|0\rangle + e^{i(\phi - \pi)}sin(\theta))$
 

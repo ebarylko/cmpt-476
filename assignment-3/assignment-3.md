@@ -351,6 +351,8 @@ $P^{B^{\prime}} = P^{B}$
 
 ## Question seven
 
+
+
 ### Describe a procedure by which Alice and Bob could apply a CNOT gate to their pair of qubits — i.e. CN OT (|ψ⟩ ⊗ |ϕ⟩)
 
 I can give both Alice and Bob part of an entangled EPR pair. 
@@ -361,7 +363,18 @@ qubit in the EPR pair to $|\psi\rangle$.
 
 After, Bob can then apply a CNOT gate between his qubit in the EPR pair and $|\phi\rangle$.
 
-### 
+### Part 2
+
+Using the provided equalities regarding CNOT gates and Z and X gates, I transformed the original circuit into
+![New circuit 1](q_7_2_1.jpeg)
+![New circuit 2](q_7_2_2.jpeg).
+
+From here, we can determine the values of a, b, c, and d as functions of x, y, w, and z.
+
+For a, we can see it is dependent on $w$, so $a = w$.
+For b, it is dependent on $z$ and $x$. We have that $b = z \oplus x$
+For c, it is dependent on $w$ and $y$. We have that $c = w \oplus y$
+For d, it is dependent on $z$. We have that $d = z$
 
 ### Explain why the following circuit would implement a CNOT gate on the state |ψ⟩|ϕ⟩
 

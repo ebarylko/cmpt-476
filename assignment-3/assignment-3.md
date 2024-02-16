@@ -396,6 +396,7 @@ When we transpose the circuit we had in part two to the entangled state $|\Delta
 After cancelling out the two $CNOT$ gates at the beginning, we obtain
 ![Second](q7_4_2.jpeg).
 
+
 When Alice takes her half of the entangled state and measures the first two qubits in the 
 Bell basis, she can copy over her state to the second qubit in $\Delta$ by sending 
 bits a and b over, which represent the transformations which need to occur in order 
@@ -409,8 +410,9 @@ to obtain $|\phi\rangle$.
 At that point, we now have in bits 2 and 3 of $\Delta$ $|\psi\rangle$ and $|\phi\rangle$ 
 respectively.
 
-When we apply a CNOT gate on the third and second bit in $\Delta$, it is the equivalent 
-to $CNOT(|\phi\rangle |\psi\rangle)$.
+
+When we apply a CNOT gate on the second and third bit in $\Delta$ after copying Alice's and Bob's state 
+over, it is the equivalent to $CNOT(|\phi\rangle |\psi\rangle)$.
 
 Although we did not teleport the qubits over physically to either Alice or Bob, we were 
 still able to apply a remote CNOT by having them share portions of an entangled state.

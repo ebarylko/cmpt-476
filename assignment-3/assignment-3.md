@@ -348,7 +348,7 @@ We have therefore proved that regardless of the basis Alice measures in, $P^{B^{
 
 
 
-### Describe a procedure by which Alice and Bob could apply a CNOT gate to their pair of qubits — i.e. CN OT (|ψ⟩ ⊗ |ϕ⟩)
+### Describe a procedure by which Alice and Bob could apply a CNOT gate to their pair of qubits — i.e. CNOT (|ψ⟩ ⊗ |ϕ⟩)
 
 I can give both Alice and Bob part of an entangled EPR pair. 
 

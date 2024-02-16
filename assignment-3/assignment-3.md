@@ -27,23 +27,6 @@ $= |\psi\rangle^{\perp} - 0$
 Let $U = (I − 2|ψ⟩⟨ψ|)$. If $U$ is unitary, then it means
 that $U^{\dagger} = U^{-1}$.
 
-$|\psi\rangle =$
-
-$$
-\begin{bmatrix}
-a + bi \\
-c + di \\
-\end{bmatrix} 
-$$
-
-$\langle\psi| =$
-
-$$
-\begin{bmatrix}
-a - bi & c - di \\
-\end{bmatrix}
-$$
-
 $U^{\dagger} = I^{\dagger} - 2|\psi\rangle^{\dagger}\langle\psi|^{\dagger}$
 $U^{\dagger} = I - 2|\psi\rangle\langle\psi| = U$
 

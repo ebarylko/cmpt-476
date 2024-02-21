@@ -17,4 +17,4 @@ Unitary:
 * Norm preserving
 
 Projectors:
-* An operator P with the property that $P^2$ = P
+* An operator P with the property that $P^2$ = P pf

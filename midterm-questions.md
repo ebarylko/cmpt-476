@@ -27,3 +27,6 @@
 ## Lecture 9
 ### Page 6
 * Does it become 100% after renormalizing the vector?
+### Page 14
+* is the difference between a density matrix and a reduced density matrix whether we represent the spaces the global state or local state projects onto?
+

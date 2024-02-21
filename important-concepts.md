@@ -34,4 +34,13 @@ Hermitian:
 
 Density matrix:
 * Alternate representation of a mixed state
-* Defined as 
+* All entries along the diagonal sum to 1
+* Defined as $p = {\displaystyle\sum_{i}^{}} p_i|\theta_i\rangle\langle\theta_i|$
+* Applying a unitary $U$ on the density matrix sends p to $UpU^{\dagger}$
+
+Cyclicity of the trace:
+* $Tr(ABC) = Tr(CAB) = Tr(BCA)$
+
+
+Reduced density operations:
+* 

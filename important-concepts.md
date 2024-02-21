@@ -18,3 +18,20 @@ Unitary:
 
 Projectors:
 * An operator P with the property that $P^2$ = P pf
+
+Partial measurement:
+* Only measure and keep the states which have a qubit in the position you are looking at
+* Normalize the resulting vector so it becomes a unit vector
+
+Local operations:
+* Measurements or operations done to a single qubit
+
+Projective measurements: 
+* Send a state $|\psi\rangle$ to $\frac{P_i|\psi\rangle}{\sqrt{p(i)}}$, where $p(i) = \langle\psi|P_i|\psi\rangle$
+
+Hermitian:
+* An operator p where $p^{\dagger} = p^{-1} = p$
+
+Density matrix:
+* Alternate representation of a mixed state
+* Defined as 

@@ -19,5 +19,30 @@ $r_a|0\rangle +  r_be^{i\phi}|1\rangle$.
 I do not understand how to factor out the coefficients and be left with the formula I need to 
 obtain.
 
-### Show that the global phase factor, eiγ, has no observable effect on the probabilities, |α|2 and |β|2
-.
+### Show that the global phase factor, eiγ, has no observable effect on the probabilities, |α|^2 and |β|^2
+
+We know that a quantum state can be represented as $a|0\rangle + b|0\rangle, a, b \in \mathbb{C}$
+
+The probabilities of measuring the $|0\rangle$ and $|1\rangle$ states are ${|a|}^2$ and ${|b|}^2$
+respectively.
+
+If we apply a global phase factor $e^{i\phi}$ onto the quantum state, we obtain $ae^{i\phi}|0\rangle + be^{i\phi}|0\rangle$
+
+Calculating the probabilities of measuring the $|0\rangle$ and $|1\rangle$, we obtain
+${|ae^{i\phi}|0\rangle|}^2$ and  ${|be^{i\phi}|1\rangle|}^2$.
+
+Calculating ${|ae^{i\phi}|0\rangle|}^2$, it is
+$a^*e^{-i\phi}\langle 0| * ae^{i\phi}|0\rangle$ =
+$a^*e^{-i\phi} * ae^{i\phi}$ =
+$a^2$ =
+$|a|^2$ 
+
+For the probability of measuring $|1\rangle$, it is 
+
+$b^*e^{-i\phi}\langle 0| * be^{i\phi}|0\rangle$ =
+$b^*e^{-i\phi} * be^{i\phi}$ =
+$b^2$ =
+$|b|^2$ 
+
+From this, we can see that a global phase factor has no observable effect on the probabilities 
+of measuring the $|0\rangle$ and $|1\rangle$ states.

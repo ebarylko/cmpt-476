@@ -52,3 +52,11 @@ Reduced density operations:
 
 No Communication Theorem:
 * If Alice and Bob share an entangled state, a local unitary applied on Alice's/Bob's qubit does not affect the reduced density matrix of the other person
+
+Rotations:
+* You can simulate any rotation through three rotations over two non-parallel axes.
+
+* If you are rotating a point by $\pi$, in the bloch sphere you end up rotating by $2\pi$.
+* You can obtain the antipodal point to any point by taking the same state, placing it at $\pi - \theta$, and then rotating by a degree of $\pi$ degrees around the z-axis. 
+* That is why if you had $sin(\frac{\theta}{2})$, the antipodal point would be $sin(\frac{\pi - \theta}{2})$
+

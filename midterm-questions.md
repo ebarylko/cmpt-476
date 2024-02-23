@@ -1,6 +1,7 @@
 ## Lecture 5
 ### Page 7
 * Could you please explain the error protocol?
+* 
 ### Page 10 
 * For justifying that the angle is $\theta$ over two, would we say that adding a global phase allows us to reach all the points on the sphere, so we do not need to use the full angle of $\theta$? 
 
@@ -22,6 +23,7 @@
 ## Lecture 8
 ### Page 3
 * Can you please explain how we obtained the expected value of $A_0B_0$? 
+* We obtained the values by summing over the possible measurement results and the corresponding probabilities of measuring in the computational basis and the $a_0$ and $a_1$ basis.
 * I understand how we obtained the probabilities, but how are we determining the value of x to use for the expectation?
 
 ## Lecture 9

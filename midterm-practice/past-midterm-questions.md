@@ -46,3 +46,19 @@ $|b|^2$
 
 From this, we can see that a global phase factor has no observable effect on the probabilities 
 of measuring the $|0\rangle$ and $|1\rangle$ states.
+
+### Show that opposite states on the Bloch sphere are orthogonal.
+
+Let $A$ be an arbitrary quantum state of the form $a|0\rangle + e^{i\phi}b|1\rangle, a, b \in \mathbb{C}, \phi \in \mathbb{R}$.
+
+For the opposite state of $A$, we only need to multiply it by -1. 
+
+$-A = -a|0\rangle + -e^{i\phi}b|0\rangle$
+
+We know that multiplying by -1 is equivalent to applying a global phase of $e^{i\pi}$. We can 
+change the above expression to
+$e^{i\pi}|0\rangle + e^{i\pi}e^{i\phi}b|0\rangle$
+
+This simplifies to $e^{i\pi}|0\rangle + e^{i(\phi + \pi)}b|1\rangle$
+
+Multiplying $-A$ and $A$ together, we obtain 

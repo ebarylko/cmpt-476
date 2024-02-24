@@ -72,6 +72,8 @@ Superdense coding:
 
 No cloning theorem:
 * You cannot copy a qubit
+* There exists no unitary $U$ such that $U|\psi 0\rangle = |\psi \psi\rangle$
+* Put down proof
 
 Holevo's theorem:
 * You cannot obtain more than one bit of information from a qubit.
@@ -79,3 +81,21 @@ Holevo's theorem:
 Entanglement swapping: 
 * You can entangle two qubits without them physically interacting with each other
 * You take two entangled states, entangle one part of the first state with another part of the second state, and then you can entangle a portion of the first state with another part of the second state that never interacted together
+
+Complexity classes:
+* P: problem can be solved in polynomial time
+* NP: problems whose solution can be verified in polynomial time
+* EXPTIME: problems with an exponential algorithm
+* PSPACE: problems with polynomial space algorithm
+
+Uniform circuit family: 
+*  a collection of gates $\set{C_n | n \in \mathbb{N}}$, where the gates can be made in polynomial time
+
+Measuring complexity in a circuit:
+* Width: number of wires. Gives space complexity
+* Depth: number of time slices. Gives time complexity
+
+Spectral theorem: 
+* A normal operator P has the following property: $AA^{\dagger} = A^{\dagger}A$
+* For the following, $P$ is unitary and has the unit eigenvectors of A. $\land$ is diagonal as a matrix and encodes the eigenvalues of A.
+* Every normal operator A can be written as $A = P\landP^{\dagger}

@@ -60,3 +60,22 @@ Rotations:
 * You can obtain the antipodal point to any point by taking the same state, placing it at $\pi - \theta$, and then rotating by a degree of $\pi$ degrees around the z-axis. 
 * That is why if you had $sin(\frac{\theta}{2})$, the antipodal point would be $sin(\frac{\pi - \theta}{2})$
 
+
+Bell basis:
+* a basis where all the basis vectors are entangled
+* Each basis vector is a bell state
+
+Superdense coding:
+* The ability to send two bits of information by only sending one bit
+* Put example of how this is done using measurements in the Bell basis.
+* Note: local operations on one qubit do not change the reduced density matrix of the other, but they change the joint state
+
+No cloning theorem:
+* You cannot copy a qubit
+
+Holevo's theorem:
+* You cannot obtain more than one bit of information from a qubit.
+
+Entanglement swapping: 
+* You can entangle two qubits without them physically interacting with each other
+* You take two entangled states, entangle one part of the first state with another part of the second state, and then you can entangle a portion of the first state with another part of the second state that never interacted together

@@ -99,3 +99,9 @@ Spectral theorem:
 * A normal operator P has the following property: $AA^{\dagger} = A^{\dagger}A$
 * For the following, $P$ is unitary and has the unit eigenvectors of A. $\land$ is diagonal as a matrix and encodes the eigenvalues of A.
 * Every normal operator A can be written as $A = P\landP^{\dagger}
+
+Euler angle decomposition:
+* Any rotation in 3d space can be composed of three rotations in two planes
+
+Approximate universality:
+* Any circuit can be approximated to some error $\le \epsilon$, where $\epsilon > 0$.

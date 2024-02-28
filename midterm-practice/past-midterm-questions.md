@@ -79,18 +79,21 @@ of measuring the $|0\rangle$ and $|1\rangle$ states.
 
 ### Show that opposite states on the Bloch sphere are orthogonal.
 
-Let $A$ be an arbitrary quantum state of the form $|0\rangle + e^{i\phi}|1\rangle, \phi \in \mathbb{R}$.
+Let $A$ be an arbitrary quantum state of the form $cos(\theta)|0\rangle + e^{i\phi}sin(\theta)|1\rangle, \phi \in \mathbb{R}$.
 
 For the opposite state of $A$, we only need to multiply it by -1. 
 
 We know that $-1 = e^{i\pi}$. Using that fact, $-A$ becomes
 
-$e^{i\pi}|0\rangle + e^{i\pi}e^{i\phi}|0\rangle$
+$e^{i\pi}cos(\pi - \theta)|0\rangle + e^{i\pi}e^{i\phi}sin(\pi - \theta)|0\rangle = e^{i\pi}cos(\pi - \theta)|0\rangle + e^{i(\phi + \pi)}sin(\pi - \theta)|1\rangle$
 
-We know that multiplying by -1 is equivalent to applying a global phase of $e^{i\pi}$. We can 
-change the above expression to
-$e^{i\pi}|0\rangle + e^{i\pi}e^{i\phi}b|0\rangle$
+Taking the dot product of $-A$ and $A$, we obtain
+(e^{-i\pi}cos(\pi - \theta)|0\rangle + e^{-i(\phi + \pi)}sin(\pi - \theta)|1\rangle)(e^{i\pi}cos(\pi - \theta)|0\rangle + e^{i(\phi + \pi)}sin(\pi - \theta)|1\rangle)
+,which becomes
 
-This simplifies to $e^{i\pi}|0\rangle + e^{i(\phi + \pi)}b|1\rangle$
 
-Multiplying $-A$ and $A$ together, we obtain 
+
+
+
+
+

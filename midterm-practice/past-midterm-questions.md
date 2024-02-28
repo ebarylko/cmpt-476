@@ -43,6 +43,11 @@ Using Euler's formula, our expression above becomes
 
 $cos(\theta)|0\rangle  + sin(\theta)e^{i\phi}|1\rangle$.
 
+We can further simplify our expression noticing that we only need to have $\theta$ be within $[0, \frac{\pi}{2}]$
+since we can obtain all the larger values of $\theta$ by applying a global phase.
+
+Our expression above becomes $cos(\frac{\theta}{2})|0\rangle  + sin(\frac{\theta}{2})e^{i\phi}|1\rangle$, which
+is the equation of the bloch sphere.
 
 ### Show that the global phase factor, eiγ, has no observable effect on the probabilities, |α|^2 and |β|^2
 

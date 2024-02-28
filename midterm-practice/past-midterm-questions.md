@@ -11,13 +11,38 @@ Using Euler's theorem, I can also represent z as $re^{i\theta}$.
 Using this fact, I can represent $a|0\rangle + b|1\rangle$ as $r_ae^{i{\theta}_a}|0\rangle +  r_be^{i{\theta}_b}|1\rangle$
 
 Knowing that a difference of global phase does not affect the measurement results, I can factor out 
-$e^{i{\theta}_a} in z$, obtaining $r_a|0\rangle +  r_be^{i({\theta}_b - {\theta}_a)}|1\rangle$
+$e^{i{\theta}_a}$ in z, obtaining $r_a|0\rangle +  r_be^{i({\theta}_b - {\theta}_a)}|1\rangle$
 
 Let $\phi = {\theta}_b - {\theta}_a$. We can represent the above expression as
 $r_a|0\rangle +  r_be^{i\phi}|1\rangle$.
 
-I do not understand how to factor out the coefficients and be left with the formula I need to 
-obtain.
+If we measure the probabilities of measuring the $|0\rangle$ and $|1\rangle$ states, it will 
+be $|r_a|^2$ and $|r_b|^2$ respectively.
+
+If we choose to represent $r_b$ as $x + iy, x, y \in \mathbb{R}$, then we obtain
+
+$|r_a|^2$ and $(x + iy)(x - iy)$, which is equivalent to 
+
+$|r_a|^2$ and $x^2 + y^2$
+
+Knowing that $|r_a|^2$ and $|r_b|^2$ sum to one, we know that
+$|r_a|^2$ and $x^2 + y^2$ also sums to 1.
+
+Since we have that $|r_a|^2 + x^2 + y^2 = 1$, we know that it is the equation of a sphere 
+with radius one.
+
+Knowing this, we can say that $|r_a|^2 + x^2 + y^2 = z^2 + x^2 + y^2$,
+
+Knowing that we are working with a sphere, we can use the equations $x = sin(\theta)cos(\phi), y = sin(\theta)cos(\phi), z = cos(\theta)$ 
+to simplify our expression. 
+
+$r_a|0\rangle +  r_be^{i\phi}|1\rangle = r_a|0\rangle +  (x + iy)|1\rangle$ becomes 
+$cos(\theta)|0\rangle  + sin(\theta)(cos(\phi) + isin(\phi))|1\rangle$.
+
+Using Euler's formula, our expression above becomes 
+
+$cos(\theta)|0\rangle  + sin(\theta)e^{i\phi}|1\rangle$.
+
 
 ### Show that the global phase factor, eiγ, has no observable effect on the probabilities, |α|^2 and |β|^2
 
@@ -49,11 +74,13 @@ of measuring the $|0\rangle$ and $|1\rangle$ states.
 
 ### Show that opposite states on the Bloch sphere are orthogonal.
 
-Let $A$ be an arbitrary quantum state of the form $a|0\rangle + e^{i\phi}b|1\rangle, a, b \in \mathbb{C}, \phi \in \mathbb{R}$.
+Let $A$ be an arbitrary quantum state of the form $|0\rangle + e^{i\phi}|1\rangle, \phi \in \mathbb{R}$.
 
 For the opposite state of $A$, we only need to multiply it by -1. 
 
-$-A = -a|0\rangle + -e^{i\phi}b|0\rangle$
+We know that $-1 = e^{i\pi}$. Using that fact, $-A$ becomes
+
+$e^{i\pi}|0\rangle + e^{i\pi}e^{i\phi}|0\rangle$
 
 We know that multiplying by -1 is equivalent to applying a global phase of $e^{i\pi}$. We can 
 change the above expression to

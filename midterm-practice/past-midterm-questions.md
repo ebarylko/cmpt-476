@@ -157,9 +157,7 @@ $\langle \psi | \psi \rangle$
 [//]: # ()
 
 ## Question seven 
-Consider two widely separated entangled photons. Why do scientists call them
-“strongly correlated”? In other words, why can´t one say that the measured photon
-controls the state of the distant photon?
+### Consider two widely separated entangled photons. Why do scientists call them “strongly correlated”? In other words, why can´t one say that the measured photon controls the state of the distant photon?
 
 The measured photon does not control the state of the distant photon by fact of the 
 no communication theorem. An operation on the measured photon affects their joint 

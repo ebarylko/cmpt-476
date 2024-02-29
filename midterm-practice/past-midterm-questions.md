@@ -101,11 +101,67 @@ it simplifies to $cos(\frac{\pi - \theta}{2} + \frac{\theta}{2}) = cos(\frac{\pi
 
 $cos(\frac{\pi}{2}) = 0$
 
+## Question five
 
+$\langle \psi | \psi \rangle$ 
 
+= $(\overline{a_0} \langle 0| + \overline{a_1} \langle 1 |)(a_0 |0 \rangle + a_1 |1 \rangle)$
 
+= $|a_0|^2 + |a_1|^2$
 
+[//]: # (## Question six)
 
+[//]: # ()
+[//]: # (### How does one prove that two pure quantum states are entangled? Describe this in some formal detail.)
 
+[//]: # ()
+[//]: # (To prove that two pure states $|\psi \rangle$ and $|\phi \rangle$ are entangled,)
 
+[//]: # ()
+[//]: # (Ideas: )
+
+[//]: # (Try to measure the states in the same basis to see if one measurement has an impact on the other?)
+
+[//]: # (Issues: could have the same state, it could be that both states are different and map to the )
+
+[//]: # (same basis. )
+
+[//]: # ()
+[//]: # (I can measure both states beforehand, apply some operation to one of the states, and see if )
+
+[//]: # (it affects the other one.)
+
+[//]: # (Issues: you collapse superposition when you measure. )
+
+[//]: # (You must have some type of measurement which will always affect the other qubit.)
+
+[//]: # ()
+[//]: # (Maybe: try changing to the Bell basis, measure, and then change back to original basis )
+
+[//]: # (before applying operation. Do the same after applying measurement.)
+
+[//]: # (Issue: you are assuming that the measured state will snap to one of your basis vectors. What)
+
+[//]: # (if the entanglement changes the other qubit's state such that it is in a superposition of the )
+
+[//]: # (basis vectors? This now ruins the strategy of observing a change. )
+
+[//]: # ()
+[//]: # (Maybe: copy over the two states multiple times, and apply different operations on each copy of )
+
+[//]: # (the state. We then measure both states afterwards to see if applying an operation on one state had)
+
+[//]: # (an effect on the other.)
+
+[//]: # ()
+[//]: # ()
+
+## Question seven 
+Consider two widely separated entangled photons. Why do scientists call them
+“strongly correlated”? In other words, why can´t one say that the measured photon
+controls the state of the distant photon?
+
+The measured photon does not control the state of the distant photon by fact of the 
+no communication theorem. An operation on the measured photon affects their joint 
+state, but not the reduced density matrix of the other photon.
 

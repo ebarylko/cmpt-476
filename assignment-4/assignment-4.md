@@ -33,7 +33,7 @@ $||(U_2U_1 - V_2U_1) + (V_2U_1 -V_2V_1)|| \le  E(U_2, V_2) + E(U_1, V_1)$.
 Using what we just proved above, we know that the error of approximating the k gates is bounded 
 by the expression $E(U_1, V_1) + E(U_2, V_2) + .... + E(U_k, V_k)$. For the preceding expression to
 be less than or equal to $\epsilon$, we must have the error in each gate be $x$, where $x \le \frac{\epsilon}{k}$.
-In the scenario where $x = \epsilon$, the sum of all the approximation errors is $\epsilon$. For 
+In the scenario where $x = \frac{\epsilon}{k}$, the sum of all the approximation errors is $\epsilon$. For 
 other values of $x$, the sum of the approximation errors is smaller.
 
 ## Question two
@@ -45,10 +45,10 @@ Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, r = c|0\
 
 $|tr\rangle = ac|00\rangle + ad|01\rangle + bc|10\rangle + bd|11\rangle$.
 
-Applying (|0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U) to $|tr\rangle, we obtain
+Applying (|0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U) to $|tr\rangle$, we obtain
 (|0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U)($ac|00\rangle + ad|01\rangle + bc|10\rangle + bd|11\rangle$). 
 After applying |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U to each term, we obtain
-$ac|00\rangle + ad|01\rangle + bc|11\rangle + bd|10\rangle$.
+$ac|00\rangle + ad|01\rangle + bc|1(U|0\rangle)\rangle + bd|1(U|1\rangle)\rangle$.
 
 This proves that |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U functions as a controlled U gate for any arbitrary two 
 qubits.

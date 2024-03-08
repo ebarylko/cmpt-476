@@ -21,10 +21,17 @@ $||V_2U_1 -V_2V_1|| = ||V_2(U_1 -V_1)||$, I can let $(U_1 -V_1) = A$ and $V_2 = 
 apply the fact I used previously. Doing that results in  $||(V_2U_1 -V_2V_1)||$ being equal to
 $||U_1 - V_1|| = E(U_1, V_1)$.
 
-Using the work in the two paragraphs above, we can say that 
+Using the work in the two sections above, we can say that 
 $||(U_2U_1 - V_2U_1)|| + ||(V_2U_1 -V_2V_1)|| = E(U_2, V_2) + E(U_1, V_1)$.
 Knowing this, we can substitute the new value of $||(U_2U_1 - V_2U_1)|| + ||(V_2U_1 -V_2V_1)||$
 into the expression $||(U_2U_1 - V_2U_1) + (V_2U_1 -V_2V_1)|| \le$
 $||(U_2U_1 - V_2U_1)|| + ||(V_2U_1 -V_2V_1)||$, obtaining
 $||(U_2U_1 - V_2U_1) + (V_2U_1 -V_2V_1)|| \le  E(U_2, V_2) + E(U_1, V_1)$.
 
+### Suppose you have a circuit U1 · · · Uk consisting of k gates and you wish to approximate over some particular gate set to an error of ε. What approximation factor should you choose for each gate?
+
+Using what we just proved above, we know that the error of approximating the k gates is bounded 
+by the expression $E(U_1, V_1) + E(U_2, V_2) + .... + E(U_k, V_k)$. For the preceding expression to
+be less than or equal to $\epsilon$, we must have the error in each gate be $x$, where $x \le \frac{\epsilon}{k}$.
+In the scenario where $x = \epsilon$, the sum of all the approximation errors is $\epsilon$. For 
+other values of $x$, the sum of the approximation errors is smaller.

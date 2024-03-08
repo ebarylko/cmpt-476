@@ -57,3 +57,44 @@ qubits.
 
 The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I$
 + $|1\rangle \langle 1| \otimes I \otimes H$
+
+## Question three
+
+
+### Gate controlled on a measurement
+
+Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
+
+Let us have $t$ be the control bit and $r$ be the target bit.
+
+We measure $|0\rangle$ in the control bit with a probability of $a^2$. Since we do not apply the 
+$U$ gate, the joint state of $t$ and $r$ is $ac|00\rangle + ad|01\rangle$
+
+We measure $|1\rangle$ in the control bit with a probability of $b^2$. Since we do apply the
+$U$ gate, the joint state of $t$ and $r$ is $bc|1(U|1\rangle)\rangle + bd|1(U|0\rangle)\rangle$
+
+### Quantum controlled gate 
+Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
+
+Let us have $t$ be the control bit and $r$ be the target bit.
+
+The joint state of $r$ and $t$ is $ac|00\rangle + ad|01\rangle + bc|10\rangle + bd|11\rangle$.
+
+After applying the $c-U$ gate, the joint state of $r$ and $t$ is
+$ac|00\rangle + ad|01\rangle + bc|1(U|0\rangle)\rangle + bd|1(U|1\rangle)\rangle$ 
+= $a|0\rangle(c|0\rangle) + d|1\rangle) + b|1\rangle(cU|0\rangle + dU|1\rangle)$
+
+If we now measure $t$ in the classical basis, we obtain
+$a|0\rangle(c|0\rangle) + d|1\rangle)$ with probability $|a|^2|(|c|^2 + |d|^2) = |a|^2$  
+(since we are given that $|c|^2 + |d|^2 = 1$ from the fact that r is an arbitrary qubit) and
+$b|1\rangle(cU|0\rangle + dU|1\rangle)$ with probability $|b|^2(|c|^2 + |d|^2) = |b|^2$.
+
+
+If we compare the measurement results of the quantum controlled and classically controlled gate, 
+we notice that they match. 
+
+Therefore, every gate controlled on a measurement outcome is equivalent to a quantum 
+controlled gate followed by a measurement.
+
+
+

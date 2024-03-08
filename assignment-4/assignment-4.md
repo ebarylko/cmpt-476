@@ -35,3 +35,25 @@ by the expression $E(U_1, V_1) + E(U_2, V_2) + .... + E(U_k, V_k)$. For the prec
 be less than or equal to $\epsilon$, we must have the error in each gate be $x$, where $x \le \frac{\epsilon}{k}$.
 In the scenario where $x = \epsilon$, the sum of all the approximation errors is $\epsilon$. For 
 other values of $x$, the sum of the approximation errors is smaller.
+
+## Question two
+
+### Part 1
+|0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U
+
+Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
+
+$|tr\rangle = ac|00\rangle + ad|01\rangle + bc|10\rangle + bd|11\rangle$.
+
+Applying (|0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U) to $|tr\rangle, we obtain
+(|0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U)($ac|00\rangle + ad|01\rangle + bc|10\rangle + bd|11\rangle$). 
+After applying |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U to each term, we obtain
+$ac|00\rangle + ad|01\rangle + bc|11\rangle + bd|10\rangle$.
+
+This proves that |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U functions as a controlled U gate for any arbitrary two 
+qubits.
+
+### Part 2
+
+The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I$
++ $|1\rangle \langle 1| \otimes I \otimes H$

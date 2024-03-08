@@ -19,4 +19,12 @@ that ||UA|| = ||A|| = ||AU|| to obtain that $||(U_2 - V_2)U_1|| = ||U_2 - V_2|| 
 I can apply a similar procedure to manipulate $||(V_2U_1 -V_2V_1)||$. Noting that
 $||V_2U_1 -V_2V_1|| = ||V_2(U_1 -V_1)||$, I can let $(U_1 -V_1) = A$ and $V_2 = U$ and 
 apply the fact I used previously. Doing that results in  $||(V_2U_1 -V_2V_1)||$ being equal to
-$||U_2 - V_2|| = E(U_2, V_2)
+$||U_1 - V_1|| = E(U_1, V_1)$.
+
+Using the work in the two paragraphs above, we can say that 
+$||(U_2U_1 - V_2U_1)|| + ||(V_2U_1 -V_2V_1)|| = E(U_2, V_2) + E(U_1, V_1)$.
+Knowing this, we can substitute the new value of $||(U_2U_1 - V_2U_1)|| + ||(V_2U_1 -V_2V_1)||$
+into the expression $||(U_2U_1 - V_2U_1) + (V_2U_1 -V_2V_1)|| \le$
+$||(U_2U_1 - V_2U_1)|| + ||(V_2U_1 -V_2V_1)||$, obtaining
+$||(U_2U_1 - V_2U_1) + (V_2U_1 -V_2V_1)|| \le  E(U_2, V_2) + E(U_1, V_1)$.
+

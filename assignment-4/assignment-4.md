@@ -96,9 +96,11 @@ we notice that they match.
 Therefore, every gate controlled on a measurement outcome is equivalent to a quantum 
 controlled gate followed by a measurement.
 
-
-
 ## Question four
+![Reversible circuit ](reversible_computation.jpeg)
+
+
+## Question five
 
 ### Part 1
 Let $f(x) = x$. If we apply this on 
@@ -128,7 +130,7 @@ As a result, this could affect the results of further values
 which depended on what was obtained from the large computation, resulting in the function 
 outputting incorrect values.
 
-## Question five
+## Question six
 
 ### Part 1
 Since I wish to compute the dot product modulo 2 of s and x, I only need to apply four 
@@ -170,7 +172,7 @@ Given these conditions that each call to $U_f$ takes runtime $O(n^k), k \in \mat
 running the algorithm n times will give us a total runtime of $O(n^{k + 1})$, which is 
 still polynomial.
 
-## Question eight
+## Question seven
 f (a, b, c) = (b(¬a) + b(¬c), b(a ⊕ c), ac).
 ### Part 1
 

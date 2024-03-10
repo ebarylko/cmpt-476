@@ -207,22 +207,27 @@ For my two linearly independent vectors, I shall pick $|010\rangle$ and $|111\ra
 ### Part 5
 Solving the system $As = 0$, I start off with
 
+
 $$
 \begin{bmatrix}
 0 & 1 & 0  \space |0\\
 1 & 1 & 1 \space |0 \\
 0 & 0 & 0 \space |0 \\
-\end{bmatrix}$$.
+\end{bmatrix}
+$$.
+
 
 Row reducing this matrix, I obtain
+
 
 $$
 \begin{bmatrix}
 1 & 0 & 1 \space |0\\
 0 & 1 & 0 \space |0 \\
 0 & 0 & 0 \space |0 \\
-\end{bmatrix}$$.
+\end{bmatrix}
+$$.
 
 From the matrix, I see that $x_2 = 0$ and that $x_1 = -x_3$. Since I want a non-trivial solution, I let 
-$x_3 = 1$, which means that $x_1 = 1 = -1 mod 2$. As a result, I have that $x_1x_2x_3 = 101$, which is my hidden 
+$x_3 = 1$, which means that $x_1 = 1 = -1$ mod $2$. As a result, I have that $x_1x_2x_3 = 101$, which is my hidden 
 string.

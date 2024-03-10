@@ -141,6 +141,8 @@ $x_3s_3$ will be zero regardless (since $s_1 = s_3 = 0$).
 After applying the above operations, I obtain the state
 $|x\rangle |f(x)\rangle$.
 
+![State oracle](state_oracle.jpeg)
+
 ### Part 2
 I will now list the state of the input state and the ancilla after each time slice.
 
@@ -149,6 +151,8 @@ The first time slice: the state is $|x\rangle | f(x)\rangle$.
 The second time slice: the state is $(-1)^{f(x)} |x\rangle | f(x)\rangle$.
 
 The third time slice: the state is $(-1)^{f(x)} |x\rangle |0\rangle$.
+
+![Phase oracle](phase_oracle.jpeg)
 
 ### Part 3
 

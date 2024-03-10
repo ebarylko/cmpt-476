@@ -147,3 +147,25 @@ The first time slice: the state is $|x\rangle | f(x)\rangle$.
 The second time slice: the state is $(-1)^{f(x)} |x\rangle | f(x)\rangle$.
 
 The third time slice: the state is $(-1)^{f(x)} |x\rangle |0\rangle$.
+
+### Part 3
+
+For n = 6, I only need to check over 6 possible states. For each state, I apply either 
+$U_f$ or $U_f(I \otimes Z)U_f$. Since $U_f$ is composed of four CNOT gates and assuming that 
+CNOT and Z run in O(n) time, I can say that the work done on each state is O(n). 
+
+Summing up the total work on n states, I would have O(n) work done n times, having a 
+runtime of $O(n^2)$.
+
+### Do you think query complexity is a good characterization of the problem in this case?
+
+I think query complexity is not the proper tool of analysis for this problem 
+since it does not give us sufficient information to determine whether a speedup has occurred. 
+
+Looking into the implementation of the oracle allows us to compare the classic and 
+quantum algorithm to analyze the benefits/drawbacks of the quantum function.
+
+### What if instead Uf was any polynomial-sized oracle for f over the gate set consisting of X, CNOT, and Toffoli gates, with no other gaurantees about its structure?
+Given these conditions that each call to $U_f$ takes runtime $O(n^k), k \in \mathbb{R}$, 
+running the algorithm n times will give us a total runtime of $O(n^{k + 1})$, which is 
+still polynomial.

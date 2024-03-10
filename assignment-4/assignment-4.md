@@ -98,3 +98,33 @@ controlled gate followed by a measurement.
 
 
 
+## Question four
+
+### Part 1
+Let $f(x) = x$. If we apply this on 
+$\frac{1}{\sqrt{2}}(|00\rangle + |10\rangle)$, we obtain
+$\frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$, which is $|B_{00}\rangle$, which we know is 
+entangled.
+
+### Part 2 
+
+Let the state after applying f be S = $f(H|0\rangle)$.
+
+If we measure the second qubit in the computational basis, we obtain 
+$|00\rangle$ or $|11\rangle$. 
+
+Before, the first qubit was in a superposition of the $|0\rangle$ and $|1\rangle$ state. After 
+measuring the second qubit, we have removed the superposition and fixed the state of 
+the first qubit to match the second.
+
+### Part 3
+If the temporary value is unentangled with no
+other qubit, then we can measure it without any affect on the other qubits.
+
+However, measuring the qubit when it is entangled could affect the value of the larger 
+computation we performed.
+
+As a result, this could affect the results of further values
+which depended on what was obtained from the large computation, resulting in the function 
+outputting incorrect values.
+

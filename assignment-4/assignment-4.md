@@ -128,3 +128,22 @@ As a result, this could affect the results of further values
 which depended on what was obtained from the large computation, resulting in the function 
 outputting incorrect values.
 
+## Question five
+
+### Part 1
+Since I wish to compute the dot product modulo 2 of s and x, I only need to apply four 
+CNOT gates where $x_2, x_4, x_5$ and $x_6$ act as the control bit and the target bit is the 
+ancilla. I do not need CNOT gates on $x_1$ and $x_3$ since the product of $x_1s_1$ and 
+$x_3s_3$ will be zero regardless (since $s_1 = s_3 = 0$).
+
+After applying the above operations, I obtain the state
+$|x\rangle |f(x)\rangle$.
+
+### Part 2
+I will now list the state of the input state and the ancilla after each time slice.
+
+The first time slice: the state is $|x\rangle | f(x)\rangle$.
+
+The second time slice: the state is $(-1)^{f(x)} |x\rangle | f(x)\rangle$.
+
+The third time slice: the state is $(-1)^{f(x)} |x\rangle |0\rangle$.

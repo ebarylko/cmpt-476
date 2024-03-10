@@ -178,3 +178,27 @@ The uniform superposition is
 $\frac{1}{\sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^3}{}} |x \rangle |f(x)\rangle$
 
 = $\frac{1}{\sqrt{2^3}}(|000\rangle |000\rangle + |001 \rangle |000\rangle + |011\rangle |110\rangle  + |010 \rangle |000\rangle  +  |100\rangle |000\rangle + |101 \rangle |001\rangle + |111 \rangle |001\rangle  + |110 \rangle |110\rangle)$
+
+### Part 2
+
+I have three values of f(x) present: $|001\rangle, |000\rangle,$ and $|110\rangle$.
+
+I will now do a partial measurement of $|110\rangle$ in the second register.
+
+Doing the above, I obtain
+$\frac{1}{\sqrt{2}}(|011\rangle |110\rangle  + |110 \rangle |110\rangle)$
+
+### Part 3
+
+Applying $H^{\otimes 3}$ onto $\frac{1}{\sqrt{2}}(|011\rangle |110\rangle  + |110 \rangle |110\rangle)$, 
+I obtain 
+
+
+$\frac{1}{4}(|+--\rangle |110\rangle  + |--+\rangle |110\rangle)$. Expanding this expression out, we obtain
+
+$\frac{1}{4}((|000\rangle - |001\rangle - |010\rangle + |011\rangle + |100\rangle - |101\rangle - |110\rangle + |111\rangle)|110\rangle$  + 
+
+$(|000\rangle + |001\rangle - |010\rangle - |011\rangle - |100\rangle - |101\rangle + |110\rangle + |111\rangle)|110\rangle)$, which 
+simplifies to $\frac{1}{4}(2(|000\rangle - |010\rangle -|101\rangle + |111\rangle)) = \frac{1}{2}(|000\rangle - |010\rangle -|101\rangle + |111\rangle)$ 
+
+### Part 4

@@ -169,3 +169,12 @@ quantum algorithm to analyze the benefits/drawbacks of the quantum function.
 Given these conditions that each call to $U_f$ takes runtime $O(n^k), k \in \mathbb{R}$, 
 running the algorithm n times will give us a total runtime of $O(n^{k + 1})$, which is 
 still polynomial.
+
+## Question eight
+f (a, b, c) = (b(¬a) + b(¬c), b(a ⊕ c), ac).
+### Part 1
+
+The uniform superposition is 
+$\frac{1}{\sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^3}{}} |x \rangle |f(x)\rangle$
+
+= $\frac{1}{\sqrt{2^3}}(|000\rangle |000\rangle + |001 \rangle |000\rangle + |011\rangle |110\rangle  + |010 \rangle |000\rangle  +  |100\rangle |000\rangle + |101 \rangle |001\rangle + |111 \rangle |001\rangle  + |110 \rangle |110\rangle)$

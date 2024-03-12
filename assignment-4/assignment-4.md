@@ -73,7 +73,7 @@ We measure $|1\rangle$ in the control bit with a probability of $b^2$. Since we 
 $U$ gate, the joint state of $t$ and $r$ is $bc|1(U|1\rangle)\rangle + bd|1(U|0\rangle)\rangle$
 
 ### Quantum controlled gate 
-Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
+Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, $r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
 
 Let us have $t$ be the control bit and $r$ be the target bit.
 

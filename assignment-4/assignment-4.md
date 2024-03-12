@@ -118,7 +118,7 @@ entangled.
 
 ### Part 2 
 
-Let the state after applying $U_f$ be S = $U_f(H \otimes I|00\rangle)$.
+Let the state after applying $U_f$ be S = $U_f((H \otimes I)|00\rangle)$.
 
 If we measure the second qubit in the computational basis, we obtain either
 $|00\rangle$ or $|11\rangle$. 

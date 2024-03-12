@@ -167,11 +167,13 @@ equivalent to $-|x-\rangle = (-1)^1|x-\rangle$.
 ### Part 3
 
 For n = 6, I only need to check over 6 possible states. For each state, I apply either 
-$U_f$ or $U_f(I \otimes Z)U_f$. Since $U_f$ is composed of four CNOT gates and assuming that 
+$U_f$ or $U_{\bar{f}}$. Since $U_f$ is composed of four CNOT gates and assuming that 
 CNOT and Z run in O(n) time, I can say that the work done on each state is O(n). 
 
 Summing up the total work on n states, I would have O(n) work done n times, having a 
 runtime of $O(n^2)$.
+
+Therefore, s can be computed in polynomial time using the $U_f$ and $U_{\bar{f}}$ circuits made earlier.
 
 ### Do you think query complexity is a good characterization of the problem in this case?
 

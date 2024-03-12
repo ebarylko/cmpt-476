@@ -55,8 +55,7 @@ qubits.
 
 ### Part 2
 
-The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I$
-+ $|1\rangle \langle 1| \otimes I \otimes H$
+The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I + $|1\rangle \langle 1| \otimes I \otimes H$
 
 ## Question three
 

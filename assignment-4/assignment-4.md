@@ -62,7 +62,7 @@ The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I + 
 
 ### Gate controlled on a measurement
 
-Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
+Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, $r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
 
 Let us have $t$ be the control bit and $r$ be the target bit.
 

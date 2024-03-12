@@ -191,7 +191,7 @@ still polynomial.
 However, if $U_f$ directly uses the hidden string in its calculations, then we can peek inside the function and 
 read out the hidden string in $O(1)$ time.
 
-Even in both cases where the hidden string is within and not within the $U_f$, the value of 
+Even in both cases where the hidden string is within and not within $U_f$, the value of 
 $s$ can be computed in polynomial time.
 
 ## Question seven

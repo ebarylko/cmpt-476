@@ -152,13 +152,15 @@ $|x\rangle |f(x)\rangle$.
 ![State oracle](state_oracle.jpeg)
 
 ### Part 2
-I will now list the state of the input state and the ancilla after each time slice.
+When we apply $U_f$ onto $|x-\rangle = \frac{1}{\sqrt{2}}(|x0\rangle - |x1\rangle)$, 
+we obtain $\frac{1}{\sqrt{2}}(|x(f(x))\rangle - |x(1 \oplus f(x))\rangle)$.
 
-The first time slice: the state is $|x\rangle | f(x)\rangle$.
+If $f(x) = 0$, the expression above becomes $\frac{1}{\sqrt{2}}(|x0\rangle - |x1\rangle)$, which is 
+equivalent to $|x-\rangle = (-1)^0|x-\rangle$.
 
-The second time slice: the state is $(-1)^{f(x)} |x\rangle | f(x)\rangle$.
+If $f(x) = 1$, the expression above becomes $\frac{1}{\sqrt{2}}(|x1\rangle - |x0\rangle)$, which is
+equivalent to $-|x-\rangle = (-1)^1|x-\rangle$.
 
-The third time slice: the state is $(-1)^{f(x)} |x\rangle |0\rangle$.
 
 ![Phase oracle](phase_oracle.jpeg)
 

@@ -174,6 +174,12 @@ Given these conditions that each call to $U_f$ takes runtime $O(n^k), k \in \mat
 running the algorithm n times will give us a total runtime of $O(n^{k + 1})$, which is 
 still polynomial.
 
+However, if $U_f$ directly uses the hidden string in its calculations, then we can peek inside the function and 
+read out the hidden string in $O(1)$ time.
+
+Even in both cases where the hidden string is within and not within the $U_f$, the value of 
+$s$ can be computed in polynomial time.
+
 ## Question seven
 f (a, b, c) = (b(¬a) + b(¬c), b(a ⊕ c), ac).
 ### Part 1

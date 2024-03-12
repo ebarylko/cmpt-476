@@ -53,6 +53,16 @@ $ac|00\rangle + ad|01\rangle + bc|1(U|0\rangle)\rangle + bd|1(U|1\rangle)\rangle
 This proves that |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U functions as a controlled U gate for any unitary U.
 
 ### Part 2
+From the last question, it is shown that certain operations can be performed by determining whether the first 
+qubit is $|0\rangle$ or $|1\rangle$ by the expression $|0\rangle \langle 0|$ or $|1\rangle \langle 1|$.
+
+Knowing that we wish to only apply the Hadamard gate on the third qubit when the control bit is one and leave the 
+second qubit alone, that operation corresponds to the matrix $|1\rangle \langle 1| \otimes I \otimes H$
+
+Further knowing that we want to do nothing on the third qubit when the control bit is zero, that operation corresponds 
+to the matrix $|0\rangle \langle 0| \otimes I \otimes I$.
+
+Combining these operations together, we can generate a matrix that is equivalent to the circuit.
 
 The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I + |1\rangle \langle 1| \otimes I \otimes H$
 

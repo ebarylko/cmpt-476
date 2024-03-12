@@ -41,7 +41,7 @@ other values of $x$, the sum of the approximation errors is smaller.
 ### Part 1
 |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U
 
-Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle$, r = c|0\rangle + d|1\rangle$, $a, b, c, d \in \mathbb{c}$.
+Let $t, r$ be two arbitrary qubits where $t = a|0\rangle + b|1\rangle, r = c|0\rangle + d|1\rangle, a, b, c, d \in \mathbb{c}$.
 
 $|tr\rangle = ac|00\rangle + ad|01\rangle + bc|10\rangle + bd|11\rangle$.
 

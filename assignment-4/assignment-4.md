@@ -50,8 +50,7 @@ Applying (|0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U) to $|tr\rangle$, we obtain
 After applying |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U to each term, we obtain
 $ac|00\rangle + ad|01\rangle + bc|1(U|0\rangle)\rangle + bd|1(U|1\rangle)\rangle$.
 
-This proves that |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U functions as a controlled U gate for any arbitrary two 
-qubits.
+This proves that |0⟩⟨0| ⊗ I + |1⟩⟨1| ⊗ U functions as a controlled U gate for any unitary U.
 
 ### Part 2
 
@@ -109,9 +108,9 @@ entangled.
 
 ### Part 2 
 
-Let the state after applying f be S = $f(H|0\rangle)$.
+Let the state after applying $U_f$ be S = $U_f(H|0\rangle)$.
 
-If we measure the second qubit in the computational basis, we obtain 
+If we measure the second qubit in the computational basis, we obtain either
 $|00\rangle$ or $|11\rangle$. 
 
 Before, the first qubit was in a superposition of the $|0\rangle$ and $|1\rangle$ state. After 

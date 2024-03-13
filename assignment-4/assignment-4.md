@@ -106,7 +106,7 @@ controlled gate followed by a measurement.
 
 ## Question four
 ![Reversible circuit ](reversible_computation.jpeg)
-I will list out the values at the ancilla bits $a_0 - a_4$ throughout the different time slices.
+I will list out the values of the changed bits $a_0 - a_4, x_1 - x_5$ throughout the different time slices.
 
 1: $a_0 = x_2 \land x_3$
 
@@ -114,7 +114,7 @@ I will list out the values at the ancilla bits $a_0 - a_4$ throughout the differ
 
 3: $a_0 = x_1 \oplus (x_2 \land x_3) \oplus x_4$
 
-4: $a_2 = \neg x_1 \land x_2$
+4: $a_1 = \neg x_1 \land x_2$
 
 5: $x_5 = x_5 \oplus x_4$
 

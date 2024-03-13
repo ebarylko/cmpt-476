@@ -109,11 +109,17 @@ controlled gate followed by a measurement.
 I will list out the values at the ancilla bits $a_0 - a_4$ throughout the different time slices.
 
 1: $a_0 = x_2 \land x_3$
+
 2: $a_0 = x_1 \oplus (x_2 \land x_3)$
+
 3: $x_1 = \neg x_1, a_0 = x_1 \oplus (x_2 \land x_3) \oplus x_4$
+
 4: $a_2 = x_1 \land x_2$
+
 5: $x_5 = x_5 \oplus x_4$
+
 6: $a_2 = (\neg x_1 \land x_2) \land (x_4 \oplus x_5)$
+
 7: $a_3 = (x_1 \oplus (x_2 \land x_3) \oplus x_4) \land ((\neg x_1 \land x_2) \land (x_4 \oplus x_5))$
 
 

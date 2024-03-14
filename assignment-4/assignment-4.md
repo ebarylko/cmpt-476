@@ -114,7 +114,9 @@ controlled gate followed by a measurement.
 ## Question four
 ![Reversible circuit ](reversible_computation.jpeg)
 
-I will list out the values of the changed bits $a_0 - a_4, x_1 - x_5$ throughout the different time slices.
+I will list out the values of the changed bits $a_0 - a_3, x_1 - x_5$ throughout the different time slices.
+
+All the $a_0-a_3$ ancillas are initialized to $|0\rangle$.
 
 1: $a_0 = x_2 \land x_3$
 

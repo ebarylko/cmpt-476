@@ -58,15 +58,18 @@ qubit is $|0\rangle$ or $|1\rangle$ by the expression $|0\rangle \langle 0|$ or 
 
 Knowing that we wish to only apply the Hadamard gate on the third qubit when the control bit is one and leave the 
 second qubit alone, that operation corresponds to the matrix $|1\rangle \langle 1| \otimes I \otimes H$
+
 ![Applying Hadamard when control bit is one](q2_pt2_1.jpeg)
 
 Further knowing that we want to do nothing on the third qubit when the control bit is zero, that operation corresponds 
 to the matrix $|0\rangle \langle 0| \otimes I \otimes I$.
+
 ![Doing nothing when control bit is zero](q2_pt2_2.jpeg)
 
 Combining these operations together, we can generate a matrix that is equivalent to the circuit.
 
 The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I + |1\rangle \langle 1| \otimes I \otimes H$.
+
 ![The full matrix](q2_pt2_3.jpeg)
 
 

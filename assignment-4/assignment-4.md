@@ -230,12 +230,12 @@ $\frac{1}{\sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^3}{}} |x \rangle |f(x)\r
 
 ### Part 2
 
-I have three values of f(x) present: $|001\rangle, |000\rangle,$ and $|110\rangle$.
+I have four values of f(x) present: $|000\rangle, |001\rangle,$ $|101\rangle$, and $|010\rangle$.
 
-I will now do a partial measurement of $|110\rangle$ in the second register.
+I will now do a partial measurement of $|101\rangle$ in the second register.
 
 Doing the above, I obtain
-$\frac{1}{\sqrt{2}}(|011\rangle |110\rangle  + |110 \rangle |110\rangle)$
+$\frac{1}{\sqrt{2}}(|011\rangle |101\rangle  + |110 \rangle |101\rangle)$
 
 ### Part 3
 

@@ -210,8 +210,11 @@ Looking into the implementation of the oracle allows us to compare the classic a
 quantum algorithm to analyze the benefits/drawbacks of the quantum function.
 
 ### What if instead Uf was any polynomial-sized oracle for f over the gate set consisting of X, CNOT, and Toffoli gates, with no other gaurantees about its structure?
-Given these conditions that each call to $U_f$ takes runtime $O(n^k), k \in \mathbb{R}$, 
-running the algorithm n times will give us a total runtime of $O(n^{k + 1})$, which is 
+If $U_f$ is a polynomial-sized oracle for f, that means that there are $n^k$ gates in the oracle, where k is a  
+constant. Let us also assume that the gates manufactured out of the X, CNOT, and Toffoli gates also run in $O(n)$ time.
+
+Further assuming that the oracle will read over the n input qubits, this adds an additional order of n to the runtime.
+In total, running the oracle n times will give a total runtime of $O(n * n * n^k) = O(n^{k + 2})$, which is 
 still polynomial.
 
 However, if $U_f$ directly uses the hidden string in its calculations, then we can peek inside the function and 

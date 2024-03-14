@@ -66,6 +66,8 @@ Combining these operations together, we can generate a matrix that is equivalent
 
 The circuit in matrix form would be $|0\rangle \langle 0| \otimes I \otimes I + |1\rangle \langle 1| \otimes I \otimes H$
 
+## write out the full matrix
+
 ## Question three
 
 
@@ -105,6 +107,7 @@ Therefore, every gate controlled on a measurement outcome is equivalent to a qua
 controlled gate followed by a measurement.
 
 ## Question four
+## Change this to use the modified expression
 ![Reversible circuit ](reversible_computation.jpeg)
 I will list out the values of the changed bits $a_0 - a_4, x_1 - x_5$ throughout the different time slices.
 

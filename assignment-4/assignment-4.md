@@ -126,6 +126,7 @@ I will list out the values of the changed bits $a_0 - a_4, x_1 - x_5$ throughout
 
 7: $a_3 = (x_1 \oplus (x_2 \land x_3) \oplus x_4) \land (x_4 \oplus (x_5 \land \neg x_1 \land x_2))$
 
+The rest of the time slices uncompute the temporary values.
 
 ## Question five
 

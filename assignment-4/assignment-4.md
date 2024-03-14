@@ -112,7 +112,6 @@ Therefore, every gate controlled on a measurement outcome is equivalent to a qua
 controlled gate followed by a measurement.
 
 ## Question four
-## Change this to use the modified expression
 ![Reversible circuit ](reversible_computation.jpeg)
 
 I will list out the values of the changed bits $a_0 - a_4, x_1 - x_5$ throughout the different time slices.

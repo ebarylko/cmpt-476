@@ -220,13 +220,13 @@ Even in both cases where the hidden string is within and not within $U_f$, the v
 $s$ can be computed in polynomial time.
 
 ## Question seven
-f (a, b, c) = (b(¬a) + b(¬c), b(a ⊕ c), ac).
+f (a, b, c) = (b(¬a) ⊕ b(¬c), b(¬a ⊕ c), a⊕c).
 ### Part 1
 
 The uniform superposition is 
 $\frac{1}{\sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^3}{}} |x \rangle |f(x)\rangle$
 
-= $\frac{1}{\sqrt{2^3}}(|000\rangle |000\rangle + |001 \rangle |000\rangle + |011\rangle |110\rangle  + |010 \rangle |000\rangle  +  |100\rangle |000\rangle + |101 \rangle |001\rangle + |111 \rangle |001\rangle  + |110 \rangle |110\rangle)$
+= $\frac{1}{\sqrt{2^3}}(|000\rangle |000\rangle + |001 \rangle |001\rangle + |011\rangle |100\rangle  + |010 \rangle |010\rangle  +  |100\rangle |001\rangle + |101 \rangle |000\rangle + |111 \rangle |010\rangle  + |110 \rangle |101\rangle)$
 
 ### Part 2
 

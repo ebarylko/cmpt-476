@@ -211,10 +211,11 @@ quantum algorithm to analyze the benefits/drawbacks of the quantum function.
 
 ### What if instead Uf was any polynomial-sized oracle for f over the gate set consisting of X, CNOT, and Toffoli gates, with no other gaurantees about its structure?
 If $U_f$ is a polynomial-sized oracle for f, that means that there are $n^k$ gates in the oracle, where k is a  
-constant. Let us also assume that the gates manufactured out of the X, CNOT, and Toffoli gates also run in $O(n)$ time.
+constant. Let us also assume that the gates manufactured out of the X, CNOT, and Toffoli gates also run in $O(n)$ time, where
+n is the length of the bit-string.
 
 Further assuming that the oracle will read over the n input qubits, this adds an additional order of n to the runtime.
-In total, running the oracle n times will give a total runtime of $O(n * n * n^k) = O(n^{k + 2})$, which is 
+In total, running the oracle n times (on all the states from $n_0$ to $n_{n - 1}$, where $n_i$ represents the bit string with the ith bit being $|1\rangle$ and the others being zero) will give a total runtime of $O(n * n * n^k) = O(n^{k + 2})$, which is 
 still polynomial.
 
 However, if $U_f$ directly uses the hidden string in its calculations, then we can peek inside the function and 

@@ -109,6 +109,7 @@ controlled gate followed by a measurement.
 ## Question four
 ## Change this to use the modified expression
 ![Reversible circuit ](reversible_computation.jpeg)
+
 I will list out the values of the changed bits $a_0 - a_4, x_1 - x_5$ throughout the different time slices.
 
 1: $a_0 = x_2 \land x_3$
@@ -119,12 +120,11 @@ I will list out the values of the changed bits $a_0 - a_4, x_1 - x_5$ throughout
 
 4: $a_1 = \neg x_1 \land x_2$
 
-5: $x_5 = x_5 \oplus x_4$
+5: $a_2 = x_5 \land \neg x_1 \land x_2$
 
-6: $a_2 = (\neg x_1 \land x_2) \land (x_4 \oplus x_5)$
+6: $a_2 = x_4 \oplus (x_5 \land \neg x_1 \land x_2)$
 
-7: $a_3 = (x_1 \oplus (x_2 \land x_3) \oplus x_4) \land ((\neg x_1 \land x_2) \land (x_4 \oplus x_5))$
-
+7: $a_3 = (x_1 \oplus (x_2 \land x_3) \oplus x_4) \land (x_4 \oplus (x_5 \land \neg x_1 \land x_2))$
 
 
 ## Question five

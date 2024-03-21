@@ -41,6 +41,9 @@ This tells me that the prime factors of 21 are 7 and 3.
 ## Question six
 
 ### Part 1
+
+#### Using the fact about non-zero amplitudes to prove the other fact
+
 In this superposition,
 ${\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y(1 \oplus \phi (x))}|x \rangle$, 
 the only way that $|x\rangle$ has a non-zero amplitude is if for different values of y, $(-1)^{y(1 \oplus \phi (x))}|x \rangle$ 
@@ -49,3 +52,34 @@ does not destructively interfere.
 In order to have constructive interference, we need that $y_1(1 \oplus \phi (x)) = y_2(1 \oplus \phi (x)), y_1 = 0, y_2 = 1$.
 Expanding out the expression above, we have that $0 = 1 \oplus \phi (x)$. The only way this equation holds is if 
 $\phi (x) = 1$. 
+
+#### Using the value of the function to prove that the state has a non-zero amplitude
+
+If $\phi (x) = 1$, substituting this value in the expression   
+${\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y(1 \oplus \phi (x))}|x \rangle$ 
+yields 
+${\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y(1 \oplus 1)}|x \rangle$, which 
+is equivalent to
+${\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y(0)}|x \rangle$, which further 
+simplifies to
+${\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} |x \rangle$.
+
+As a result of $\phi (x)$ taking on a specific value, each basis state has a non-zero probability of occurring.
+
+
+### Part 2
+The transformation on the right hand side is not a unit vector for every value of $\phi (x)$.
+
+If $\phi (x) = 0$, then the superposition simplifies to
+$\frac{1}{2 \sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y(1 \oplus 0)}|x \rangle$, which
+is equivalent to 
+$\frac{1}{2 \sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y}|x \rangle$.
+
+Expanding out the last line to explicitly show the values that $(-1)^{y}|x \rangle$ can take on, we see that it becomes
+$\frac{1}{2 \sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^n}{}}  (-1)^{1}|x \rangle + (-1)^{0}|x \rangle $.
+
+For any computational basis state $|x\rangle$, we will sum $(-1)^0|x\rangle$ and $(-1)^{-1}|x\rangle$, having the 
+basis state removed due to destructive interference.
+
+Since this occurs for all basis states, our superposition of states will sum to zero. As a result of this, we will have
+that the superposition is not a unit vector since its length is not 1.

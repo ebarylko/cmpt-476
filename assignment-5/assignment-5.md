@@ -52,7 +52,7 @@ $\frac{\sqrt{|S|}}{\sqrt{2^n}}{\displaystyle\sum_{z \in s^{\perp}}{}  (-1)^{xz}|
 
 We have obtained the following by manipulating our original expression $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\displaystyle\sum_{s \in S}{} |x + s\rangle}$. 
 
-We can conclude that  $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\displaystyle\sum_{s \in S}{} |x + s\rangle} = \frac{\sqrt{|S|}}{\sqrt{2^n}}{\displaystyle\sum_{z \in s^{\perp}}{}  (-1)^{xz}|z\rangle}$
+Consequently, we can conclude that  $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\displaystyle\sum_{s \in S}{} |x + s\rangle} = \frac{\sqrt{|S|}}{\sqrt{2^n}}{\displaystyle\sum_{z \in s^{\perp}}{}  (-1)^{xz}|z\rangle}$
 ### Part 2
 
 Simon's algorithm can be used to solve the boolean hidden subgroup problem since we 

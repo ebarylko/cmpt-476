@@ -1,5 +1,30 @@
 ## Question 1
 
+### Part 2
+
+Simon's algorithm can be used to solve the boolean hidden subgroup problem since we 
+can prepare a superposition of the n qubits, apply $U_f$, do a partial measurement of the second 
+register, and then measure to get a basis vector orthogonal to s. We can repeat the previous steps 
+until we have n - 1 basis vectors orthogonal to s. Once we have this, we can place all the basis vectors
+we measured into a matrix $A$ and solve $As = 0$ to obtain what s is. Since we have found the 
+basis vectors orthogonal to s and the value of s, we can say that these n vectors form a basis for 
+$S$ since Dim(S) = Dim(span(s)) + Dim(Span($s^{\perp}$)).
+
+Algorithm: 
+
+A = {}
+While less than n -1 linearly independent orthogonal vectors to s in A
+    Prepare $(H^{\otimes n} \otimes I) |0\rangle^{\otimes (n + 1)}$
+    Apply $U_f$ to the first n qubits
+    Measure $f(x)$ in the second register
+    Measure an orthogonal basis vector in the first register
+    Add the basis vector measured to A
+
+Solve the equation $As = 0$ to discover what s is, and have all the basis vectors in $S$.
+    
+    
+
+
 ## Question 2
 
 ### Compute the period of f (x) = 5^x mod 21 — that is, find the smallest integer r such that 5^r ≡ 1 mod 21

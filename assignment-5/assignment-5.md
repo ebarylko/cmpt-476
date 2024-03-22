@@ -4,8 +4,27 @@
 $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\displaystyle\sum_{s \in S}{} |x + s\rangle} = $
 $\frac{1}{\sqrt{|S|}}{\displaystyle\sum_{s \in S}{} \frac{1}{\sqrt{2^n}} {\displaystyle\sum_{z \in \{0, 1\}^n}{} (-1)^{(x + s)z}|z\rangle}}$.
 
-Taking the expression above, I can modify the order of the summations to obtain 
-$\frac{1}{\sqrt{2^n}\sqrt{|S|}}{\displaystyle\sum_{z \in \{0, 1\}^n}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle}}$.
+Taking the expression above, I can modify the order of the summations to obtain
+$\frac{1}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in \{0, 1\}^n}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle}$.
+This expression can be further split into the $|z\rangle$ which are orthogonal to $|s\rangle$ and which are not 
+orthogonal to $|s\rangle$.
+
+Splitting the expression, we obtain
+$\frac{1}{\sqrt{2^n|S|}}({\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle} + {\displaystyle\sum_{z \notin s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle})$.
+
+In order to proceed further with this expression, I will need to prove that $forall z$, $z·s = 0$ for half of the elements in $S$.
+
+Proof:
+We know that for every $s \in S$, it can be written as a linear combination of the basis vectors in $S$.
+
+We can therefore express $z * s$ as $z a_1 t_1 + z a_2 t_2 + z a_3 t_3 + ... z a_n t_n$ for the n basis vectors of $S$, where 
+the nth basis vector is denoted by $t_n$.
+
+If we wish for $z * s = 0$, we need an even number of terms in $z * s$ to have a value of 1. /
+
+Let the basis of $S$ be the collection of 
+Let $S$ have a basis of $\
+
 
 ### Part 2
 

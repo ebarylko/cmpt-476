@@ -12,7 +12,7 @@ orthogonal to $|s\rangle$.
 Splitting the expression, we obtain
 $\frac{1}{\sqrt{2^n|S|}}({\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle} + {\displaystyle\sum_{z \notin s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle})$.
 
-In order to proceed further with this expression, I will need to prove that $forall z$, $z·s = 0$ for half of the elements in $S$.
+In order to proceed further with this expression, I will need to prove that $\forall z$, $z·s = 0$ for half of the elements in $S$.
 
 **Start of proof**:
 We know that for every $s \in S$, it can be written as a linear combination of the basis vectors in $S$.

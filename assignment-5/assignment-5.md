@@ -14,7 +14,7 @@ $\frac{1}{\sqrt{2^n|S|}}({\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle
 
 In order to proceed further with this expression, I will need to prove that $forall z$, $z·s = 0$ for half of the elements in $S$.
 
-Start of proof:
+**Start of proof**:
 We know that for every $s \in S$, it can be written as a linear combination of the basis vectors in $S$.
 
 We can therefore express $z * s$ as $z a_1 t_1 + z a_2 t_2 + z a_3 t_3 + ... z a_n t_n$ for the n basis vectors of $S$, where 
@@ -26,13 +26,13 @@ Counting all the number of ways to select an even number of terms in $s * z$, it
 
 Using the binomial theorem, we know that $(1 + x)^n = \displaystyle\sum_{k = 0}{n} \binom{n}{k}$ and $(1 - x)^n = \displaystyle\sum_{k = 0}{n} (-1)^k \binom{n}{k}$, respectively.
 
-Summing $(1 + x)^n$ and $(1 - x)^n$, we obtain $2 \displaystyle\sum{k \in \mathbb{N^{even}}}{} \binom{n}{k}x^k$.
+Summing $(1 + x)^n$ and $(1 - x)^n$, we obtain $2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}x^k$.
 
-If we set $x = 1$, we obtain that $(1 + 1)^n + (1 - 1)^n = 2 \displaystyle\sum{k \in \mathbb{N^{even}}}{} \binom{n}{k}$, which is equivalent to 
-$2^n = 2 \displaystyle\sum{k \in \mathbb{N^{even}}}{} \binom{n}{k}$. Dividing by 2, we obtain that
-$\displaystyle\sum{k \in \mathbb{N^{even}}}{} \binom{n}{k} = 2^{n - 1}$.
+If we set $x = 1$, we obtain that $(1 + 1)^n + (1 - 1)^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$, which is equivalent to 
+$2^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$. Dividing by 2, we obtain that
+$\displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k} = 2^{n - 1}$.
 
-End of proof.
+**End of proof**.
 
 Using what was proved above, I can state that $\forall z$, half the elements in $S$ are orthogonal to $z$. With this information, I know that the second 
 summation in 

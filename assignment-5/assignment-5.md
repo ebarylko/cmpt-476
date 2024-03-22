@@ -43,9 +43,16 @@ The expression above can now be modified to be
 $\frac{1}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle}$.
 
 Simplifying the expression further, it becomes
-$\frac{1}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{xz}|z\rangle}$.
+$\frac{1}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{xz}|z\rangle}$, which is equivalent to
+$\frac{1}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in s^{\perp}}{} } (-1)^{xz}{\displaystyle\sum_{s \in S}{} |z\rangle}$.
 
+Since we are repeatedly summing the $|z\rangle$ state $|S|$ times for each $|z\rangle \in Z$, we can factor out a multiple of 
+$|S|$, obtaining $\frac{|S|}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in s^{\perp}}{}  (-1)^{xz}}$, which simplifies to
+$\frac{\sqrt{|S|}}{\sqrt{2^n}}{\displaystyle\sum_{z \in s^{\perp}}{}  (-1)^{xz}|z\rangle}$
 
+We have obtained the following by manipulating our original expression $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\displaystyle\sum_{s \in S}{} |x + s\rangle}$. 
+
+We can conclude that  $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\displaystyle\sum_{s \in S}{} |x + s\rangle} = \frac{\sqrt{|S|}}{\sqrt{2^n}}{\displaystyle\sum_{z \in s^{\perp}}{}  (-1)^{xz}|z\rangle}$
 ### Part 2
 
 Simon's algorithm can be used to solve the boolean hidden subgroup problem since we 

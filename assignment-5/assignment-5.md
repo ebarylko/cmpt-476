@@ -2,10 +2,10 @@
 
 ### Part 1
 $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\displaystyle\sum_{s \in S}{} |x + s\rangle} = $
-$\frac{1}{\sqrt{|S|}}{\displaystyle\sum_{s \in S}{} \frac{1}{\sqrt{2^n}} {\displaystyle\sum_{z \in \{0, 1\}^n}{} (-1)^{(x + s)z}|z\rangle}}$.
+$\frac{1}{\sqrt{|S|}}{\displaystyle\sum_{s \in S}{} \frac{1}{\sqrt{2^n}} {\displaystyle\sum_{z \in \set{0, 1}^n}{} (-1)^{(x + s)z}|z\rangle}}$.
 
 Taking the expression above, I can modify the order of the summations to obtain
-$\frac{1}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in \{0, 1\}^n}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle}$.
+$\frac{1}{\sqrt{2^n|S|}}{\displaystyle\sum_{z \in \set{0, 1}^n}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle}$.
 This expression can be further split into the $|z\rangle$ which are orthogonal to $|s\rangle$ and which are not 
 orthogonal to $|s\rangle$.
 

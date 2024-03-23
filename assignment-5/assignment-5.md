@@ -19,7 +19,7 @@ In order to proceed further with this expression, I will need to prove that $\fo
 We know that for every $s \in S$, it can be written as a linear combination of the basis vectors in $S$.
 
 We can therefore express $z * s$ as $z a_1 t_1 + z a_2 t_2 + z a_3 t_3 + ... z a_n t_n$ for the n basis vectors of $S$, where 
-the nth basis vector is denoted by $t_n$.
+the nth basis vector is denoted by $t_n$ and the coefficient for the nth basis vector is denoted by $a_n$.
 
 If we wish for $z * s = 0$, we need an even number of terms in $z * s$ to have a value of 1. 
 

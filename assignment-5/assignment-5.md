@@ -15,6 +15,7 @@ $\frac{1}{\sqrt{2^n|S|}}({\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle
 In order to proceed further with this expression, I will need to prove that $\forall z$, $z·s = 0$ for half of the elements in $S$.
 
 **Start of proof**:
+
 We know that for every $s \in S$, it can be written as a linear combination of the basis vectors in $S$.
 
 We can therefore express $z * s$ as $z a_1 t_1 + z a_2 t_2 + z a_3 t_3 + ... z a_n t_n$ for the n basis vectors of $S$, where 
@@ -24,7 +25,7 @@ If we wish for $z * s = 0$, we need an even number of terms in $z * s$ to have a
 
 Counting all the number of ways to select an even number of terms in $s * z$, it is equivalent to $\displaystyle\sum_{i \in \mathbb{N^{even}}}{} \binom{n}{i}$. 
 
-Using the binomial theorem, we know that $(1 + x)^n = \displaystyle\sum_{k = 0}{n} \binom{n}{k}$ and $(1 - x)^n = \displaystyle\sum_{k = 0}{n} (-1)^k \binom{n}{k}$, respectively.
+Using the binomial theorem, we know that $(1 + x)^n = \displaystyle\sum_{k = 0}{n} \binom{n}{k} x^k$ and $(1 - x)^n = \displaystyle\sum_{k = 0}{n}  \binom{n}{k}(-1)^k x^k$, respectively.
 
 Summing $(1 + x)^n$ and $(1 - x)^n$, we obtain $2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}x^k$.
 

@@ -178,6 +178,66 @@ $$
 \end{bmatrix}
 $$
 
+#### Showing Z has an order of 3
+
+$Z$ = 
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+$$
+
+$ZZZ$ 
+
+= 
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+$$
+
+= 
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {{\omega}_3}^2 & 0 \\
+0 & 0 & {{\omega}^2_3}^2 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+$$
+
+= 
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+\end{bmatrix}
+$$
+
+
 ## Question six
 
 ### Part 1

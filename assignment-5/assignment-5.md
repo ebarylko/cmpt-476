@@ -217,8 +217,8 @@ $$
 $$
 \begin{bmatrix}
 1 & 0 & 0 \\
-0 & {{\omega}_3}^2 & 0 \\
-0 & 0 & {{\omega}^2_3}^2 \\
+0 & ({\omega}_3)^2 & 0 \\
+0 & 0 & ({\omega}^2_3)^2 \\
 \end{bmatrix}
 \begin{bmatrix}
 1 & 0 & 0 \\

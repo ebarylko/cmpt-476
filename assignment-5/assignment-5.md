@@ -237,6 +237,69 @@ $$
 \end{bmatrix}
 $$
 
+### Part 2
+
+$XZ$  =
+
+$$
+\begin{bmatrix}
+0 & 0 & 1 \\
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+$$
+
+= 
+
+$$
+\begin{bmatrix}
+0 & 0 & {\omega}^2_3 \\
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+\end{bmatrix}
+$$
+ 
+$ZX {\omega}^2_3$:
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+\begin{bmatrix}
+0 & 0 & 1 \\
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+\end{bmatrix} {\omega}^2_3
+$$
+
+= 
+
+
+$$
+\begin{bmatrix}
+0 & 0 & 1 \\
+{\omega}_3 & 0 & 0 \\
+0 & {\omega}^2_3 & 0 \\
+\end{bmatrix} {\omega}^2_3
+$$
+
+= 
+
+$$
+\begin{bmatrix}
+0 & 0 & {\omega}^2_3 \\
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+\end{bmatrix}
+$$
+
 
 ## Question six
 

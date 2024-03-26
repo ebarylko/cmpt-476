@@ -31,6 +31,8 @@ Let us consider taking a vector $q \in S^{\prime}$, and compute the value of $q 
 If we now consider multiplying $(q + t_x)$ by $z$, we obtain $(q + t_x) * z = qz + qt_x = c + 1$.
 
 Therefore, $\forall q \in S^{\prime}$, we can map $q \rightarrow q + t_x$, where $qz$ and $(q + t_x)z$ have differing dot products.
+Since I am able to create a one to one mapping of the vectors with a dot product of 0 and a dot product of 1, I know that 
+for half of the vectors $s \in S, s * z = 0$.
 
 As a result of this, $\forall z \notin s^{\perp}$, $z·s = 0$ for half of the elements in $S$
 

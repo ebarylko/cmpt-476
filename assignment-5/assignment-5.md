@@ -276,6 +276,11 @@ $$
 0 & 0 & {\omega}^2_3 \\
 \end{bmatrix}
 \begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+\begin{bmatrix}
 0 & 0 & 1 \\
 1 & 0 & 0 \\
 0 & 1 & 0 \\
@@ -302,6 +307,90 @@ $$
 0 & {\omega}_3 & 0 \\
 \end{bmatrix}
 $$
+
+### Part 3
+
+$H$ 
+
+=
+
+$$ \frac{1}{\sqrt{3}}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & {\omega}_3 & {\omega}^2_3 \\
+1 & {\omega}^2_3 & {\omega}_3 \\
+\end{bmatrix}
+$$
+
+$H^{\dagger}$ 
+
+=
+
+$$ \frac{1}{\sqrt{3}}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & {\omega}^2_3 & {\omega}_3 \\
+1 & {\omega}_3 & {\omega}^2_3 \\
+\end{bmatrix}
+$$
+
+$H^{\dagger}ZH$
+
+$$ \frac{1}{3}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & {\omega}^2_3 & {\omega}_3 \\
+1 & {\omega}_3 & {\omega}^2_3 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & {\omega}_3 & 0 \\
+0 & 0 & {\omega}^2_3 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & {\omega}_3 & {\omega}^2_3 \\
+1 & {\omega}^2_3 & {\omega}_3 \\
+\end{bmatrix}
+$$
+
+=
+
+$$ \frac{1}{3}
+\begin{bmatrix}
+1 & {\omega}_3 & {\omega}^2_3 \\
+1 & 1 & 1 \\
+1 & {\omega}^2_3 & {\omega}_3 \\
+\end{bmatrix}
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & {\omega}_3 & {\omega}^2_3 \\
+1 & {\omega}^2_3 & {\omega}_3 \\
+\end{bmatrix}
+$$
+
+=
+
+$$ \frac{1}{3}
+\begin{bmatrix}
+1 +  {\omega}_3 + {\omega}^2_3 & 1 +  {\omega}_3 + {\omega}^2_3  & 3 \\
+3 & 1 +  {\omega}_3 + {\omega}^2_3  & 1 +  {\omega}_3 + {\omega}^2_3  \\
+1 +  {\omega}_3 + {\omega}^2_3   & 3 & 1 +  {\omega}_3 + {\omega}^2_3    \\
+\end{bmatrix}
+$$
+
+Using the fact that the sum of the nth roots of unity is 0, the above matrix becomes
+
+$$
+\begin{bmatrix}
+0 & 0 & 1 \\
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+\end{bmatrix}
+$$
+
+We can note that the simplified matrix above is equivalent to $X$, showing that 
+$H^{\dagger}ZH = X$.
 
 
 ## Question six

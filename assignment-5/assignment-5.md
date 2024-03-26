@@ -21,7 +21,7 @@ We know that for every $s \in S$, it can be written as a linear combination of t
 We can therefore express $z * s$ as $z a_1 t_1 + z a_2 t_2 + z a_3 t_3 + ... z a_n t_n$ for the n basis vectors of $S$, where 
 the nth basis vector is denoted by $t_n$ and the coefficient for the nth basis vector is denoted by $a_n$.
 
-If $z \notin s^{\perp}$, this means that $\exists t_x \in \set{t_i} z * t_x = 1$.
+If $z \notin s^{\perp}$, this means that $\exists t_x \in \set{t_i}, z * t_x = 1$.
 
 Let us know define $S^{\prime}$ as $span \set{t_1, t_2 ... t_{x - 1}, t_{x + 1}, ... t_{n}}$. Knowing that no 
 vector in $S^{\prime}$ contains $t_x$, we know that the sets $S^{\prime}$ and $S^{\prime} +t_x$ are disjoint.
@@ -30,7 +30,7 @@ Let us consider taking a vector $q \in S^{\prime}$, and compute the value of $q 
 
 If we now consider multiplying $(q + t_x)$ by $z$, we obtain $(q + t_x) * z = qz + qt_x = c + 1$.
 
-Therefore, $\forall q \in S^{\prime}$, we can map $q -> q + t_x$, where $qz$ and $(q + t_x)z$ have differing dot products.
+Therefore, $\forall q \in S^{\prime}$, we can map $q \rightarrow q + t_x$, where $qz$ and $(q + t_x)z$ have differing dot products.
 
 As a result of this, $\forall z \notin s^{\perp}$, $z·s = 0$ for half of the elements in $S$
 

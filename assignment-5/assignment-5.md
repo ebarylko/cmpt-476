@@ -26,23 +26,13 @@ If $z \notin s^{\perp}$, this means that $\exists t_x \in \set{t_i} z * t_x = 1$
 Let us know define $S^{\prime}$ as $span \set{t_1, t_2 ... t_{x - 1}, t_{x + 1}, ... t_{n}}$. Knowing that no 
 vector in $S^{\prime}$ contains $t_x$, we know that the sets $S^{\prime}$ and $S^{\prime} +t_x$ are disjoint.
 
-[//]: # (If we wish for $z * s = 0$, we need an even number of terms in $z * s$ to have a value of 1. )
+Let us consider taking a vector $q \in S^{\prime}$, and compute the value of $q * z$. We will obtain that $z * q = c, c \in \set{0, 1}$.
 
-[//]: # ()
-[//]: # (Counting all the number of ways to select an even number of terms in $s * z$, it is equivalent to $\displaystyle\sum_{i \in \mathbb{N^{even}}}{} \binom{n}{i}$. )
+If we now consider multiplying $(q + t_x)$ by $z$, we obtain $(q + t_x) * z = qz + qt_x = c + 1$.
 
-[//]: # ()
-[//]: # (Using the binomial theorem, we know that $&#40;1 + x&#41;^n = \displaystyle\sum_{k = 0}{n} \binom{n}{k} x^k$ and $&#40;1 - x&#41;^n = \displaystyle\sum_{k = 0}{n}  \binom{n}{k}&#40;-1&#41;^k x^k$, respectively.)
+Therefore, $\forall q \in S^{\prime}$, we can map $q -> q + t_x$, where $qz$ and $(q + t_x)z$ have differing dot products.
 
-[//]: # ()
-[//]: # (Summing $&#40;1 + x&#41;^n$ and $&#40;1 - x&#41;^n$, we obtain $2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}x^k$.)
-
-[//]: # ()
-[//]: # (If we set $x = 1$, we obtain that $&#40;1 + 1&#41;^n + &#40;1 - 1&#41;^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$, which is equivalent to )
-
-[//]: # ($2^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$. Dividing by 2, we obtain that)
-
-[//]: # ($\displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k} = 2^{n - 1}$.)
+As a result of this, $\forall z \notin s^{\perp}$, $z·s = 0$ for half of the elements in $S$
 
 **End of proof**.
 

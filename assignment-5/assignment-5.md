@@ -12,7 +12,7 @@ orthogonal to $|s\rangle$.
 Splitting the expression, we obtain
 $\frac{1}{\sqrt{2^n|S|}}({\displaystyle\sum_{z \in s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle} + {\displaystyle\sum_{z \notin s^{\perp}}{} } {\displaystyle\sum_{s \in S}{} (-1)^{(x + s)z}|z\rangle})$.
 
-In order to proceed further with this expression, I will need to prove that $\forall z$, $z·s = 0$ for half of the elements in $S$.
+In order to proceed further with this expression, I will need to prove that $\forall z \notin s^{\perp}$, $z·s = 0$ for half of the elements in $S$.
 
 **Start of proof**:
 
@@ -21,17 +21,28 @@ We know that for every $s \in S$, it can be written as a linear combination of t
 We can therefore express $z * s$ as $z a_1 t_1 + z a_2 t_2 + z a_3 t_3 + ... z a_n t_n$ for the n basis vectors of $S$, where 
 the nth basis vector is denoted by $t_n$ and the coefficient for the nth basis vector is denoted by $a_n$.
 
-If we wish for $z * s = 0$, we need an even number of terms in $z * s$ to have a value of 1. 
+If $z \notin s^{\perp}$, this means that $\exists t_x \in \set{t_i} z * t_x = 1$.
 
-Counting all the number of ways to select an even number of terms in $s * z$, it is equivalent to $\displaystyle\sum_{i \in \mathbb{N^{even}}}{} \binom{n}{i}$. 
+Let us know define $S^{\prime}$ as $span \set{t_1, t_2 ... t_{x - 1}, t_{x + 1}, ... t_{n}}$. Knowing that no 
+vector in $S^{\prime}$ contains $t_x$, we know that the sets $S^{\prime}$ and $S^{\prime} +t_x$ are disjoint.
 
-Using the binomial theorem, we know that $(1 + x)^n = \displaystyle\sum_{k = 0}{n} \binom{n}{k} x^k$ and $(1 - x)^n = \displaystyle\sum_{k = 0}{n}  \binom{n}{k}(-1)^k x^k$, respectively.
+[//]: # (If we wish for $z * s = 0$, we need an even number of terms in $z * s$ to have a value of 1. )
 
-Summing $(1 + x)^n$ and $(1 - x)^n$, we obtain $2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}x^k$.
+[//]: # ()
+[//]: # (Counting all the number of ways to select an even number of terms in $s * z$, it is equivalent to $\displaystyle\sum_{i \in \mathbb{N^{even}}}{} \binom{n}{i}$. )
 
-If we set $x = 1$, we obtain that $(1 + 1)^n + (1 - 1)^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$, which is equivalent to 
-$2^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$. Dividing by 2, we obtain that
-$\displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k} = 2^{n - 1}$.
+[//]: # ()
+[//]: # (Using the binomial theorem, we know that $&#40;1 + x&#41;^n = \displaystyle\sum_{k = 0}{n} \binom{n}{k} x^k$ and $&#40;1 - x&#41;^n = \displaystyle\sum_{k = 0}{n}  \binom{n}{k}&#40;-1&#41;^k x^k$, respectively.)
+
+[//]: # ()
+[//]: # (Summing $&#40;1 + x&#41;^n$ and $&#40;1 - x&#41;^n$, we obtain $2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}x^k$.)
+
+[//]: # ()
+[//]: # (If we set $x = 1$, we obtain that $&#40;1 + 1&#41;^n + &#40;1 - 1&#41;^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$, which is equivalent to )
+
+[//]: # ($2^n = 2 \displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k}$. Dividing by 2, we obtain that)
+
+[//]: # ($\displaystyle\sum_{k \in \mathbb{N^{even}}}{} \binom{n}{k} = 2^{n - 1}$.)
 
 **End of proof**.
 

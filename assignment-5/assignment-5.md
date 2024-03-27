@@ -308,6 +308,70 @@ $$
 \end{bmatrix}
 $$
 
+I will now determine the value of k in 
+$X^i Z^j = {\omega}^k Z^j X^i , i, j \in \set{0, 1, 2}$ by trying out different values of $i$ and $j$.
+
+#### i = 0, j = 0
+
+$X^0 Z^0 = {\omega}^k Z^0 X^0$, which simplifies to $I = {\omega}^k I$. For this to be true, $k = 0$.
+
+#### i = 1, j = 0
+$X^1 Z^0 = {\omega}^k Z^0 X^1$, which simplifies to 
+$X = {\omega}^kX$. Multiplying by $X^{-1}$ on the left, we obtain
+$X^{-1}(X = {\omega}^kX)$, which simplifies to $I =  {\omega}^k I$. For this to be true, $k = 0$.
+
+### i = 0, j = 1
+
+$X^0 Z^1 = {\omega}^k Z^1 X^0$, which simplifies to
+$Z = {\omega}^k Z$. Multiplying by $Z^{-1}$ on the left, we obtain
+$Z^{-1}(Z = {\omega}^kZ)$, which simplifies to $I =  {\omega}^k I$. For this to be true, $k = 0$.
+
+### i = j = 1
+
+$X^1 Z^1 = {\omega}^k Z^1 X^1$. Using the fact that
+$XZ = {\omega}^2_3 Z X$, we know that $k = 2$.
+
+### i = 1, j = 2
+
+$X^1 Z^2 = {\omega}^k Z^2 X^1$, which simplifies to
+${\omega}^2_3 ZX  Z = {\omega}^k Z^2 X^1$. Multiplying by $Z^{-1}$ on the left, we obtain
+${\omega}^2_3 X  Z = {\omega}^k Z X^1$. Using the fact that
+$XZ = {\omega}^2_3 Z X$, the expression  ${\omega}^2_3 X  Z = {\omega}^k Z X^1$ becomes
+${\omega}^1_3 Z  X = {\omega}^k Z X^1$. Multiplying by ${Z}^-1$ on the left and ${X}^-1$ on the right, 
+we obtain ${\omega}^1_3 = {\omega}^k$, meaning $k = 1$.
+
+### i = 2, j = 1
+$X^2 Z^1 = {\omega}^k Z^1 X^2$, which simplifies to
+$X {\omega}^2_3 ZX = {\omega}^k Z^1 X^2$. Multiplying by $X^{-1}$ on the right, we obtain
+${\omega}^2_3 XZ = {\omega}^k ZX$. Using the fact that
+$XZ = {\omega}^2_3 Z X$, the expression  ${\omega}^2_3 XZ = {\omega}^k ZX$ becomes
+${\omega}^1_3 Z  X = {\omega}^k Z X$. Multiplying by ${Z}^-1$ on the left and ${X}^-1$ on the right,
+we obtain ${\omega}^1_3 = {\omega}^k$, meaning $k = 1$.
+
+### i = 0, j = 2
+
+$Z^2 = {\omega}^k Z^2$, multiplying by $Z^{-2}$ on the left, we obtain 
+$I = {\omega}^k I$, which means that $k = 0$.
+
+### i = 2, j = 0
+
+$X^2 = {\omega}^k X^2$, multiplying by $X^{-2}$ on the left, we obtain
+$I = {\omega}^k I$, which means that $k = 0$.
+
+### i = j = 2
+$X^2 Z^2 = {\omega}^k Z^2 X^2$, which simplifies to
+$X {\omega}^2_3 ZX Z = {\omega}^k Z^2 X^2$. Simplifying the expression further, we obtain
+$X {\omega}^2_3 ZZ X = {\omega}^k Z^2 X^2$. Multiplying by $X^{-1}$ on the right, we obtain
+$X {\omega}^2_3 ZZ  = {\omega}^k Z^2 X$, which simplifies to 
+$Z {\omega}^2_3 XZ  = {\omega}^k Z^2 X$. Multiplying by $Z^{-1}$ on the right, we obtain
+${\omega}^2_3 XZ  = {\omega}^k ZX$, which 
+further simplifies to ${\omega}^2_3 ZX  = {\omega}^k ZX$. 
+
+For this to be true, we need $k = 2$.
+
+Using the data obtained for different values of $i, j$, I obtain that 
+$k = 2 * i * j \mod 3$.
+
 ### Part 3
 
 $H$ 

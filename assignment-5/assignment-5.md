@@ -367,6 +367,8 @@ $Z {\omega}^2_3 XZ  = {\omega}^k Z^2 X$. Multiplying by $Z^{-1}$ on the right, w
 ${\omega}^2_3 XZ  = {\omega}^k ZX$, which 
 further simplifies to ${\omega}^2_3 ZX  = {\omega}^k ZX$. 
 
+Review this step.
+
 For this to be true, we need $k = 2$.
 
 Using the data obtained for different values of $i, j$, I obtain that 
@@ -456,6 +458,36 @@ $$
 We can note that the simplified matrix above is equivalent to $X$, showing that 
 $H^{\dagger}ZH = X$.
 
+### Part 4
+
+Knowing that $X = HZH^{\dagger}$ in the qubit case, we know that
+the eigenvalues of $X$ are the values along the diagonal of $Z$, being 
+$1, {\omega}_3,$ and ${\omega}^2_3$.
+
+The unit eigenvectors corresponding to these eigenvalues are 
+$$
+\begin{bmatrix}
+1 \\
+1 \\
+1 \\
+\end{bmatrix}
+$$, 
+
+$$
+\begin{bmatrix}
+1 \\
+{\omega}_3 \\
+{\omega}^2_3 \\
+\end{bmatrix}
+$$, and 
+
+$$
+\begin{bmatrix}
+1 \\
+{\omega}_^2_3 \\
+{\omega}_3 \\
+\end{bmatrix}
+$$, respectively.
 
 ## Question six
 

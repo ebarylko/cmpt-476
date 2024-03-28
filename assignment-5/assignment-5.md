@@ -592,6 +592,26 @@ two things can occur.
 Either $f$ is constant and we measure the state $|0(H|1\rangle)\rangle$, or f is not constant and 
 we measure $|1(H|1\rangle)\rangle$ or $|2(H|1\rangle)\rangle$.
 
+## Question five
+
+Let $|v\rangle$ be an eigenvector of $H$ with eigenvalue $\lambda$. Therefore, 
+$H|v\rangle = \lambda |v\rangle$.
+
+Multiplying by $\langle v|$ on the left hand side of the equation, we obtain 
+$\langle v | H|v\rangle = \lambda \lange v |v\rangle$, which is equivalent to
+$\langle v | H|v\rangle  = \lambda$.
+
+We know that the expression above is equivalent to  
+$H^{\dagger}\langle v | |v\rangle  = \lambda$. Using the fact that $|v\rangle$
+is an eigenvector, we obtain $\langle v | \lambda |v\rangle  = \lambda$. Using the 
+fact that for any $\langle t|, |r\rangle, \langle t|r\rangle = \langle r|t\rangle$, the 
+expression $\langle v | \lambda |v\rangle  = \lambda$ is equivalent to
+$\langle v |  \lambda^{\ast} |v\rangle  = \lambda$. 
+
+Knowing that $|v\rangle$ is a unit vector, the expression above simplifies to
+$\lambda^{\ast} = \lambda$. The only way this can occur is if $a + bi = a - bi$, which 
+implies that $bi = 0$. Consequently, we know that $\lambda$ must be a real number.
+
 ## Question six
 
 ### Part 1

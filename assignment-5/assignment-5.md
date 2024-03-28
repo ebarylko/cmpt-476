@@ -516,9 +516,34 @@ Let us now analyze the resulting state when $f$ is balanced and when $f$ is cons
 
 If f is constant, that means that either $f(0) = f(1) = f(2) = 0$, $f(0) = f(1) = f(2) = 1$, or $f(0) = f(1) = f(2) = 2$.
 
+Regardless of which of the three scenarios above occur, the $|1\rangle$ and $|2\rangle$ term will be removed from 
+destructive interference. Since the coefficients of the $|1\rangle$ and $|2\rangle$ will always be the sum of the 
+third roots of unity, those terms will cease to be in the expression.
 
+On the other hand, we will have $3 * |0\rangle{\omega}^{f(0)}_3$ for every possible value of $f(0)$, resulting in  
+$\frac{1}{\sqrt{3}}(3 * |0\rangle{\omega}^{f(0)}_3) = \sqrt{3}|0\rangle{\omega}^{f(0)}_3$. 
 
+Considering the joint state of the first and second register, they are $\frac{1}{3}(\sqrt{3}|0\rangle{\omega}^{f(0)}_3 \otimes H|1\rangle) = \frac{1}{\sqrt{3}}(|0\rangle{\omega}^{f(0)}_3 \otimes H|1\rangle)$.
 
+**f is balanced**:
+
+If f is balanced, that means that $f(i) = 0, f(j) = 1, f(k) = 2, i, j, k \in \set{0, 1, 2}$.
+
+Since the coefficients for the $|0\rangle$ term is ${\omega}^{f(0)}_3 + {\omega}^{f(1)}_3 + {\omega}^{f(2)}_3$, 
+the $|0\rangle$ term will disappear since all the roots of unity will be present in the coefficients irregardless
+of the values picked for $f(0), f(1)$, and $f(2)$.
+
+For the coefficients of the $|1\rangle$ and $|2\rangle$ term, which are
+${\omega}^{f(0)}_3 + {\omega}^{f(1) + 1}_3 + {\omega}^{f(2) + 2}_3$ and ${\omega}^{f(0)}_3 + {\omega}^{f(1) + 2}_3 + {\omega}^{f(2) + 1}_3$ respectively,
+there are six scenarios to consider.
+
+#### f(0) = 2, f(1) = 0, f(2) = 1
+For $f(1) = 0, f(2) = 1$, the coefficients for the $|1\rangle$ and $|2\rangle$ states are
+${\omega}^{2}_3 + {\omega}^{0 + 1}_3 + {\omega}^{1 + 2}_3 = {\omega}^{2}_3 + {\omega}^{1}_3 + {\omega}^{0}_3 $ and
+${\omega}^{2}_3 + {\omega}^{0 + 2}_3 + {\omega}^{1 + 1}_3 = {\omega}^{2}_3 + {\omega}^{2}_3 + {\omega}^{2}_3$.
+
+The coefficients for the $|1\rangle$ state is the sum of the roots of unity, while 
+the coefficients for the $|2\rangle$ term are the square of the third root of unity root
 
 ## Question six
 

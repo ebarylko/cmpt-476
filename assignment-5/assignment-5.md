@@ -505,7 +505,7 @@ $U_f(\frac{1}{3}({\omega}^{f(0)}_3|0\rangle (|0\rangle + {\omega}^1_3|1\rangle +
 is equivalent to $\frac{1}{3} |({\omega}^{f(0)}_3 + {\omega}^{f(1)}_3 + {\omega}^{f(2)}_3 )\rangle |H|1\rangle$.
 
 In the final step of the algorithm, I will apply the Hadamard gate to the first register to obtain 
-${\omega}^{f(0)}_3 H|0\rangle$ + {\omega}^{f(1)}_3 H|1\rangle + {\omega}^{f(2)}_3 H|1\rangle$. Expanding 
+${\omega}^{f(0)}_3 H|0\rangle + {\omega}^{f(1)}_3 H|1\rangle + {\omega}^{f(2)}_3 H|1\rangle$. Expanding 
 out the expression, I obtain $\frac{1}{\sqrt{3}}({\omega}^{f(0)}_3(|0\rangle + |1\rangle + |2\rangle) +  {\omega}^{f(1)}_3(|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(2)}_3(|0\rangle + {\omega}^2_3|1\rangle + {\omega}^1_3|2\rangle))$
 
 

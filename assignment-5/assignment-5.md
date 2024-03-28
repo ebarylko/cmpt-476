@@ -471,7 +471,9 @@ $$
 1 \\
 1 \\
 \end{bmatrix}
-$$, 
+$$ 
+
+,
 
 $$
 \begin{bmatrix}
@@ -479,7 +481,9 @@ $$
 {\omega}_3 \\
 {\omega}^2_3 \\
 \end{bmatrix}
-$$, and 
+, \text{and}
+$$
+
 
 $$
 \begin{bmatrix}
@@ -487,7 +491,8 @@ $$
 {\omega}_^2_3 \\
 {\omega}_3 \\
 \end{bmatrix}
-$$, respectively.
+\text{, respectively.}
+$$
 
 ## Question six
 

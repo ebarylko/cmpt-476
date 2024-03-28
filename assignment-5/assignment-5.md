@@ -543,7 +543,55 @@ ${\omega}^{2}_3 + {\omega}^{0 + 1}_3 + {\omega}^{1 + 2}_3 = {\omega}^{2}_3 + {\o
 ${\omega}^{2}_3 + {\omega}^{0 + 2}_3 + {\omega}^{1 + 1}_3 = {\omega}^{2}_3 + {\omega}^{2}_3 + {\omega}^{2}_3$.
 
 The coefficients for the $|1\rangle$ state is the sum of the roots of unity, while 
-the coefficients for the $|2\rangle$ term are the square of the third root of unity root
+the coefficients for the $|2\rangle$ term is $3{\omega}^{2}_3$. As a result of this, only the 
+$|2\rangle$ term is left, causing us to measure $|2\rangle$ in the first register.
+
+
+#### f(0) = 2, f(1) = 1, f(2) = 0
+For $f(1) = 1, f(2) = 0$, the coefficients for the $|1\rangle$ and $|2\rangle$ states are
+${\omega}^{2}_3 + {\omega}^{1 + 1}_3 + {\omega}^{0 + 2}_3 = {\omega}^{2}_3 + {\omega}^{2}_3 + {\omega}^{2}_3$ and
+${\omega}^{2}_3 + {\omega}^{1 + 2}_3 + {\omega}^{0 + 1}_3 = {\omega}^{2}_3 + {\omega}^{0}_3 + {\omega}^{1}_3$.
+
+The coefficients for the $|2\rangle$ state is the sum of the roots of unity, while
+the coefficients for the $|1\rangle$ term is $3{\omega}^{2}_3$. As a result of this, only the
+$|1\rangle$ term is left, causing us to measure $|1\rangle$ in the first register.
+
+#### f(0) = 0, f(1) = 1, f(2) = 2
+
+For $f(1) = 1, f(2) = 2$, the coefficients for the $|1\rangle$ and $|2\rangle$ states are
+${\omega}^{0}_3 + {\omega}^{1 + 1}_3 + {\omega}^{2 + 2}_3 = {\omega}^{0}_3 + {\omega}^{2}_3 + {\omega}^{1}_3$ and
+${\omega}^{0}_3 + {\omega}^{1 + 2}_3 + {\omega}^{2 + 1}_3 = 3{\omega}^{0}_3 = 3$.
+
+The coefficients for the $|1\rangle$ state is the sum of the roots of unity, while
+the coefficients for the $|2\rangle$ term is $3$. As a result of this, only the
+$|2\rangle$ term is left, causing us to measure $|2\rangle$ in the first register.
+
+#### f(0) = 0, f(1) = 2, f(2) = 1
+
+For $f(1) = 2, f(2) = 1$, the coefficients for the $|1\rangle$ and $|2\rangle$ states are
+${\omega}^{0}_3 + {\omega}^{1 + 2}_3 + {\omega}^{1 + 2}_3 = 3{\omega}^{0}_3 = 3$ and
+${\omega}^{0}_3 + {\omega}^{2 + 2}_3 + {\omega}^{1 + 1}_3 = {\omega}^{0}_3 + {\omega}^{1}_3 + {\omega}^{2}_3$.
+
+The coefficients for the $|2\rangle$ state is the sum of the roots of unity, while
+the coefficients for the $|1\rangle$ term is $3$. As a result of this, only the
+$|1\rangle$ term is left, causing us to measure $|1\rangle$ in the first register.
+
+#### Do the remaining cases
+#### f(0) = 0, f(1) = 2, f(2) = 1
+
+For $f(1) = 2, f(2) = 1$, the coefficients for the $|1\rangle$ and $|2\rangle$ states are
+${\omega}^{0}_3 + {\omega}^{1 + 2}_3 + {\omega}^{1 + 2}_3 = 3{\omega}^{0}_3 = 3$ and
+${\omega}^{0}_3 + {\omega}^{2 + 2}_3 + {\omega}^{1 + 1}_3 = {\omega}^{0}_3 + {\omega}^{1}_3 + {\omega}^{2}_3$.
+
+The coefficients for the $|2\rangle$ state is the sum of the roots of unity, while
+the coefficients for the $|1\rangle$ term is $3$. As a result of this, only the
+$|1\rangle$ term is left, causing us to measure $|1\rangle$ in the first register.
+
+After going through the cases that occur when $f$ is balanced and when $f$ is constant, we see that either 
+two things can occur.
+
+Either $f$ is constant and we measure the state $|0(H|1\rangle)\rangle$, or f is not constant and 
+we measure $|1(H|1\rangle)\rangle$ or $|2(H|1\rangle)\rangle$.
 
 ## Question six
 

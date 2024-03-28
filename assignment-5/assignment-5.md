@@ -491,7 +491,8 @@ $$
 {\omega}_^2_3 \\
 {\omega}_3 \\
 \end{bmatrix}
-\text{, respectively.}
+
+\text{respectively.}
 $$
 
 ## Question six

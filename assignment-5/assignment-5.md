@@ -538,8 +538,9 @@ either two things can occur for any values of $f(0), f(1)$, and $f(2)$.
 
 The only differences between the coefficients of the $|1\rangle$ and $|2\rangle$ terms are that 
 $|1\rangle$ contains ${\omega}^{f(1) + 1}_3 + {\omega}^{f(2) + 2}_3$ instead of ${\omega}^{f(1) + 2}_3 + {\omega}^{f(2) + 1}_3$.
-If $f(0) = f(1) + 1 = f(2) + 2$, this means that $f(0), f(1) + 2$, and $f(2) + 1$ must be the all the roots of unity
-since we shift the roots from the $|1\rangle$ coefficient (${\omega}^{f(1) + 1}_3 + {\omega}^{f(2) + 2}_3$) by one.
+If ${\omega}^{f(0)}_3 = {\omega}^{f(1) + 1}_3 = {\omega}^{f(2) + 2}_3$, this means that ${\omega}^{f(0)}_3 = {\omega}^{f(1) + 2}_3 = {\omega}^{f(2) + 1}_3$
+must be the all the roots of unity since we shift the roots from the $|1\rangle$ coefficient 
+(${\omega}^{f(1) + 1}_3 + {\omega}^{f(2) + 2}_3$) by one.
 
 As a result of this, we will always have that one of the $|1\rangle$ or $|2\rangle$ states will disappear due to 
 interference. Consequently, we will measure either $|1\rangle$ or $|2\rangle$ in the first register.

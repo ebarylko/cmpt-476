@@ -488,9 +488,10 @@ $$
 $$
 \begin{bmatrix}
 1 \\
-{\omega}_^2_3 \\
+{\omega}^2_3 \\
 {\omega}_3 \\
-\end{bmatrix}
+\end{bmatrix},
+\text{respectively}
 $$
 
 ## Question six

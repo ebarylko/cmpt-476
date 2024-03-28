@@ -62,16 +62,16 @@ Consequently, we can conclude that  $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\display
 Simon's algorithm can be used to solve the boolean hidden subgroup problem since we 
 can prepare a superposition of the n qubits, apply $U_f$, do a partial measurement of the second 
 register, and then measure to get a basis vector orthogonal to s. We can repeat the previous steps 
-until we have $dim(s^{\perp}) many basis vectors. Once we have this, we can place all the basis vectors
+until we have $Dim(span(s^{\perp}))$ many basis vectors. Once we have this, we can place all the basis vectors
 we measured into a matrix $A$ and solve $As = 0$ to obtain what s is. Since we have found the 
-basis vectors orthogonal to s and the value of s, we can say that these n vectors form a basis for 
+basis vectors orthogonal to s and the basis vectors of s, we can say that these n vectors form a basis for 
 $S$ since Dim(S) = Dim(span(s)) + Dim(Span($s^{\perp}$)).
 
 Algorithm: 
 
 A = {}
 
-While less than n -1 linearly independent orthogonal vectors to s in A \
+While less than $Dim(span(s^{\perp}))$ linearly independent orthogonal vectors to s in A \
     $\quad$ Prepare $(H^{\otimes n} \otimes I) |0\rangle^{\otimes (n + 1)}$  \
     $\quad$ Apply $U_f$ to the first n qubits \
   $\quad$ Measure $f(x)$ in the second register \
@@ -80,8 +80,6 @@ While less than n -1 linearly independent orthogonal vectors to s in A \
 
 Solve the equation $As = 0$ to discover what s is, and have all the basis vectors in $S$.
     
-    
-
 
 ## Question 2
 

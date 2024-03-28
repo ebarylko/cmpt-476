@@ -72,8 +72,8 @@ Algorithm:
 A = {}
 
 While less than n -1 linearly independent orthogonal vectors to s in A
-    $\quad$ Prepare $(H^{\otimes n} \otimes I) |0\rangle^{\otimes (n + 1)}$  \\
-    $\quad$ Apply $U_f$ to the first n qubits \\
+    $\quad$ Prepare $(H^{\otimes n} \otimes I) |0\rangle^{\otimes (n + 1)}$  \
+    $\quad$ Apply $U_f$ to the first n qubits \
     Measure $f(x)$ in the second register
     Measure an orthogonal basis vector in the first register
     Add the basis vector measured to A

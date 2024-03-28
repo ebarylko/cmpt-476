@@ -598,7 +598,7 @@ Let $|v\rangle$ be an eigenvector of $H$ with eigenvalue $\lambda$. Therefore,
 $H|v\rangle = \lambda |v\rangle$.
 
 Multiplying by $\langle v|$ on the left hand side of the equation, we obtain 
-$\langle v | H|v\rangle = \lambda \lange v |v\rangle$, which is equivalent to
+$\langle v | H|v\rangle = \lambda \langle v |v\rangle$, which is equivalent to
 $\langle v | H|v\rangle  = \lambda$.
 
 We know that the expression above is equivalent to  

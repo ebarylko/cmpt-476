@@ -539,7 +539,7 @@ there are six scenarios to consider.
 
 #### f(0) = 2, f(1) = 0, f(2) = 1
 For $f(1) = 0, f(2) = 1$, the coefficients for the $|1\rangle$ and $|2\rangle$ states are
-${\omega}^{2}_3 + {\omega}^{0 + 1}_3 + {\omega}^{1 + 2}_3 = {\omega}^{2}_3 + {\omega}^{1}_3 + {\omega}^{0}_3 $ and
+${\omega}^{2}_3 + {\omega}^{0 + 1}_3 + {\omega}^{1 + 2}_3 = {\omega}^{2}_3 + {\omega}^{1}_3 + {\omega}^{0}_3$ and
 ${\omega}^{2}_3 + {\omega}^{0 + 2}_3 + {\omega}^{1 + 1}_3 = {\omega}^{2}_3 + {\omega}^{2}_3 + {\omega}^{2}_3$.
 
 The coefficients for the $|1\rangle$ state is the sum of the roots of unity, while 

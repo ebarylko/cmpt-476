@@ -470,29 +470,58 @@ $$
 1 \\
 1 \\
 1 \\
-\end{bmatrix}
-$$ 
-
-,
-
-$$
+\end{bmatrix},
 \begin{bmatrix}
 1 \\
 {\omega}_3 \\
 {\omega}^2_3 \\
 \end{bmatrix}
 , \text{and}
-$$
 
-
-$$
 \begin{bmatrix}
 1 \\
 {\omega}^2_3 \\
 {\omega}_3 \\
 \end{bmatrix},
 \text{respectively}
-$$
+$$ 
+
+[//]: # (,)
+
+[//]: # ()
+[//]: # ($$)
+
+[//]: # (\begin{bmatrix})
+
+[//]: # (1 \\)
+
+[//]: # ({\omega}_3 \\)
+
+[//]: # ({\omega}^2_3 \\)
+
+[//]: # (\end{bmatrix})
+
+[//]: # (, \text{and})
+
+[//]: # ($$)
+
+[//]: # ()
+[//]: # ()
+[//]: # ($$)
+
+[//]: # (\begin{bmatrix})
+
+[//]: # (1 \\)
+
+[//]: # ({\omega}^2_3 \\)
+
+[//]: # ({\omega}_3 \\)
+
+[//]: # (\end{bmatrix},)
+
+[//]: # (\text{respectively})
+
+[//]: # ($$)
 
 ## Question six
 

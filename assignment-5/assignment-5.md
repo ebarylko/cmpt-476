@@ -465,6 +465,7 @@ the eigenvalues of $X$ are the values along the diagonal of $Z$, being
 $1, {\omega}_3,$ and ${\omega}^2_3$.
 
 The unit eigenvectors corresponding to these eigenvalues are 
+
 $$
 \begin{bmatrix}
 1 \\
@@ -477,7 +478,6 @@ $$
 {\omega}^2_3 \\
 \end{bmatrix}
 , \text{and}
-
 \begin{bmatrix}
 1 \\
 {\omega}^2_3 \\
@@ -485,6 +485,7 @@ $$
 \end{bmatrix},
 \text{respectively}
 $$ 
+
 
 [//]: # (,)
 

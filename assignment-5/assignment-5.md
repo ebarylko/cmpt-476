@@ -119,6 +119,37 @@ Computing the values of $GCD(2^3 - 1, 21)$ and $GCD(2^3 + 1, 21)$, they are
 
 This tells me that the prime factors of 21 are 7 and 3.
 
+## Question three
+
+For $x \in \set{0, 1}^n, QFT|x\rangle = \frac{1}{\sqrt{2^n}} {\displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n} |y\rangle}$.
+
+Applying $QFT(QFT(|x\rangle))$, we obtain $\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}} {\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle}$
+
+Moving the ${\omega}^{xy}_{2^n}}$ to the second summation, I obtain
+$\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{}  {\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}}{\omega}^{yq}_{2^n} |q\rangle} = $
+$\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{}  {\displaystyle\sum_{q \in \{0, 1\}^n}{}} {\omega}^{yq + yx}_{2^n} |q\rangle}$. 
+
+We know that ${\omega}^{yq + yx}_{2^n} = e^{\frac{2\pi i y(q + x)}{2^n}}$, which is equivalent to
+${e^{\frac{\pi i (q + x)}{2^n}}}^y. Let us now define $c =  e^{\frac{\pi i (q + x)}{2^n}}$. Doing this, we obtain that
+${\omega}^{yq + yx}_{2^n} = c^y$.
+
+Substituting the value of $c^y = {{\omega}^{q + x}_{2^n}}^y$ into the summation and then swapping the order of the summation, I obtain 
+$\frac{1}{2^n} {\displaystyle\sum_{q \in \{0, 1\}^n}{}  {\displaystyle\sum_{y \in \{0, 1\}^n}{}} c^y |q\rangle}$, which is equivalent 
+to $\frac{1}{2^n} {\displaystyle\sum_{q \in \{0, 1\}^n}{} |q\rangle {\displaystyle\sum_{y \in \{0, 1\}^n}{}} c^y}$
+
+Computing the value of ${\displaystyle\sum_{y \in \{0, 1\}^n}{}} c^y = {\displaystyle\sum_{y \in \{0, 1\}^n}{}} {{\omega}^{q + x}_{2^n}}^y$, there are two cases we must consider:
+
+**Case 1**: $q + x \equiv 0 \mod 2^n$
+
+If $q + x \equiv 0 \mod 2^n$ is true, then we know that $q + x = 2^n * k, k \in \mathbb{Z}$. Using this information, we can 
+modify the summation above to obtain
+${\displaystyle\sum_{y \in \{0, 1\}^n}{}} {{\omega}^{2^n * k}_{2^n}}^y = ${\displaystyle\sum_{y \in \{0, 1\}^n}{}} {{\omega}^{k}_{2^n}}^y $
+
+
+
+
+### Part three
+
 ## Question four
 
 X = 
@@ -547,7 +578,9 @@ interference. Consequently, we will measure either $|1\rangle$ or $|2\rangle$ in
 
 After going through the cases that occur when $f$ is balanced and when $f$ is constant, we see that either 
 two things can occur. Either $f$ is constant and we measure the state $|0(H|1\rangle)\rangle$, or f is not constant and 
-we measure $|1(H|1\rangle)\rangle$ or $|2(H|1\rangle)\rangle$.
+we measure $|1(H|1\rangle)\rangle$ or $|2(H|1\rangle)\rangle$. 
+
+Through this, we see that Deutsch's algorithm can also be applied to qutrits.
 
 ## Question five
 

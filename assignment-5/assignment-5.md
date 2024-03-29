@@ -700,7 +700,7 @@ For $\phi (x) = 0$, the transformation becomes $\frac{1}{2 \sqrt{2^n}}{\displays
 Since the state $|x0\rangle$ is distinct from $-|x1\rangle$, none of the states get removed. As a result of this, the superposition obtained 
 is unitary.
 
-However, for $phi (x) = 1$ or $phi (x) = 0$, we will receive no destructive interference (though we will obtain a relative phase difference), 
+However, for $\phi (x) = 1$ or $\phi (x) = 0$, we will receive no destructive interference (though we will obtain a relative phase difference), 
 not allowing us to determine the value of $\phi (x)$ from whether there is a simulation or not.
 
 ### Part 4

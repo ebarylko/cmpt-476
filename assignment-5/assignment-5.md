@@ -125,7 +125,7 @@ For $x \in \set{0, 1}^n, QFT|x\rangle = \frac{1}{\sqrt{2^n}} {\displaystyle\sum_
 
 Applying $QFT(QFT(|x\rangle))$, we obtain
 
-$\frac{1}{2^n}{\displaystyle\sum_{y \in \{0, 1\}^n}{} |x + s\rangle}$
+$\frac{1}{2^n}{\displaystyle\sum_{y \in \set{0, 1\}^n}{} {\omega}^{xy}_{2^n}$
 
 $\frac{1}{2^n} \displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n} \displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle$
 

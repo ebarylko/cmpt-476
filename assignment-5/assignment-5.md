@@ -64,7 +64,7 @@ are looking for the all the possible inputs that cause collisions. Instead of ha
 only one hidden string, there could exist many such hidden strings. The way to find these strings follows the 
 same procedure as Simon's algorithm for one hidden string.
 
-First, we will prepare a superposition of the n ancilla |0\rangle qubits and apply $U_f$.
+First, we will prepare a superposition of the n ancilla $|0\rangle$ qubits and apply $U_f$.
 
 Secondly, we will do a partial measurement of the second register to obtain one of the basis vectors orthogonal to s.
 

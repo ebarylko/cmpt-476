@@ -109,7 +109,7 @@ The problem with these values is that they are both trivial factors which do not
 us about the prime factors of 21.
 
 ### Part 3
-Using $f(x) = 2^x mod 21$, the period of the function is 6.
+Using $f(x) = 2^x \mod 21$, the period of the function is 6.
 
 x = 1: f(x) = 2
 

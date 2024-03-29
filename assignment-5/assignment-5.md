@@ -123,7 +123,8 @@ This tells me that the prime factors of 21 are 7 and 3.
 
 For $x \in \set{0, 1}^n, QFT|x\rangle = \frac{1}{\sqrt{2^n}} {\displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n} |y\rangle}$.
 
-Applying $QFT(QFT(|x\rangle))$, we obtain $\frac{1}{2^n}{\displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}}{\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle}$
+Applying $QFT(QFT(|x\rangle))$, we obtain 
+$\frac{1}{2^n}{\displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}}{\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle}$
 
 Moving the ${\omega}^{xy}_{2^n}}$ to the second summation, I obtain
 $\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{}  {\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}}{\omega}^{yq}_{2^n} |q\rangle} = $

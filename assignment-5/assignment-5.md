@@ -128,7 +128,7 @@ Applying $QFT(QFT(|x\rangle))$, we obtain
 $\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}} {\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle}$
 
 
-Moving the ${\omega}^{xy}_{2^n}}$ to the second summation, I obtain
+Moving the ${\omega}^{xy}_{2^n}$ to the second summation, I obtain
 
 $\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{}}  {\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}}{\omega}^{yq}_{2^n} |q\rangle = $
 

@@ -545,7 +545,7 @@ is equivalent to $\frac{1}{3} |({\omega}^{f(0)}_3 + {\omega}^{f(1)}_3 + {\omega}
 
 In the final step of the algorithm, I will apply the Hadamard gate to the first register to obtain 
 ${\omega}^{f(0)}_3 H|0\rangle + {\omega}^{f(1)}_3 H|1\rangle + {\omega}^{f(2)}_3 H|2\rangle$. Expanding 
-out the expression, I obtain $\frac{1}{\sqrt{3}}({\omega}^{f(0)}_3(|0\rangle + |1\rangle + |2\rangle) +  {\omega}^{f(1)}_3(|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(2)}_3(|0\rangle + {\omega}^2_3|1\rangle + {\omega}^1_3|2\rangle))$
+out the expression, I obtain $\frac{1}{\sqrt{3}}({\omega}^{f(0)}_3(|0\rangle + |1\rangle + |2\rangle) +  {\omega}^{f(1)}_3(|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(2)}_3(|0\rangle + {\omega}^2_3|1\rangle + {\omega}^1_3|2\rangle))$.
 Rearranging the terms so that the $|0\rangle, |1\rangle, \text{and} |2\rangle$ states are grouped together, the expression becomes
 $\frac{1}{\sqrt{3}} (|0\rangle({\omega}^{f(0)}_3 + {\omega}^{f(1)}_3 + {\omega}^{f(2)}_3) + |1\rangle({\omega}^{f(0)}_3 + {\omega}^{f(1) + 1}_3 + {\omega}^{f(2) + 2}_3) + |2\rangle({\omega}^{f(0)}_3 + {\omega}^{f(1) + 2}_3 + {\omega}^{f(2) + 1}_3))$
 
@@ -563,6 +563,7 @@ On the other hand, we will have $3 * |0\rangle{\omega}^{f(0)}_3$ for every possi
 $\frac{1}{\sqrt{3}}(3 * |0\rangle{\omega}^{f(0)}_3) = \sqrt{3}|0\rangle{\omega}^{f(0)}_3$. 
 
 Considering the joint state of the first and second register, they are $\frac{1}{3}(\sqrt{3}|0\rangle{\omega}^{f(0)}_3 \otimes H|1\rangle) = \frac{1}{\sqrt{3}}(|0\rangle{\omega}^{f(0)}_3 \otimes H|1\rangle)$.
+Therefore, I will always measure $|0\rangle$ in the first register.
 
 **f is balanced**:
 

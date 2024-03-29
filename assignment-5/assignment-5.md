@@ -60,12 +60,20 @@ Consequently, we can conclude that  $H^{\otimes n}\frac{1}{\sqrt{|S|}} {\display
 ### Part 2
 
 Simon's algorithm can be used to solve the boolean hidden subgroup problem since we 
-can prepare a superposition of the n qubits, apply $U_f$, do a partial measurement of the second 
-register, and then measure to get a basis vector orthogonal to s. We can repeat the previous steps 
-until we have $Dim(span(s^{\perp}))$ many basis vectors. Once we have this, we can place all the basis vectors
-we measured into a matrix $A$ and solve $As = 0$ to obtain what s is. Since we have found the 
-basis vectors orthogonal to s and the basis vectors of s, we can say that these n vectors form a basis for 
-$S$ since Dim(S) = Dim(span(s)) + Dim(Span($s^{\perp}$)).
+are looking for the all the possible inputs that cause collisions. Instead of having that 
+only one hidden string, there could exist many such hidden strings. The way to find these strings follows the 
+same procedure as Simon's algorithm for one hidden string.
+
+First, we will prepare a superposition of the n ancilla |0\rangle qubits and apply $U_f$.
+
+Secondly, we will do a partial measurement of the second register to obtain one of the basis vectors orthogonal to s.
+
+We will continue repeating the first and second steps until we have obtained $Dim(span(s^{\perp}))$ such linearly independent
+vectors.
+
+Once we have collected these vectors into a matrix A, we shall solve the equation $As = 0$ to obtain the basis 
+vectors of $s$. Once we have obtained these vectors, we can construct a basis for $S$ out of the basis vectors 
+orthogonal to $s$ and the vectors not orthogonal to $s$.
 
 Algorithm: 
 
@@ -78,7 +86,8 @@ While less than $Dim(span(s^{\perp}))$ linearly independent orthogonal vectors t
   $\quad$ Measure an orthogonal basis vector in the first register \
   $\quad$ Add the basis vector measured to A 
 
-Solve the equation $As = 0$ to discover what s is, and have all the basis vectors in $S$.
+Solve the equation $As = 0$ to discover what s is, and obtain all the basis vectors in $S$ by adding the basis vectors in
+$span(s)$ and $span(s^{\perp})$.
     
 
 ## Question 2

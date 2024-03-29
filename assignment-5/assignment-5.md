@@ -512,8 +512,8 @@ $H^{\dagger}ZH = X$.
 
 Knowing that $X = HZH^{\dagger}$ in the qubit case, we know that
 the eigenvalues of $X$ are the values along the diagonal of $Z$, being 
-$1, {\omega}_3,$ and ${\omega}^2_3$. We also know that the eigenvectors 
-of $X$ are the columns of $H$, being
+$1, {\omega}_3^2,$ and ${\omega}_3$. We also know that the eigenvectors of $X$ corresponding to these eigenvalues 
+are the columns of $H$, being
 
 $$
 \frac{1}{\sqrt{3}} \begin{bmatrix}
@@ -536,27 +536,7 @@ $$
 $$
 
 
-The unit eigenvectors corresponding to these eigenvalues are 
-
-$$
- \frac{1}{\sqrt{3}} \begin{bmatrix}
-1 \\
-1 \\
-1 \\
-\end{bmatrix},
-\frac{1}{\sqrt{3}} \begin{bmatrix}
-1 \\
-{\omega}_3 \\
-{\omega}^2_3 \\
-\end{bmatrix}
-, \text{and}
-\frac{1}{\sqrt{3}} \begin{bmatrix}
-1 \\
-{\omega}^2_3 \\
-{\omega}_3 \\
-\end{bmatrix},
-\text{respectively}
-$$ 
+These eigenvectors are also the unit eigenvectors.
 
 ### Part 5
 I will go through Deutsch's algorithm step by step to show that it works for qutrits.

@@ -166,7 +166,11 @@ ${\displaystyle\sum_{y \in \{0, 1\}^n}{}} {{\omega}^{2^n * k}_{2^n}}^y = ${\disp
 
 
 
-### Part three
+### Part two
+If we have already applied $QFT^2(|x\rangle)$, we obtain $|2^n - x\rangle$.
+If we wanted to apply $QFT^{-1}$ on  $QFT|x\rangle$ to obtain $|x\rangle$, we need to find a way 
+to change $|2^n - x\rangle$ to $|x\rangle$. The way to do this is by negating $|2^n - x\rangle$ to 
+obtain $|2^n - (2^n - x)\rangle = |x\rangle$.
 
 ## Question four
 

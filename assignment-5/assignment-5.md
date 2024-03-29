@@ -694,8 +694,8 @@ that the superposition is not a unit vector since its length is not 1.
 ### Part 3
 
 In the expression $\frac{1}{2 \sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y(1 \oplus \phi (x))}|xy\rangle$, 
-having $phi (x) = 0$ does not generate destructive interference.
-For $phi (x) = 0$, the transformation becomes $\frac{1}{2 \sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y}|xy\rangle$.
+having $\phi (x) = 0$ does not generate destructive interference.
+For $\phi (x) = 0$, the transformation becomes $\frac{1}{2 \sqrt{2^n}}{\displaystyle\sum_{x \in \{0, 1\}^n}{}} {\displaystyle\sum_{y \in \{0, 1\}}{}} (-1)^{y}|xy\rangle$.
 
 Since the state $|x0\rangle$ is distinct from $-|x1\rangle$, none of the states get removed. As a result of this, the superposition obtained 
 is unitary.

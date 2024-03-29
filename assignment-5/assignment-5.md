@@ -125,9 +125,8 @@ For $x \in \set{0, 1}^n, QFT|x\rangle = \frac{1}{\sqrt{2^n}} {\displaystyle\sum_
 
 Applying $QFT(QFT(|x\rangle))$, we obtain
 
-$\frac{1}{2^n}{\displaystyle\sum_{y \in \set{0, 1\}^n}{}} {\omega}^{xy}_{2^n} \sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle$
+$\frac{1}{2^n}{\displaystyle\sum_{y \in \set{0, 1\}^n}{}} {\omega}^{xy}_{2^n} \sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle$ =
 
-[//]: # ({\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle})
 $\frac{1}{2^n} \displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n} \displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{yq}_{2^n} |q\rangle$
 
 
@@ -541,7 +540,7 @@ In the second step, I will now apply $U_f$ on $H|0\rangle \otimes H|1\rangle$, o
 $U_f(\frac{1}{3}(|0\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + |1\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + |2\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle)))$.
 
 Applying the phase kickback portion of the algorithm, I obtain 
-$U_f(\frac{1}{3}({\omega}^{f(0)}_3|0\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(1)}_3|1\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(2)}_3|2\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle)))$, which 
+$\frac{1}{3}({\omega}^{f(0)}_3|0\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(1)}_3|1\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(2)}_3|2\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle))$, which 
 is equivalent to $\frac{1}{3} |({\omega}^{f(0)}_3 + {\omega}^{f(1)}_3 + {\omega}^{f(2)}_3 )\rangle |H|1\rangle$.
 
 In the final step of the algorithm, I will apply the Hadamard gate to the first register to obtain 

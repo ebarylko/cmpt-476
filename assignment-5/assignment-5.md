@@ -512,7 +512,29 @@ $H^{\dagger}ZH = X$.
 
 Knowing that $X = HZH^{\dagger}$ in the qubit case, we know that
 the eigenvalues of $X$ are the values along the diagonal of $Z$, being 
-$1, {\omega}_3,$ and ${\omega}^2_3$.
+$1, {\omega}_3,$ and ${\omega}^2_3$. We also know that the eigenvectors 
+of $X$ are the columns of $H$, being
+
+$$
+\frac{1}{\sqrt{3}} \begin{bmatrix}
+1 \\
+1 \\
+1 \\
+\end{bmatrix},
+\frac{1}{\sqrt{3}} \begin{bmatrix}
+1 \\
+{\omega}_3 \\
+{\omega}^2_3 \\
+\end{bmatrix}
+, \text{and}
+\frac{1}{\sqrt{3}} \begin{bmatrix}
+1 \\
+{\omega}^2_3 \\
+{\omega}_3 \\
+\end{bmatrix},
+\text{respectively}
+$$
+
 
 The unit eigenvectors corresponding to these eigenvalues are 
 
@@ -552,7 +574,7 @@ $U_f(\frac{1}{3}(|0\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\r
 
 Applying the phase kickback portion of the algorithm, I obtain 
 $\frac{1}{3}({\omega}^{f(0)}_3|0\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(1)}_3|1\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle) + {\omega}^{f(2)}_3|2\rangle (|0\rangle + {\omega}^1_3|1\rangle + {\omega}^2_3|2\rangle))$, which 
-is equivalent to $\frac{1}{3} |({\omega}^{f(0)}_3 + {\omega}^{f(1)}_3 + {\omega}^{f(2)}_3 )\rangle |H|1\rangle$.
+is equivalent to $\frac{1}{3} |({\omega}^{f(0)}_3 + {\omega}^{f(1)}_3 + {\omega}^{f(2)}_3 )0\rangle |H|1\rangle$.
 
 In the final step of the algorithm, I will apply the Hadamard gate to the first register to obtain 
 ${\omega}^{f(0)}_3 H|0\rangle + {\omega}^{f(1)}_3 H|1\rangle + {\omega}^{f(2)}_3 H|2\rangle$. Expanding 

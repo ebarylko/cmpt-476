@@ -130,7 +130,7 @@ $\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}} {\di
 
 Moving the ${\omega}^{xy}_{2^n}}$ to the second summation, I obtain
 $\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{}}  {\displaystyle\sum_{q \in \{0, 1\}^n}{} {\omega}^{xy}_{2^n}}{\omega}^{yq}_{2^n} |q\rangle = $
-$\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{}  {\displaystyle\sum_{q \in \{0, 1\}^n}{}} {\omega}^{yq + yx}_{2^n} |q\rangle}$. 
+$\frac{1}{2^n} {\displaystyle\sum_{y \in \{0, 1\}^n}{}  {\displaystyle\sum_{q \in \{0, 1\}^n}{}} {\omega}^{yq + yx}_{2^n}} |q\rangle$. 
 
 We know that ${\omega}^{yq + yx}_{2^n} = e^{\frac{2\pi i y(q + x)}{2^n}}$, which is equivalent to
 ${e^{\frac{\pi i (q + x)}{2^n}}}^y. Let us now define $c =  e^{\frac{\pi i (q + x)}{2^n}}$. Doing this, we obtain that

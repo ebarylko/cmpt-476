@@ -409,13 +409,11 @@ $I = {\omega}^k I$, which means that $k = 0$.
 ### i = j = 2
 $X^2 Z^2 = {\omega}^k Z^2 X^2$, which simplifies to
 $X {\omega}^2_3 ZX Z = {\omega}^k Z^2 X^2$. Simplifying the expression further, we obtain
-$X {\omega}^2_3 ZZ X = {\omega}^k Z^2 X^2$. Multiplying by $X^{-1}$ on the right, we obtain
-$X {\omega}^2_3 ZZ  = {\omega}^k Z^2 X$, which simplifies to 
-$Z {\omega}^2_3 XZ  = {\omega}^k Z^2 X$. Multiplying by $Z^{-1}$ on the right, we obtain
-${\omega}^2_3 XZ  = {\omega}^k ZX$, which 
+$X {\omega}^1_3 ZZ X = {\omega}^k Z^2 X^2$. Multiplying by $X^{-1}$ on the right, we obtain
+$X {\omega}^1_3 ZZ  = {\omega}^k Z^2 X$, which simplifies to 
+$Z {\omega}^0_3 XZ  = {\omega}^k Z^2 X$. Multiplying by $Z^{-1}$ on the right, we obtain
+${\omega}^0_3 XZ  = {\omega}^k ZX$, which 
 further simplifies to ${\omega}^2_3 ZX  = {\omega}^k ZX$. 
-
-Review this step.
 
 For this to be true, we need $k = 2$.
 

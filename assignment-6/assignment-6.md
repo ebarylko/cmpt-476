@@ -20,4 +20,4 @@ Substituting $n = 32$ in the expression above, I obtain $\frac{1}{\sqrt{2^{32}}}
 = $\frac{1}{2^{16}} + \frac{2}{2^{16}}(\pi 2^{14} - 1)$.
 
 The expression above simplifies to $\frac{1}{2^{16}} + \frac{1}{2^{15}}(\pi 2^{14} - 1) = \frac{1}{2^{16}}  + \frac{\pi}{2} - \frac{1}{2^{15}}$, 
-which can further be reduced to $ \frac{\pi}{2} - \frac{1}{2^{16}}$.
+which can further be reduced to $\frac{\pi}{2} - \frac{1}{2^{16}}$.

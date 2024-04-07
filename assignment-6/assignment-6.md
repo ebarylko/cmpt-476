@@ -13,7 +13,7 @@ I have therefore showed that $(X \otimes Z)$ and $(Z \otimes X)$ are commutative
 ### Part 2
 
 ### Part 3
-Using $c = 1.5, \epsilon = 10^{-17}$ in the formula depth = $log_{2}^{1.5} ( \frac{1}{\epsilon )$, I obtain 
+Using $c = 1.5, \epsilon = 10^{-17}$ in the formula depth = $log_{2}^{1.5} (\frac{1}{\epsilon})$, I obtain 
 depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) \approx 425$.
 
 

@@ -1,5 +1,23 @@
 ## Question 1
 
+### Part 1
+I must show that $(X \otimes Z) * (Z \otimes X) = (Z \otimes X) * (X \otimes Z)$.
+
+Using the fact that $XZ = -ZX$, I can modify the above expression to equivalently 
+be $(-Z \otimes X) * (Z \otimes X) = (Z \otimes X) * (-Z \otimes X)$. I can pull out the 
+constant of $-1$ from both sides of the equation to obtain
+$-1((Z \otimes X) * (Z \otimes X)) = -1((Z \otimes X) * (Z \otimes X))$.
+
+I have therefore showed that $(X \otimes Z)$ and $(Z \otimes X)$ are commutative.
+
+### Part 2
+
+### Part 3
+Using $c = 1.5, \epsilon = 10^{-17}$ in the formula depth = $log^{1.5}_{2} (\frac{1}{\epsilon})$, I obtain 
+depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) \approx 425$.
+
+### Part 4
+
 ## Question two
 
 ### Part 1

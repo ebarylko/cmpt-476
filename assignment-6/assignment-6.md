@@ -29,7 +29,7 @@ be $f(x) = h(x) = H \land x \neq M$.
 
 To implement the oracle, I would first create my uniform superposition $H^{\otimes 32} |0\rangle^{\otimes 32}$. I would
 then apply my $U_{\bar{f}}: |x\rangle \rightarrow (-1)^{f(x)}$, using $f(x)$ defined earlier, and $U_{diff}$ enough 
-times so we rotate our state sufficiently close to the wanted state.
+times to rotate our initial to the wanted state. We then measure 
 
 
 ### Part 2

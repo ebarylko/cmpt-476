@@ -14,7 +14,8 @@ I have therefore showed that $(X \otimes Z)$ and $(Z \otimes X)$ are commutative
 
 ### Part 3
 Using $c = 1.5, \epsilon = 10^{-17}$ in the formula depth = $log_{2}^{1.5} (\frac{1}{\epsilon})$, I obtain 
-depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) \approx 425$.
+depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) \approx 425$ for a single qubit unitary. Considering we 
+have two usages of the rotation gate, we have in total a depth of 850 gates for the circuit.
 
 
 ### Part 4
@@ -25,6 +26,11 @@ depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) \approx 425$.
 
 Given that $H$ and $M$ are given, my search function $f(x): \set{0, 1}^{32} \rightarrow \set{0, 1}$ would 
 be $f(x) = h(x) = H \land x \neq M$.
+
+To implement the oracle, I would first create my uniform superposition $H^{\otimes 32} |0\rangle^{\otimes 32}$. I would
+then apply my $U_{\bar{f}}: |x\rangle \rightarrow (-1)^{f(x)}$, using $f(x)$ defined earlier, and $U_{diff}$ enough 
+times so we rotate our state sufficiently close to the wanted state.
+
 
 ### Part 2
 Using that we need $\frac{\pi \sqrt{2^n}}{4} - \frac{1}{2}$ iterations for n bits, we can 

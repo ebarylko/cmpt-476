@@ -19,7 +19,7 @@ Given $U(t) = $e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes
 Hamiltonian by first applying $e^{-it[{\theta}_2 (X \otimes Z)]}$  and then $e^{-it[{\theta}_1 (Z \otimes X)]}$.
 
 With $e^{-it[{\theta}_2 (X \otimes Z)]}$, we know that it is equivalent to
-$e^{-it[{\theta}_2 ((H \ otimes I) * (Z \otimes I) * (H \otimes Z))]}$. Simulating this hamiltonian on 
+$e^{-it[{\theta}_2 ((H \otimes I) * (Z \otimes I) * (H \otimes Z))]}$. Simulating this hamiltonian on 
 a circuit, we obtain 
 ![Second Hamiltonian](second_hamiltonian.jpeg), where 
 the third line was obtained using the fact that ![Z gate simplification](z_gate.jpeg).

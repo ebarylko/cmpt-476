@@ -22,9 +22,16 @@ With $e^{-it[{\theta}_2 (X \otimes Z)]}$, we know that it is equivalent to
 $e^{-it[{\theta}_2 ((H \ otimes I) * (Z \otimes I) * (H \otimes Z))]}$. Simulating this hamiltonian on 
 a circuit, we obtain 
 ![Second Hamiltonian](second_hamiltonian.jpeg), where 
-the third line was obtained using the fact that ![Z gate simplification](z_gate.jpeg)
-.
+the third line was obtained using the fact that ![Z gate simplification](z_gate.jpeg).
 
+Simulating $e^{-it[{\theta}_1 (Z \otimes X)]}$ in a circuit, we know it 
+is equivalent to $e^{-it[{\theta}_1 ((Z \otimes H) * (I \otimes Z) * (I \otimes H))]}$. In circuit form, it 
+would be ![First Hamiltonian](first_hamiltonian.jpeg), where
+the third line was obtained using the fact that ![Z gate simplification](z_gate.jpeg).
+
+Combining these Hamiltonians, the full circuit simulating
+$U(t) = $e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes Z)]}$
+is ![Full circuit](full_circuit.jpeg)
 
 
 ### Part 3

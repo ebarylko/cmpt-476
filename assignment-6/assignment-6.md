@@ -61,13 +61,20 @@ b \\
 c \\
 d \\
 \end{bmatrix}
-=
-\begin{bmatrix}
-c \\
--d \\
-a \\
--b \\
-\end{bmatrix}
+
+[//]: # (=)
+
+[//]: # (\begin{bmatrix})
+
+[//]: # (c \\)
+
+[//]: # (-d \\)
+
+[//]: # (a \\)
+
+[//]: # (-b \\)
+
+[//]: # (\end{bmatrix})
 $$
 
 

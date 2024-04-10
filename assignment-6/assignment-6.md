@@ -60,19 +60,8 @@ a \\
 b \\
 c \\
 d \\
-\end{bmatrix} = $$
+\end{bmatrix} = \begin{bmatrix} c \\ -d \\ a \\ -b \\ \end{bmatrix}$$
 
-[//]: # (\begin{bmatrix})
-
-[//]: # (c \\)
-
-[//]: # (-d \\)
-
-[//]: # (a \\)
-
-[//]: # (-b \\)
-
-[//]: # (\end{bmatrix})
 
 
 ## Question two

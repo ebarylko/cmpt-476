@@ -68,8 +68,9 @@ a \\
 -b
 \end{bmatrix}$$
 
-If $q$ is the eigenvector corresponding to the eigenvalue of -1, it means that  
+The conditions for $q$ being the eigenvector with the eigenvalue of 1 are $a = c, b = -d$.
 
+If $q$ is the eigenvector corresponding to the eigenvalue of -1, it means that  
 
 $$
 (X \otimes Z) \begin{bmatrix}
@@ -84,7 +85,9 @@ d \\
 b
 \end{bmatrix}$$
 
-Similarly, for $(Z \otimes X)$ the eigenvector corresponding to the eigenvalue of 1 and -1 are 
+The conditions for $q$ being the eigenvector with the eigenvalue of -1 are $a = 0c, b = d$.
+
+Similarly, for $(Z \otimes X)$ the eigenvector corresponding to the eigenvalue of 1 is
 
 $$
 (Z \otimes X) \begin{bmatrix}
@@ -99,7 +102,9 @@ a \\
 -c
 \end{bmatrix}$$
 
-and 
+The conditions for $q$ being the eigenvector with the eigenvalue of 1 are $a = b, c = -d$.
+
+The eigenvector corresponding to the eigenvalue of -1 is
 
 $$
 (Z \otimes X) \begin{bmatrix}
@@ -114,7 +119,9 @@ d \\
 c
 \end{bmatrix}$$
 
-respectively.
+The conditions for $q$ being the eigenvector with the eigenvalue of -1 are $a = -b, c = d$.
+
+
 
 ## Question two
 

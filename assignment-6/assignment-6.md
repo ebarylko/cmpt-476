@@ -84,6 +84,37 @@ d \\
 b
 \end{bmatrix}$$
 
+Similarly, for $(Z \otimes X)$ the eigenvector corresponding to the eigenvalue of 1 and -1 are 
+
+$$
+(Z \otimes X) \begin{bmatrix}
+a \\
+b \\
+c \\
+d \\
+\end{bmatrix} =
+\begin{bmatrix} b \\
+a \\
+-d \\
+-c
+\end{bmatrix}$$
+
+and 
+
+$$
+(Z \otimes X) \begin{bmatrix}
+a \\
+b \\
+c \\
+d \\
+\end{bmatrix} =
+\begin{bmatrix} -b \\
+-a \\
+d \\
+c
+\end{bmatrix}$$
+
+respectively.
 
 ## Question two
 

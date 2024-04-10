@@ -62,7 +62,8 @@ b \\
 c \\
 d \\
 \end{bmatrix} = 
-\begin{bmatrix} c \\
+\begin{bmatrix} 
+c \\
 -d \\ 
 a \\ 
 -b 

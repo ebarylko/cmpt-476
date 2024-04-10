@@ -52,9 +52,10 @@ d \\
 \end{bmatrix}
 $$
 
+
 Applying $(X \otimes Z)q$, we find that $q$ is the eigenvector corresponding to the eigenvalue of 1 if 
 
-$$
+$$(X \otimes Z)
 \begin{bmatrix}
 a \\
 b \\
@@ -65,11 +66,28 @@ d \\
 -d \\ 
 a \\ 
 -b 
-\end{bmatrix}$$
+\end{bmatrix}$$.
 
+If $q$ is the eigenvector corresponding to the eigenvalue of -1, it means that  
+
+
+$$(X \otimes Z)
+\begin{bmatrix}
+a \\
+b \\
+c \\
+d \\
+\end{bmatrix} =
+\begin{bmatrix}
+-c \\
+d \\
+-a \\
+b
+\end{bmatrix}$$.
 
 
 ## Question two
+
 
 ### Part 1
 

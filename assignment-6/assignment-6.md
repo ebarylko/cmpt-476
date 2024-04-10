@@ -71,19 +71,18 @@ a \\
 If $q$ is the eigenvector corresponding to the eigenvalue of -1, it means that  
 
 
-$$(X \otimes Z)
-\begin{bmatrix}
+$$
+(X \otimes Z) \begin{bmatrix}
 a \\
 b \\
 c \\
 d \\
 \end{bmatrix} =
-\begin{bmatrix}
--c \\
+\begin{bmatrix} -c \\
 d \\
 -a \\
 b
-\end{bmatrix}$$.
+\end{bmatrix}$$
 
 
 ## Question two

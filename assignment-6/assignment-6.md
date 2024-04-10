@@ -61,7 +61,7 @@ b \\
 c \\
 d \\
 \end{bmatrix}
-
+$$
 [//]: # (=)
 
 [//]: # (\begin{bmatrix})
@@ -75,7 +75,6 @@ d \\
 [//]: # (-b \\)
 
 [//]: # (\end{bmatrix})
-$$
 
 
 ## Question two

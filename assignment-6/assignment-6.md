@@ -56,7 +56,7 @@ $$
 Applying $(X \otimes Z)q$, we find that $q$ is the eigenvector corresponding to the eigenvalue of 1 if 
 
 $$
-\begin{bmatrix}
+(X \otimes Z) \begin{bmatrix}
 a \\
 b \\
 c \\

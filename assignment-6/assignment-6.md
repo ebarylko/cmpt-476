@@ -236,6 +236,113 @@ $$
 is the eigenvector corresponding to the eigenvalue 1 and -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
 
 ### Combining the conditions for the -1 eigenspace of (X ⊗ Z) and (Z ⊗ X)
+With the conditions for both eigenspaces, we have that $a = -c, b = d, a = -b, c = d$. That simplifies to
+$-a = b = d = c$.
+
+The eigenvector that satisfies this condition is 
+
+$$
+\begin{bmatrix} -1 \\
+1 \\
+1 \\
+1
+\end{bmatrix}$$
+
+Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
+
+$$
+(X \otimes Z) \begin{bmatrix}
+-1 \\
+1 \\
+1 \\
+1 \\
+\end{bmatrix} =
+\begin{bmatrix} 1 \\
+-1 \\
+-1 \\
+-1
+\end{bmatrix}$$
+
+and
+
+$$
+(Z \otimes X) \begin{bmatrix}
+-1 \\
+1 \\
+1 \\
+1 \\
+\end{bmatrix} =
+\begin{bmatrix} 1 \\
+-1 \\
+-1 \\
+-1
+\end{bmatrix}$$
+
+We see that the eigenvector
+
+
+$$
+\begin{bmatrix} -1 \\
+1 \\
+1 \\
+1
+\end{bmatrix}$$
+
+is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
+
+### Combining the conditions for the -1 eigenspace of (X ⊗ Z) and +1 eigenspace of (Z ⊗ X)
+With the combined conditions, we have $a = -c, b = d, a = -b, c = d$, which simplifies to $a = -b = -c = -d$.
+
+The eigenvector which satisfies this condition is 
+
+$$
+\begin{bmatrix} 1 \\
+-1 \\
+-1 \\
+-1
+\end{bmatrix}$$.
+
+Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
+
+$$
+(X \otimes Z) \begin{bmatrix}
+1 \\
+-1 \\
+-1 \\
+-1 \\
+\end{bmatrix} =
+\begin{bmatrix} -1 \\
+1 \\
+1 \\
+1
+\end{bmatrix}$$
+
+and
+
+$$
+(Z \otimes X) \begin{bmatrix}
+1 \\
+-1 \\
+-1 \\
+-1 \\
+\end{bmatrix} =
+\begin{bmatrix} -1 \\
+1 \\
+1 \\
+1
+\end{bmatrix}$$
+
+We see that the eigenvector
+
+$$
+\begin{bmatrix} 1 \\
+-1 \\
+-1 \\
+-1
+\end{bmatrix}$$
+
+is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
+
 
 ## Question two
 

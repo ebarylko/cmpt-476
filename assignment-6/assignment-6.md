@@ -85,7 +85,7 @@ d \\
 b
 \end{bmatrix}$$
 
-The conditions for $q$ being the eigenvector with the eigenvalue of -1 are $a = 0c, b = d$.
+The conditions for $q$ being the eigenvector with the eigenvalue of -1 are $a = -c, b = d$.
 
 Similarly, for $(Z \otimes X)$ the eigenvector corresponding to the eigenvalue of 1 is
 
@@ -121,7 +121,69 @@ c
 
 The conditions for $q$ being the eigenvector with the eigenvalue of -1 are $a = -b, c = d$.
 
+If we combine the conditions on the entries of the eigenvectors for $(X \otimes Z)$ and $(Z \otimes X)$, we can 
+find the shared eigenvectors.
 
+### Combining the conditions for the +1 eigenspaces of (X ⊗ Z) and (Z ⊗ X)
+
+Combining the conditions for the $+1$ eigenspaces of $(X \otimes Z)$ and $(Z \otimes X)$, 
+we have that $a = c, b = -d, a = b, c = -d$. With this rule, we have that $a = b = c = -d$.
+
+The eigenvector that complies with this condition is 
+
+$$
+\begin{bmatrix} 1 \\
+1 \\
+1 \\
+-1
+\end{bmatrix}$$
+
+Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain 
+
+$$
+(X \otimes Z) \begin{bmatrix}
+1 \\
+1 \\
+1 \\
+-1 \\
+\end{bmatrix} =
+\begin{bmatrix} 1 \\
+1 \\
+1 \\
+-1
+\end{bmatrix}$$
+
+and 
+
+$$
+(Z \otimes Y) \begin{bmatrix}
+1 \\
+1 \\
+1 \\
+-1 \\
+\end{bmatrix} =
+\begin{bmatrix} 1 \\
+1 \\
+1 \\
+-1
+\end{bmatrix}$$
+
+We see that 
+
+$$
+\begin{bmatrix} 1 \\
+1 \\
+1 \\
+-1
+\end{bmatrix}$$
+
+is the eigenvector corresponding to the eigenvalue 1 for $(X \otimes Z)$ and $(Z \otimes X)$.
+
+
+### Combining the conditions for the +1 eigenspace of (X ⊗ Z) and the -1 eigenspace of (Z ⊗ X)
+The combined conditions are $a = c, b = -d, a = -b, c = d$, simplifying to $a = c = d = - b$.
+
+The eigenvector
 
 ## Question two
 

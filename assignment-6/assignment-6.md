@@ -62,9 +62,12 @@ This simplifies to $\pi 2^{14}- \frac{1}{2}$, which tells us we need $\pi 2^{14}
 
 ### Part 3
 
-The approximate probability of success would be $\frac{1}{\sqrt{2^n}} + \frac{2}{\sqrt{2^n}}(\frac{\pi \sqrt{2^n}}{4} - \frac{1}{2})$. 
-Substituting $n = 32$ in the expression above, I obtain $\frac{1}{\sqrt{2^{32}}} + \frac{2}{\sqrt{2^{32}}}(\frac{\pi \sqrt{2^{32}}}{4} - \frac{1}{2})$
-= $\frac{1}{2^{16}} + \frac{2}{2^{16}}(\pi 2^{14} - 1)$.
+After k rotations, our current state is $sin((2k + 1)\theta) |\phi_{good}\rangle + cos((2k + 1)\theta) |\phi_{bad}\rangle$.
+The probability I am in the good state is $sin^2((2k + 1)\theta)$. Using $k = 2^14 \pi - \frac{1}{2}$ discovered in the 
+last question and $\theta = sin^{-1} \frac{1}{2^{16}}$, I obtain that $sin^2((2k + 1)\theta) = sin^2((2^15 - 2)sin^{-1} \frac{1}{2^{16}}) = 1$.
 
-The expression above simplifies to $\frac{1}{2^{16}} + \frac{1}{2^{15}}(\pi 2^{14} - 1) = \frac{1}{2^{16}}  + \frac{\pi}{2} - \frac{1}{2^{15}}$, 
-which can further be reduced to $\frac{\pi}{2} - \frac{1}{2^{16}}$.
+The approximate probability of success is 1.
+
+Ask professor what you are doing wrong here.
+
+

@@ -41,6 +41,35 @@ have two usages of the rotation gate, we have in total a depth of 850 gates for 
 
 
 ### Part 4
+For a general vector eigenvector $q$ of $(X \otimes Z)$ and $(Z \otimes X)$, we know q is of the form 
+
+$$
+\begin{bmatrix}
+a \\
+b \\
+c \\
+d \\
+\end{bmatrix}
+$$
+
+Applying $(X \otimes Z)q$, we find that $q$ is the eigenvector corresponding to the eigenvalue of 1 if 
+
+$$
+\begin{bmatrix}
+a \\
+b \\
+c \\
+d \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+c \\
+-d \\
+a \\
+-b \\
+\end{bmatrix}
+$$
+
 
 ## Question two
 
@@ -68,7 +97,9 @@ last question and $\theta = sin^{-1} \frac{1}{2^{16}}$, I obtain that $sin^2((2k
 
 The approximate probability of success is 1.
 
-Ask professor what you are doing wrong here.
+Make a note about how this probability was obtained using the limited precision of the calculator.
+
+
 
 
 ## Question three

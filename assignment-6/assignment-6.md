@@ -60,9 +60,7 @@ a \\
 b \\
 c \\
 d \\
-\end{bmatrix}
-$$
-[//]: # (=)
+\end{bmatrix}$$
 
 [//]: # (\begin{bmatrix})
 

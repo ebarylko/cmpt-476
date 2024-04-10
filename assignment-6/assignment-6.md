@@ -71,3 +71,15 @@ The approximate probability of success is 1.
 Ask professor what you are doing wrong here.
 
 
+## Question three
+
+Let us define $|0\rangle _L = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle), |1\rangle _L = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)$.
+
+Applying $(X \otimes X)$ on $|0\rangle _L$, we obtain $(X \otimes X)\frac{1}{\sqrt{2}}(|00\rangle + |11\rangle) = \frac{1}{\sqrt{2}}(|11\rangle + |00\rangle) = |0\rangle _L$.
+
+Applying $(X \otimes X)$ on $|1\rangle _L$, we obtain $(X \otimes X)\frac{1}{\sqrt{2}}(|01\rangle + |10\rangle) = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle) = |1\rangle _L$.
+
+If the bit flips are independent, then we transform $|0\rangle _L$ to $|1\rangle _L$ and $|1\rangle _L$ to $|0\rangle _L$. This 
+occurs since our subspace protected against the errors caused by $(X \otimes X)$ by mapping one state in the superposition to
+the other state in the superposition. With independent bit flips, the error maps a state in $|0\rangle _L$ to 
+a state in $|1\rangle _L$, and vice versa. 

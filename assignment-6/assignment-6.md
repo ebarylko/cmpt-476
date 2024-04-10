@@ -55,18 +55,18 @@ $$
 
 Applying $(X \otimes Z)q$, we find that $q$ is the eigenvector corresponding to the eigenvalue of 1 if 
 
-$$ \begin{bmatrix}
+$$
+\begin{bmatrix}
 a \\
 b \\
 c \\
 d \\
-\end{bmatrix} = 
-\begin{bmatrix} 
-c \\
--d \\ 
-a \\ 
--b 
-\end{bmatrix}$$.
+\end{bmatrix} =
+\begin{bmatrix} c \\
+-d \\
+a \\
+-b
+\end{bmatrix}$$
 
 If $q$ is the eigenvector corresponding to the eigenvalue of -1, it means that  
 

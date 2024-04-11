@@ -15,7 +15,7 @@ I have therefore showed that $(X \otimes Z)$ and $(Z \otimes X)$ are commutative
 Given $U(t) = e^{-i\hat{H}t} = e^{-it[{\theta}_1 (Z \otimes X) + {\theta}_2 (X \otimes Z)]}$, we can break it further
 down into $e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes Z)]}$ since $(X \otimes Z)$ and $(Z \otimes X)$ commute.
 
-Given $U(t) = $e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes Z)]}$, we can simulate the 
+Given $U(t) = e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes Z)]}$, we can simulate the 
 Hamiltonian by first applying $e^{-it[{\theta}_2 (X \otimes Z)]}$  and then $e^{-it[{\theta}_1 (Z \otimes X)]}$.
 
 With $e^{-it[{\theta}_2 (X \otimes Z)]}$, we know that it is equivalent to

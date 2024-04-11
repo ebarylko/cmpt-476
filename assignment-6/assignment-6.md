@@ -487,5 +487,5 @@ $$
 \begin{bmatrix}
 1 & \\
 0 & 1  \\
-\end{bmatrix}
+\end{bmatrix} = \frac{1}{2} I
 $$

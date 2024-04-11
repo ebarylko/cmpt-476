@@ -291,15 +291,15 @@ $$
 is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
 
 ### Combining the conditions for the -1 eigenspace of (X ⊗ Z) and +1 eigenspace of (Z ⊗ X)
-With the combined conditions, we have $a = -c, b = d, a = -b, c = d$, which simplifies to $a = -b = -c = -d$.
+With the combined conditions, we have $a = -c, b = d, a = b, c = -d$, which simplifies to $a = -b = -c = -d$.
 
 The eigenvector which satisfies this condition is 
 
 $$
 \begin{bmatrix} 1 \\
+1 \\
 -1 \\
--1 \\
--1
+1
 \end{bmatrix}$$.
 
 Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
@@ -307,14 +307,14 @@ Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
 $$
 (X \otimes Z) \begin{bmatrix}
 1 \\
+1 \\
 -1 \\
--1 \\
--1 \\
+1 \\
 \end{bmatrix} =
 \begin{bmatrix} -1 \\
+-1 \\
 1 \\
-1 \\
-1
+-1
 \end{bmatrix}$$
 
 and
@@ -322,13 +322,13 @@ and
 $$
 (Z \otimes X) \begin{bmatrix}
 1 \\
+1 \\
 -1 \\
--1 \\
--1 \\
+1 \\
 \end{bmatrix} =
-\begin{bmatrix} -1 \\
+\begin{bmatrix} 1 \\
 1 \\
-1 \\
+-1 \\
 1
 \end{bmatrix}$$
 
@@ -336,12 +336,12 @@ We see that the eigenvector
 
 $$
 \begin{bmatrix} 1 \\
+1 \\
 -1 \\
--1 \\
--1
+1
 \end{bmatrix}$$
 
-is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
+is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and the eigenvalue 1 $(Z \otimes X)$, respectively.
 
 ### Listing all the unit eigenvectors
 Since all the eigenvectors listed earlier are not unit vectors, we must normalize them in order to make them 
@@ -366,9 +366,9 @@ $$
 1
 \end{bmatrix},
 \frac{1}{2}
-\begin{bmatrix} -1 \\
+\begin{bmatrix} 1 \\
 1 \\
-1 \\
+-1 \\
 1
 \end{bmatrix},
 \frac{1}{2}

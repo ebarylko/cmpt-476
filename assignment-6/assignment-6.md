@@ -30,7 +30,7 @@ would be ![First Hamiltonian](first_hamiltonian.jpeg), where
 the third line was obtained using the fact that ![Z gate simplification](z_gate.jpeg).
 
 Combining these Hamiltonians, the full circuit simulating
-$U(t) = $e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes Z)]}$
+$U(t) = e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes Z)]}$
 is ![Full circuit](full_circuit.jpeg)
 
 

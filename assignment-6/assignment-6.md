@@ -482,8 +482,7 @@ $$
 \begin{bmatrix}
 2 & \\
 0 & 2  \\
-\end{bmatrix}
-= 
+\end{bmatrix} =
 \frac{1}{2}
 \begin{bmatrix}
 1 & \\

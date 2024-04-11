@@ -423,3 +423,45 @@ If the bit flips are independent, then we transform $|0\rangle _L$ to $|1\rangle
 occurs since our subspace protected against the errors caused by $(X \otimes X)$ by mapping one state in the superposition to
 the other state in the superposition. With independent bit flips, the error maps a state in $|0\rangle _L$ to 
 a state in $|1\rangle _L$, and vice versa. 
+
+## Question four
+
+Applying the completely depolarizing channel on $p$ we obtain 
+
+$\frac{1}{4} (I * p * I + X * p * X + YpY + ZpZ)$.
+
+Using $p$ defined as 
+
+$$
+\begin{bmatrix}
+a & b\\
+c & d \\
+\end{bmatrix}
+$$
+
+The expression $\frac{1}{4} (I * p * I + X * p * X + YpY + ZpZ)$ becomes 
+
+
+$$
+\frac{1}{4}
+(
+\begin{bmatrix}
+a & b\\
+c & d \\
+\end{bmatrix} + 
+\begin{bmatrix}
+d & c\\
+b & a \\
+\end{bmatrix} +
+\begin{bmatrix}
+a & -b\\
+-c & d \\
+\end{bmatrix} +
+\begin{bmatrix}
+d & -c\\
+-b & a \\
+\end{bmatrix} 
+)
+$$
+
+= 

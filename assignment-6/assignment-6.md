@@ -464,4 +464,30 @@ d & -c\\
 )
 $$
 
+=
+
+$$
+\frac{1}{4}
+ \begin{bmatrix}
+2(a + d) & \\
+0 & 2(a + d)  \\
+\end{bmatrix}
+$$
+
+Since $p$ is a density operator, this means that the entries along the diagonal, $a, d$, must sum to 1.
+Using this information in what we obtain after applying the depolarizing channel, we obtain 
+
+$$
+\frac{1}{4}
+\begin{bmatrix}
+2 & \\
+0 & 2  \\
+\end{bmatrix}
 = 
+\frac{1}{2}
+\begin{bmatrix}
+1 & \\
+0 & 1  \\
+\end{bmatrix}
+= \frac{1}{2} I
+$$

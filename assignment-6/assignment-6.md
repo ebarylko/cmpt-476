@@ -41,6 +41,10 @@ have two usages of the rotation gate, we have in total a depth of 850 gates for 
 
 
 ### Part 4
+We know that for the eigenvalues of $C = A \otimes B$, it is the product of the eigenvalues of 
+$A$ and $B$. Considering that $C$ in this case is $X \otimes Z$ or $Z \otimes X$, we have that 
+the eigenvalues of $C$ is -1 and 1.
+
 For a general vector eigenvector $q$ of $(X \otimes Z)$ and $(Z \otimes X)$, we know q is of the form 
 
 $$
@@ -489,3 +493,19 @@ $$
 0 & 1  \\
 \end{bmatrix} = \frac{1}{2} I
 $$
+
+## Question five
+
+### Part 1
+
+### Logical X gate
+The $X_L$ gate takes $0_L$  to $1_L$ and vice versa. In order to do this, we need to flip every bit of
+$0_L$ and $1_L$ respectively. The only way to do this is if we applied seven $X$ gates in tandem.
+Therefore, $X_L = X \otimes X \otimes X \otimes X \otimes X \otimes X \otimes X$.
+
+### Logical Z gate
+
+
+### Part 2
+
+### Part 3

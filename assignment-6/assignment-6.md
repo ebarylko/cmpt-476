@@ -343,6 +343,41 @@ $$
 
 is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
 
+### Listing all the unit eigenvectors
+Since all the eigenvectors listed earlier are not unit vectors, we must normalize them in order to make them 
+unit vectors.
+
+Since eigenvector has a length of 4, we must divide each eigenvector by $\frac{1}{2}$ in order for them to be 
+normalized.
+
+The basis for the joint eigenspace of $(X \otimes Z)$ and $(Z \otimes X)$ is 
+
+$$ 
+\frac{1}{2}
+\begin{bmatrix} 1 \\
+1 \\
+1 \\
+-1
+\end{bmatrix}, 
+\frac{1}{2}
+\begin{bmatrix} 1 \\
+-1 \\
+1 \\
+1
+\end{bmatrix},
+\frac{1}{2}
+\begin{bmatrix} -1 \\
+1 \\
+1 \\
+1
+\end{bmatrix},
+\frac{1}{2}
+\begin{bmatrix} 1 \\
+-1 \\
+-1 \\
+-1
+\end{bmatrix}
+$$
 
 ## Question two
 

@@ -504,7 +504,14 @@ $0_L$ and $1_L$ respectively. The only way to do this is if we applied seven $X$
 Therefore, $X_L = X \otimes X \otimes X \otimes X \otimes X \otimes X \otimes X$.
 
 ### Logical Z gate
+The $Z_L$ gate takes $0_L$  to $0_L$ and $1_L$ to $-1_L$. In order to do this, we need to apply a phase change to 
+each qubit in the $0_L$ and $1_L$ states. In order to do this, we can apply seven $Z$ gates to $0_L$ and $1_L$, 
+sending $0_L$ to $0_L$ and $1_L$ to $-1_L$
 
+### Logical S gate
+The $S^{\dagger}_L$ gate takes $0_L$  to $0_L$ and $1_L$ to $-i1_L$. In order to do this, we need to apply a phase change to
+each qubit in the $0_L$ and $1_L$ states. In order to do this, we can apply seven $S$ gates to $0_L$ and $1_L$,
+sending $0_L$ to $0_L$ and $1_L$ to $-i1_L$
 
 ### Part 2
 

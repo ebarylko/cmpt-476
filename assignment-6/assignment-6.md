@@ -300,7 +300,7 @@ $$
 1 \\
 -1 \\
 1
-\end{bmatrix}$$.
+\end{bmatrix}$$
 
 Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
 

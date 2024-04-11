@@ -515,4 +515,10 @@ sending $0_L$ to $0_L$ and $1_L$ to $-i1_L$
 
 ### Part 2
 
+$T$ is not transversal since we expect $T_L$ to send $0_L$  to $0_L$ and $1_L$ to $e^{i \frac{\pi}{4}} 1_L$.
+If we apply seven $T$ gates on $1_L$, we obtain $e^{\frac{7i \pi}{4}} 1_L = e^{\frac{4i \pi}{4}}e^{\frac{3i \pi}{4}}  1_L = -e^{\frac{3i \pi}{4}}  1_L$.
+
+We expected $T^{\otimes 7} 1_L = e^{i\frac{\pi}{4}}$, but we instead received $-e^{\frac{3i \pi}{4}}  1_L$. Since these two 
+values do not match, we can say that $T$ is not transversal.
+
 ### Part 3

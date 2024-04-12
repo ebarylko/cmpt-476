@@ -528,6 +528,6 @@ To verify the equality, I will walk through the time slices of the circuit.
 **First time slice:**
 
 We apply a $CNOT$ gate on $|\psi \rangle = a|0\rangle + b|1\rangle, a, b \in \mathbb{C},$ and $|A\rangle  = \frac{1}{\sqrt{2}} (|0\rangle + e^{i \frac{\pi}{4}})$,
-obtaining $ |\psi A\rangle = \frac{1}{\sqrt{2}} ( a|00\rangle  + ae^{i \frac{\pi}{4}}|01\rangle + b|10\rangle + be^{i \frac{\pi}{4}}|11\rangle).
+obtaining $|\psi A\rangle = \frac{1}{\sqrt{2}} ( a|00\rangle  + ae^{i \frac{\pi}{4}}|01\rangle + b|10\rangle + be^{i \frac{\pi}{4}}|11\rangle)$.
 
 **Second time slice:**

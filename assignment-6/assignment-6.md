@@ -531,7 +531,7 @@ a phase of -i to the state. Therefore, $S^{\otimes 7} 1_L = -i 1_L = S^{\dagger}
 
 $T$ is not transversal since we expect $T_L$ to send $0_L$  to $0_L$.
 If we apply $T^{\otimes 7} 0_L$, we obtain a phase of -1 applied to every state except $|0000000\rangle$. We have 
-added a relative phase to $0_L$, resulting in $T^{\otimes 7} 0_L \new 0_L$.
+added a relative phase to $0_L$, resulting in $T^{\otimes 7} 0_L \neq 0_L$.
 
 Therefore, $T$ is not transversal.
 

@@ -543,11 +543,11 @@ $(ae^{i \frac{\pi}{4}}|0\rangle + b|1\rangle)|1\rangle$.
 **Third time slice:**
 
 We shall consider the case where we obtain
-$|F\rangle = T|\psi 0 \rangle$ or
+$|F\rangle = T|\psi \rangle |0 \rangle$ or
 $|S\rangle = (ae^{i \frac{\pi}{4}}|0\rangle + b|1\rangle)|1\rangle$.
 
 If we obtain $|F\rangle$, then we have the state  
-$S^0 |F\rangle = T|\psi \rangle$.
+$S^0 |F\rangle = T|\psi \rangle |0 \rangle$.
 
 If we obtain $|S\rangle$, we have the state
 $S^1 |S\rangle = (ae^{i \frac{\pi}{4}}|0\rangle + ib|1\rangle)|1\rangle$.
@@ -559,5 +559,7 @@ $e^{i \frac{\pi}{4}}(a|0\rangle + e^{i \frac{\pi}{4}}b|1\rangle)|1\rangle = e^{i
 Since there is a global phase, I know that the state $e^{i \frac{\pi}{4}}T|\psi \rangle |1\rangle$ is 
 equivalent to $T|\psi \rangle |1\rangle$.
 
+In either case, I have that the qubit in the first circuit is always $T|\psi \rangle$, which 
+means that both circuits are equivalent.
 
 

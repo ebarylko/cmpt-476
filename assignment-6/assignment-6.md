@@ -505,21 +505,35 @@ Therefore, $X_L = X \otimes X \otimes X \otimes X \otimes X \otimes X \otimes X$
 
 ### Logical Z gate
 The $Z_L$ gate takes $0_L$  to $0_L$ and $1_L$ to $-1_L$. In order to do this, we need to apply a phase change to 
-each qubit in the $0_L$ and $1_L$ states. In order to do this, we can apply seven $Z$ gates to $0_L$ and $1_L$, 
-sending $0_L$ to $0_L$ and $1_L$ to $-1_L$
+each qubit in the $0_L$ and $1_L$ states. 
+
+Noticing that each state in the superposition in
+$0_L$ has an even number of ones, we know that applying $Z^{\otimes 7}$ on any of those states will not change the 
+phase of the state.
+
+For each state in the superposition in
+$1_L$, there are an odd number of ones. Applying $Z^{\otimes 7}$ on any of those states will add a
+phase of -1. Since we can factor -1 out as a global phase, we can see that $Z^{\otimes 7} 1_L = -1_L$.
 
 ### Logical S gate
 The $S^{\dagger}_L$ gate takes $0_L$  to $0_L$ and $1_L$ to $-i1_L$. In order to do this, we need to apply a phase change to
-each qubit in the $0_L$ and $1_L$ states. In order to do this, we can apply seven $S$ gates to $0_L$ and $1_L$,
-sending $0_L$ to $0_L$ and $1_L$ to $-i1_L$
+each qubit in the $0_L$ and $1_L$ states. 
+
+For each state in the superposition in
+$0_L$, there are either four or zero ones. Since $i^4 = 1 = i^0$, applying $S^{\otimes 7}$ on any of those states will not
+add a phase to the state. Therefore, $S^{\otimes 7} 0_L = 0_L$
+
+For each state in the superposition in
+$1_L$, there are either three or seven ones. Since $i^7 = -i = i^3$, applying $S^{\otimes 7}$ on any of those states will add
+a phase of -i to the state. Therefore, $S^{\otimes 7} 1_L = -i 1_L = S^{\dagger}_L 1_L$
 
 ### Part 2
 
-$T$ is not transversal since we expect $T_L$ to send $0_L$  to $0_L$ and $1_L$ to $e^{i \frac{\pi}{4}} 1_L$.
-If we apply seven $T$ gates on $1_L$, we obtain $e^{\frac{7i \pi}{4}} 1_L = e^{\frac{4i \pi}{4}}e^{\frac{3i \pi}{4}}  1_L = -e^{\frac{3i \pi}{4}}  1_L$.
+$T$ is not transversal since we expect $T_L$ to send $0_L$  to $0_L$.
+If we apply $T^{\otimes 7} 0_L$, we obtain a phase of -1 applied to every state except $|0000000\rangle$. We have 
+added a relative phase to $0_L$, resulting in $T^{\otimes 7} 0_L \new 0_L$.
 
-We expected $T^{\otimes 7} 1_L = e^{i\frac{\pi}{4}}$, but we instead received $-e^{\frac{3i \pi}{4}}  1_L$. Since these two 
-values do not match, we can say that $T$ is not transversal.
+Therefore, $T$ is not transversal.
 
 ### Part 3
 

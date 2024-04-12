@@ -295,7 +295,7 @@ $$
 is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
 
 ### Combining the conditions for the -1 eigenspace of (X ⊗ Z) and +1 eigenspace of (Z ⊗ X)
-With the combined conditions, we have $a = -c, b = d, a = b, c = -d$, which simplifies to $a = -b = -c = -d$.
+With the combined conditions, we have $a = -c, b = d, a = b, c = -d$, which simplifies to $a = b = -c = d$.
 
 The eigenvector which satisfies this condition is 
 
@@ -382,6 +382,28 @@ $$
 -1
 \end{bmatrix}
 $$
+
+### Part five
+
+If I want to diagonalize $(X \otimes Z)$ and $(Z \otimes X)$, I know that the unitary $U$ must be 
+comprised of the shared eigenvectors. My $U$ would be 
+
+
+$$
+\frac{1}{2}
+\begin{bmatrix} 1 &1 & 1 & 1 \\
+1 & 1 & -1 & -1\\
+1 & -1 & 1 & -1\\
+-1 & 1 & 1 & -1
+\end{bmatrix}
+$$
+
+For the columns of $U$, I know that the 
+first column 
+
+
+
+### Part six
 
 ## Question two
 

@@ -438,7 +438,7 @@ This simplifies to $\pi 2^{14}- \frac{1}{2}$, which tells us we need $\pi 2^{14}
 
 After k rotations, our current state is $sin((2k + 1)\theta) |\phi_{good}\rangle + cos((2k + 1)\theta) |\phi_{bad}\rangle$.
 The probability I am in the good state is $sin^2((2k + 1)\theta)$. Using $n = 32, k = 2^{14} \pi - \frac{1}{2}$ discovered in the 
-last question and $\theta = sin^{-1} \frac{1}{\sqrt{2^{n}}} = sin^{-1} \frac{1}{2^{16}}$, I obtain that $sin^2((2k + 1)\theta) = sin^2((2^15 - 2)sin^{-1} \frac{1}{2^{16}}) \approx 1$.
+last question and $\theta = sin^{-1} \frac{1}{\sqrt{2^{n}}} = sin^{-1} \frac{1}{2^{16}}$, I obtain that $sin^2((2k + 1)\theta) = sin^2((2^{15}\pi - 1 + 1)sin^{-1} \frac{1}{2^{16}}) \approx 1$.
 
 
 ## Question three

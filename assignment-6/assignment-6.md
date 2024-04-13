@@ -577,7 +577,7 @@ $\frac{1}{\sqrt{2}}[( a|0\rangle  + be^{i \frac{\pi}{4}}|1\rangle)|0\rangle + (a
 **Second time slice:**
 
 Measuring the second qubit, we obtain either
-$(a|0\rangle  + be^{i \frac{\pi}{4}}|1\rangle)|0\rangle = T|\psi 0 \rangle$ or
+$(a|0\rangle  + be^{i \frac{\pi}{4}}|1\rangle)|0\rangle = T|\psi \rangle |0 \rangle$ or
 $(ae^{i \frac{\pi}{4}}|0\rangle + b|1\rangle)|1\rangle$.
 
 **Third time slice:**
@@ -599,7 +599,6 @@ $e^{i \frac{\pi}{4}}(a|0\rangle + e^{i \frac{\pi}{4}}b|1\rangle)|1\rangle = e^{i
 Since there is a global phase, I know that the state $e^{i \frac{\pi}{4}}T|\psi \rangle |1\rangle$ is 
 equivalent to $T|\psi \rangle |1\rangle$.
 
-In either case, I have that the qubit in the first circuit is always $T|\psi \rangle$, which 
-means that both circuits are equivalent.
+In either case, I have that the qubit in the first circuit is always $T|\psi \rangle$. Therefore, both circuits are equivalent.
 
 

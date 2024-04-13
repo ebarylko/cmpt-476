@@ -500,7 +500,7 @@ $$
 $$
 \frac{1}{4}
  \begin{bmatrix}
-2(a + d) & \\
+2(a + d) & 0 \\ 
 0 & 2(a + d)  \\
 \end{bmatrix}
 $$

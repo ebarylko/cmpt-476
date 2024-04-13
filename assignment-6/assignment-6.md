@@ -450,8 +450,8 @@ Applying $(X \otimes X)$ on $|0\rangle _L$, we obtain $(X \otimes X)\frac{1}{\sq
 Applying $(X \otimes X)$ on $|1\rangle _L$, we obtain $(X \otimes X)\frac{1}{\sqrt{2}}(|01\rangle + |10\rangle) = \frac{1}{\sqrt{2}}(|10\rangle + |01\rangle) = |1\rangle _L$.
 
 If the bit flips are independent, then we transform $|0\rangle _L$ to $|1\rangle _L$ and $|1\rangle _L$ to $|0\rangle _L$. This 
-occurs since our subspace protected against the errors caused by $(X \otimes X)$ by mapping one state in the superposition to
-the other state in the superposition. With independent bit flips, the error maps a state in $|0\rangle _L$ to 
+occurs since our subspace protected against the errors caused by $(X \otimes X)$ by mapping one state in the superposition in $|0\rangle _L$ or $|1\rangle _L$ to
+the other state in the same superposition. With independent bit flips, the error maps a state in $|0\rangle _L$ to 
 a state in $|1\rangle _L$, and vice versa. 
 
 ## Question four
@@ -527,7 +527,7 @@ $$
 ### Logical X gate
 The $X_L$ gate takes $0_L$  to $1_L$ and vice versa. In order to do this, we need to flip every bit of
 $0_L$ and $1_L$ respectively. The only way to do this is if we applied seven $X$ gates in tandem.
-Therefore, $X_L = X \otimes X \otimes X \otimes X \otimes X \otimes X \otimes X$.
+Therefore, $X_L = X^{\otimes 7}$.
 
 ### Logical Z gate
 The $Z_L$ gate takes $0_L$  to $0_L$ and $1_L$ to $-1_L$. In order to do this, we need to apply a phase change to 
@@ -563,7 +563,7 @@ Therefore, $T$ is not transversal.
 
 ### Part 3
 
-To verify the equality, I will walk through the time slices of the circuit.
+To verify the equality, I will walk through the time slices of the second circuit.
 
 **First time slice:**
 

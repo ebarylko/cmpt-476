@@ -412,8 +412,9 @@ $e^{-it[{\theta}_1 U(I \otimes Z)U^{\dagger}]} *  e^{-it[{\theta}_2 U(Z \otimes 
 Applying the Hamiltonians on a circuit, we obtain 
 ![Parallel circuit](parallel-circuit.jpeg)
 
-The depth of this circuit with two usages of the rotation gate running in parallel is 427, 425 from a parallel usage of the 
-rotation gate and 2 from applying $U$ and $U^{\dagger}$.
+The depth of this circuit with two usages of the rotation gate running in parallel is 427, 425 from the approximation of the 
+parallel usages of the $Z$ rotation gates and 2 from applying $U$ and $U^{\dagger}$. The value of 425 comes from using 
+$\epsilon = \frac{1}{10^{17}}, c = 1.5$ in the formula depth = $log_{2}^{1.5} (\frac{1}{\epsilon})$.
 
 ## Question two
 

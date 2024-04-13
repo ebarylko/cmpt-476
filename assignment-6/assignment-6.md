@@ -36,9 +36,9 @@ is ![Full circuit](full_circuit.jpeg)
 
 ### Part 3
 Using $c = 1.5, \epsilon = 10^{-17}$ in the formula depth = $log_{2}^{1.5} (\frac{1}{\epsilon})$, I obtain 
-depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) \approx 425$ for a single qubit unitary. Considering we 
+depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) = 424.38 \approx 425$ for a single qubit unitary. Considering we 
 have two usages of the rotation gate with an additional depth of seven from other gates being used, 
-we have in total a depth of 857 for the circuit.
+we have in total a depth of 424.38 * 2 + 7 \approx 856 gates for the circuit.
 
 
 ### Part 4

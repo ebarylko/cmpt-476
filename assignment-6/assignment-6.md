@@ -424,27 +424,21 @@ Given that $H$ and $M$ are given, my search function $f(x): \set{0, 1}^{32} \rig
 be $f(x) = h(x) = H \land x \neq M$.
 
 To implement the oracle, I would first create my uniform superposition $H^{\otimes 32} |0\rangle^{\otimes 32}$. I would
-then apply my $U_{\bar{f}}: |x\rangle \rightarrow (-1)^{f(x)}$, using $f(x)$ defined earlier, and $U_{diff}$ enough 
-times to rotate our initial to the wanted state. We then measure 
+then apply my $U_{\bar{f}}: |x\rangle \rightarrow (-1)^{f(x)} |x\rangle$, using $f(x)$ defined earlier, and $U_{diff}$ enough 
+times to rotate our initial state to the wanted state. We would then measure and with high probability obtain $M'$.
 
 
 ### Part 2
 Using that we need $\frac{\pi \sqrt{2^n}}{4} - \frac{1}{2}$ iterations for n bits, we can 
 substitute n for 32 in the aforementioned expression. We obtain $\frac{\pi \sqrt{2^{32}}}{4} - \frac{1}{2} = \frac{\pi 2^{16}}{4} - \frac{1}{2}$. 
-This simplifies to $\pi 2^{14}- \frac{1}{2}$, which tells us we need $\pi 2^{14}- \frac{1}{2} \approx \pi 2^{14} - 1$ many iterations.
+This simplifies to $\pi 2^{14}- \frac{1}{2}$, which tells us we need $\pi 2^{14}- \frac{1}{2}$ many iterations.
 
 
 ### Part 3
 
 After k rotations, our current state is $sin((2k + 1)\theta) |\phi_{good}\rangle + cos((2k + 1)\theta) |\phi_{bad}\rangle$.
-The probability I am in the good state is $sin^2((2k + 1)\theta)$. Using $k = 2^14 \pi - \frac{1}{2}$ discovered in the 
-last question and $\theta = sin^{-1} \frac{1}{2^{16}}$, I obtain that $sin^2((2k + 1)\theta) = sin^2((2^15 - 2)sin^{-1} \frac{1}{2^{16}}) = 1$.
-
-The approximate probability of success is 1.
-
-Make a note about how this probability was obtained using the limited precision of the calculator.
-
-
+The probability I am in the good state is $sin^2((2k + 1)\theta)$. Using $n = 32, k = 2^{14} \pi - \frac{1}{2}$ discovered in the 
+last question and $\theta = sin^{-1} \frac{1}{\sqrt{2^{n}}} = sin^{-1} \frac{1}{2^{16}}$, I obtain that $sin^2((2k + 1)\theta) = sin^2((2^15 - 2)sin^{-1} \frac{1}{2^{16}}) \approx 1$.
 
 
 ## Question three

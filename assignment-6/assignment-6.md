@@ -37,7 +37,8 @@ is ![Full circuit](full_circuit.jpeg)
 ### Part 3
 Using $c = 1.5, \epsilon = 10^{-17}$ in the formula depth = $log_{2}^{1.5} (\frac{1}{\epsilon})$, I obtain 
 depth = $log^{1.5}_{2} (\frac{1}{10^{-17}}) \approx 425$ for a single qubit unitary. Considering we 
-have two usages of the rotation gate, we have in total a depth of 850 gates for the circuit.
+have two usages of the rotation gate with an additional depth of seven from other gates being used, 
+we have in total a depth of 857 for the circuit.
 
 
 ### Part 4
@@ -398,12 +399,19 @@ $$
 \end{bmatrix}
 $$
 
-For the columns of $U$, I know that the 
-first column 
-
+I was unable to find a circuit for this matrix.
 
 
 ### Part six
+Given that $(X \otimes Z)$ and $(Z \otimes X)$ can be diagonalized as $U(I \otimes Z)U^{\dagger}$ and $U(I \otimes Z)U^{\dagger}$,
+we can represent the Hamiltonian $e^{-it[{\theta}_1 (Z \otimes X)]} *  e^{-it[{\theta}_2 (X \otimes Z)]}$ as
+$e^{-it[{\theta}_1 U(I \otimes Z)U^{\dagger}]} *  e^{-it[{\theta}_2 U(Z \otimes I)U^{\dagger}]}$.
+
+Applying the Hamiltonians on a circuit, we obtain 
+![Parallel circuit](parallel-circuit.jpeg)
+
+The depth of this circuit with two usages of the rotation gate running in parallel is 427, 425 from a parallel usage of the 
+rotation gate and 2 from applying $U$ and $U^{\dagger}$.
 
 ## Question two
 

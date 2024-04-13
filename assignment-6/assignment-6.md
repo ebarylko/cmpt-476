@@ -137,49 +137,49 @@ we have that $a = c, b = -d, a = b, c = -d$. With this rule, we have that $a = b
 The eigenvector that complies with this condition is 
 
 $$
-\begin{bmatrix} 1 \\
-1 \\
-1 \\
--1
+\begin{bmatrix} a \\
+a \\
+a \\
+-a
 \end{bmatrix}$$
 
 Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain 
 
 $$
 (X \otimes Z) \begin{bmatrix}
-1 \\
-1 \\
-1 \\
--1 \\
+a \\
+a \\
+a \\
+-a \\
 \end{bmatrix} =
-\begin{bmatrix} 1 \\
-1 \\
-1 \\
--1
+\begin{bmatrix} a \\
+a \\
+a \\
+-a
 \end{bmatrix}$$
 
 and 
 
 $$
 (Z \otimes Y) \begin{bmatrix}
-1 \\
-1 \\
-1 \\
--1 \\
+a \\
+a \\
+a \\
+-a \\
 \end{bmatrix} =
-\begin{bmatrix} 1 \\
-1 \\
-1 \\
--1
+\begin{bmatrix} a \\
+a \\
+a \\
+-a
 \end{bmatrix}$$
 
 We see that 
 
 $$
-\begin{bmatrix} 1 \\
-1 \\
-1 \\
--1
+\begin{bmatrix} a \\
+a \\
+a \\
+-a
 \end{bmatrix}$$
 
 is the eigenvector corresponding to the eigenvalue 1 for $(X \otimes Z)$ and $(Z \otimes X)$.
@@ -191,10 +191,10 @@ The combined conditions are $a = c, b = -d, a = -b, c = d$, simplifying to $a = 
 The eigenvector satisfying this condition 
 
 $$
-\begin{bmatrix} 1 \\
--1 \\
-1 \\
-1
+\begin{bmatrix} a \\
+-a \\
+a \\
+a
 \end{bmatrix}$$
 
 
@@ -202,40 +202,40 @@ Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
 
 $$
 (X \otimes Z) \begin{bmatrix}
-1 \\
--1 \\
-1 \\
-1 \\
+a \\
+-a \\
+a \\
+a \\
 \end{bmatrix} =
-\begin{bmatrix} 1 \\
--1 \\
-1 \\
-1
+\begin{bmatrix} a \\
+-a \\
+a \\
+a
 \end{bmatrix}$$
 
 and
 
 $$
 (Z \otimes X) \begin{bmatrix}
-1 \\
--1 \\
-1 \\
-1 \\
+a \\
+-a \\
+a \\
+a \\
 \end{bmatrix} =
-\begin{bmatrix} -1 \\
-1 \\
--1 \\
--1
+\begin{bmatrix} -a \\
+a \\
+-a \\
+-a
 \end{bmatrix}$$
 
 We see that the eigenvector
 
 
 $$
-\begin{bmatrix} 1 \\
--1 \\
-1 \\
-1
+\begin{bmatrix} a \\
+-a \\
+a \\
+a
 \end{bmatrix}$$
 
 is the eigenvector corresponding to the eigenvalue 1 and -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
@@ -247,50 +247,50 @@ $-a = b = d = c$.
 The eigenvector that satisfies this condition is 
 
 $$
-\begin{bmatrix} -1 \\
-1 \\
-1 \\
-1
+\begin{bmatrix} -a \\
+a \\
+a \\
+a
 \end{bmatrix}$$
 
 Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
 
 $$
 (X \otimes Z) \begin{bmatrix}
--1 \\
-1 \\
-1 \\
-1 \\
+-a \\
+a \\
+a \\
+a \\
 \end{bmatrix} =
-\begin{bmatrix} 1 \\
--1 \\
--1 \\
--1
+\begin{bmatrix} a \\
+-a \\
+-a \\
+-a
 \end{bmatrix}$$
 
 and
 
 $$
 (Z \otimes X) \begin{bmatrix}
--1 \\
-1 \\
-1 \\
-1 \\
+-a \\
+a \\
+a \\
+a \\
 \end{bmatrix} =
-\begin{bmatrix} 1 \\
--1 \\
--1 \\
--1
+\begin{bmatrix} a \\
+-a \\
+-a \\
+-a
 \end{bmatrix}$$
 
 We see that the eigenvector
 
 
 $$
-\begin{bmatrix} -1 \\
-1 \\
-1 \\
-1
+\begin{bmatrix} -a \\
+a \\
+a \\
+a
 \end{bmatrix}$$
 
 is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and $(Z \otimes X)$, respectively.
@@ -301,49 +301,49 @@ With the combined conditions, we have $a = -c, b = d, a = b, c = -d$, which simp
 The eigenvector which satisfies this condition is 
 
 $$
-\begin{bmatrix} 1 \\
-1 \\
--1 \\
-1
+\begin{bmatrix} a \\
+a \\
+-a \\
+a
 \end{bmatrix}$$
 
 Applying $(X \otimes Z)$ and $(Z \otimes X)$ on this eigenvector, we obtain
 
 $$
 (X \otimes Z) \begin{bmatrix}
-1 \\
-1 \\
--1 \\
-1 \\
+a \\
+a \\
+-a \\
+a \\
 \end{bmatrix} =
-\begin{bmatrix} -1 \\
--1 \\
-1 \\
--1
+\begin{bmatrix} -a \\
+-a \\
+a \\
+-a
 \end{bmatrix}$$
 
 and
 
 $$
 (Z \otimes X) \begin{bmatrix}
-1 \\
-1 \\
--1 \\
-1 \\
+a \\
+a \\
+-a \\
+a \\
 \end{bmatrix} =
-\begin{bmatrix} 1 \\
-1 \\
--1 \\
-1
+\begin{bmatrix} a \\
+a \\
+-a \\
+a
 \end{bmatrix}$$
 
 We see that the eigenvector
 
 $$
-\begin{bmatrix} 1 \\
-1 \\
--1 \\
-1
+\begin{bmatrix} a \\
+a \\
+-a \\
+a
 \end{bmatrix}$$
 
 is the eigenvector corresponding to the eigenvalue -1 for $(X \otimes Z)$ and the eigenvalue 1 $(Z \otimes X)$, respectively.
@@ -383,6 +383,8 @@ $$
 -1
 \end{bmatrix}
 $$
+
+Each of these vectors can be noted to be orthogonal with each other.
 
 ### Part five
 
